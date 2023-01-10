@@ -1,0 +1,2322 @@
+{
+	"cudaChooseDevice":{
+		"id": "cudaChooseDevice",
+		"value": "__host__cudaError_t cudaChooseDevice ( , )"
+	},
+	"cudaDeviceFlushGPUDirectRDMAWrites":{
+		"id": "cudaDeviceFlushGPUDirectRDMAWrites",
+		"value": "__host__cudaError_t cudaDeviceFlushGPUDirectRDMAWrites ( , )"
+	},
+	"cudaDeviceGetAttribute":{
+		"id": "cudaDeviceGetAttribute",
+		"value": "__host____device__cudaError_t cudaDeviceGetAttribute ( , , )"
+	},
+	"cudaDeviceGetByPCIBusId":{
+		"id": "cudaDeviceGetByPCIBusId",
+		"value": "__host__cudaError_t cudaDeviceGetByPCIBusId ( , )"
+	},
+	"cudaDeviceGetCacheConfig":{
+		"id": "cudaDeviceGetCacheConfig",
+		"value": "__host____device__cudaError_t cudaDeviceGetCacheConfig ( )"
+	},
+	"cudaDeviceGetDefaultMemPool":{
+		"id": "cudaDeviceGetDefaultMemPool",
+		"value": "__host__cudaError_t cudaDeviceGetDefaultMemPool ( , )"
+	},
+	"cudaDeviceGetLimit":{
+		"id": "cudaDeviceGetLimit",
+		"value": "__host____device__cudaError_t cudaDeviceGetLimit ( , )"
+	},
+	"cudaDeviceGetMemPool":{
+		"id": "cudaDeviceGetMemPool",
+		"value": "__host__cudaError_t cudaDeviceGetMemPool ( , )"
+	},
+	"cudaDeviceGetNvSciSyncAttributes":{
+		"id": "cudaDeviceGetNvSciSyncAttributes",
+		"value": "__host__cudaError_t cudaDeviceGetNvSciSyncAttributes ( , , )"
+	},
+	"cudaDeviceGetP2PAttribute":{
+		"id": "cudaDeviceGetP2PAttribute",
+		"value": "__host__cudaError_t cudaDeviceGetP2PAttribute ( , , , )"
+	},
+	"cudaDeviceGetPCIBusId":{
+		"id": "cudaDeviceGetPCIBusId",
+		"value": "__host__cudaError_t cudaDeviceGetPCIBusId ( , , )"
+	},
+	"cudaDeviceGetSharedMemConfig":{
+		"id": "cudaDeviceGetSharedMemConfig",
+		"value": "__host____device__cudaError_t cudaDeviceGetSharedMemConfig ( )"
+	},
+	"cudaDeviceGetStreamPriorityRange":{
+		"id": "cudaDeviceGetStreamPriorityRange",
+		"value": "__host__cudaError_t cudaDeviceGetStreamPriorityRange ( , )"
+	},
+	"cudaDeviceGetTexture1DLinearMaxWidth":{
+		"id": "cudaDeviceGetTexture1DLinearMaxWidth",
+		"value": "__host__cudaError_t cudaDeviceGetTexture1DLinearMaxWidth ( , , )"
+	},
+	"cudaDeviceReset":{
+		"id": "cudaDeviceReset",
+		"value": "__host__cudaError_t cudaDeviceReset ( )"
+	},
+	"cudaDeviceSetCacheConfig":{
+		"id": "cudaDeviceSetCacheConfig",
+		"value": "__host__cudaError_t cudaDeviceSetCacheConfig ( )"
+	},
+	"cudaDeviceSetLimit":{
+		"id": "cudaDeviceSetLimit",
+		"value": "__host__cudaError_t cudaDeviceSetLimit ( , )"
+	},
+	"cudaDeviceSetMemPool":{
+		"id": "cudaDeviceSetMemPool",
+		"value": "__host__cudaError_t cudaDeviceSetMemPool ( , )"
+	},
+	"cudaDeviceSetSharedMemConfig":{
+		"id": "cudaDeviceSetSharedMemConfig",
+		"value": "__host__cudaError_t cudaDeviceSetSharedMemConfig ( )"
+	},
+	"cudaDeviceSynchronize":{
+		"id": "cudaDeviceSynchronize",
+		"value": "__host____device__cudaError_t cudaDeviceSynchronize ( )"
+	},
+	"cudaGetDevice":{
+		"id": "cudaGetDevice",
+		"value": "__host____device__cudaError_t cudaGetDevice ( )"
+	},
+	"cudaGetDeviceCount":{
+		"id": "cudaGetDeviceCount",
+		"value": "__host____device__cudaError_t cudaGetDeviceCount ( )"
+	},
+	"cudaGetDeviceFlags":{
+		"id": "cudaGetDeviceFlags",
+		"value": "__host__cudaError_t cudaGetDeviceFlags ( )"
+	},
+	"cudaGetDeviceProperties":{
+		"id": "cudaGetDeviceProperties",
+		"value": "__host__cudaError_t cudaGetDeviceProperties ( , )"
+	},
+	"cudaInitDevice":{
+		"id": "cudaInitDevice",
+		"value": "__host__cudaError_t cudaInitDevice ( , , )"
+	},
+	"cudaIpcCloseMemHandle":{
+		"id": "cudaIpcCloseMemHandle",
+		"value": "__host__cudaError_t cudaIpcCloseMemHandle ( )"
+	},
+	"cudaIpcGetEventHandle":{
+		"id": "cudaIpcGetEventHandle",
+		"value": "__host__cudaError_t cudaIpcGetEventHandle ( , )"
+	},
+	"cudaIpcGetMemHandle":{
+		"id": "cudaIpcGetMemHandle",
+		"value": "__host__cudaError_t cudaIpcGetMemHandle ( , )"
+	},
+	"cudaIpcOpenEventHandle":{
+		"id": "cudaIpcOpenEventHandle",
+		"value": "__host__cudaError_t cudaIpcOpenEventHandle ( , )"
+	},
+	"cudaIpcOpenMemHandle":{
+		"id": "cudaIpcOpenMemHandle",
+		"value": "__host__cudaError_t cudaIpcOpenMemHandle ( , , )"
+	},
+	"cudaSetDevice":{
+		"id": "cudaSetDevice",
+		"value": "__host__cudaError_t cudaSetDevice ( )"
+	},
+	"cudaSetDeviceFlags":{
+		"id": "cudaSetDeviceFlags",
+		"value": "__host__cudaError_t cudaSetDeviceFlags ( )"
+	},
+	"cudaSetValidDevices":{
+		"id": "cudaSetValidDevices",
+		"value": "__host__cudaError_t cudaSetValidDevices ( , )"
+	},
+	"cudaThreadExit":{
+		"id": "cudaThreadExit",
+		"value": "__host__cudaError_t cudaThreadExit ( )"
+	},
+	"cudaThreadGetCacheConfig":{
+		"id": "cudaThreadGetCacheConfig",
+		"value": "__host__cudaError_t cudaThreadGetCacheConfig ( )"
+	},
+	"cudaThreadGetLimit":{
+		"id": "cudaThreadGetLimit",
+		"value": "__host__cudaError_t cudaThreadGetLimit ( , )"
+	},
+	"cudaThreadSetCacheConfig":{
+		"id": "cudaThreadSetCacheConfig",
+		"value": "__host__cudaError_t cudaThreadSetCacheConfig ( )"
+	},
+	"cudaThreadSetLimit":{
+		"id": "cudaThreadSetLimit",
+		"value": "__host__cudaError_t cudaThreadSetLimit ( , )"
+	},
+	"cudaThreadSynchronize":{
+		"id": "cudaThreadSynchronize",
+		"value": "__host__cudaError_t cudaThreadSynchronize ( )"
+	},
+	"cudaGetErrorName":{
+		"id": "cudaGetErrorName",
+		"value": "__host____device__constchar* cudaGetErrorName ( )"
+	},
+	"cudaGetErrorString":{
+		"id": "cudaGetErrorString",
+		"value": "__host____device__constchar* cudaGetErrorString ( )"
+	},
+	"cudaGetLastError":{
+		"id": "cudaGetLastError",
+		"value": "__host____device__cudaError_t cudaGetLastError ( )"
+	},
+	"cudaPeekAtLastError":{
+		"id": "cudaPeekAtLastError",
+		"value": "__host____device__cudaError_t cudaPeekAtLastError ( )"
+	},
+	"cudaStreamCallback_t":{
+		"id": "cudaStreamCallback_t",
+		"value": "typedefvoid(CUDART_CB* cudaStreamCallback_t ( , , )"
+	},
+	"cudaCtxResetPersistingL2Cache":{
+		"id": "cudaCtxResetPersistingL2Cache",
+		"value": "__host__cudaError_t cudaCtxResetPersistingL2Cache ( )"
+	},
+	"cudaStreamAddCallback":{
+		"id": "cudaStreamAddCallback",
+		"value": "__host__cudaError_t cudaStreamAddCallback ( , , , )"
+	},
+	"cudaStreamAttachMemAsync":{
+		"id": "cudaStreamAttachMemAsync",
+		"value": "__host__cudaError_t cudaStreamAttachMemAsync ( , , , )"
+	},
+	"cudaStreamBeginCapture":{
+		"id": "cudaStreamBeginCapture",
+		"value": "__host__cudaError_t cudaStreamBeginCapture ( , )"
+	},
+	"cudaStreamCopyAttributes":{
+		"id": "cudaStreamCopyAttributes",
+		"value": "__host__cudaError_t cudaStreamCopyAttributes ( , )"
+	},
+	"cudaStreamCreate":{
+		"id": "cudaStreamCreate",
+		"value": "__host__cudaError_t cudaStreamCreate ( )"
+	},
+	"cudaStreamCreateWithFlags":{
+		"id": "cudaStreamCreateWithFlags",
+		"value": "__host____device__cudaError_t cudaStreamCreateWithFlags ( , )"
+	},
+	"cudaStreamCreateWithPriority":{
+		"id": "cudaStreamCreateWithPriority",
+		"value": "__host__cudaError_t cudaStreamCreateWithPriority ( , , )"
+	},
+	"cudaStreamDestroy":{
+		"id": "cudaStreamDestroy",
+		"value": "__host____device__cudaError_t cudaStreamDestroy ( )"
+	},
+	"cudaStreamEndCapture":{
+		"id": "cudaStreamEndCapture",
+		"value": "__host__cudaError_t cudaStreamEndCapture ( , )"
+	},
+	"cudaStreamGetAttribute":{
+		"id": "cudaStreamGetAttribute",
+		"value": "__host__cudaError_t cudaStreamGetAttribute ( , , )"
+	},
+	"cudaStreamGetCaptureInfo":{
+		"id": "cudaStreamGetCaptureInfo",
+		"value": "__host__cudaError_t cudaStreamGetCaptureInfo ( , , , , , )"
+	},
+	"cudaStreamGetFlags":{
+		"id": "cudaStreamGetFlags",
+		"value": "__host__cudaError_t cudaStreamGetFlags ( , )"
+	},
+	"cudaStreamGetId":{
+		"id": "cudaStreamGetId",
+		"value": "__host__cudaError_t cudaStreamGetId ( , )"
+	},
+	"cudaStreamGetPriority":{
+		"id": "cudaStreamGetPriority",
+		"value": "__host__cudaError_t cudaStreamGetPriority ( , )"
+	},
+	"cudaStreamIsCapturing":{
+		"id": "cudaStreamIsCapturing",
+		"value": "__host__cudaError_t cudaStreamIsCapturing ( , )"
+	},
+	"cudaStreamQuery":{
+		"id": "cudaStreamQuery",
+		"value": "__host__cudaError_t cudaStreamQuery ( )"
+	},
+	"cudaStreamSetAttribute":{
+		"id": "cudaStreamSetAttribute",
+		"value": "__host__cudaError_t cudaStreamSetAttribute ( , , )"
+	},
+	"cudaStreamSynchronize":{
+		"id": "cudaStreamSynchronize",
+		"value": "__host__cudaError_t cudaStreamSynchronize ( )"
+	},
+	"cudaStreamUpdateCaptureDependencies":{
+		"id": "cudaStreamUpdateCaptureDependencies",
+		"value": "__host__cudaError_t cudaStreamUpdateCaptureDependencies ( , , , )"
+	},
+	"cudaStreamWaitEvent":{
+		"id": "cudaStreamWaitEvent",
+		"value": "__host____device__cudaError_t cudaStreamWaitEvent ( , , )"
+	},
+	"cudaThreadExchangeStreamCaptureMode":{
+		"id": "cudaThreadExchangeStreamCaptureMode",
+		"value": "__host__cudaError_t cudaThreadExchangeStreamCaptureMode ( )"
+	},
+	"cudaEventCreate":{
+		"id": "cudaEventCreate",
+		"value": "__host__cudaError_t cudaEventCreate ( )"
+	},
+	"cudaEventCreateWithFlags":{
+		"id": "cudaEventCreateWithFlags",
+		"value": "__host____device__cudaError_t cudaEventCreateWithFlags ( , )"
+	},
+	"cudaEventDestroy":{
+		"id": "cudaEventDestroy",
+		"value": "__host____device__cudaError_t cudaEventDestroy ( )"
+	},
+	"cudaEventElapsedTime":{
+		"id": "cudaEventElapsedTime",
+		"value": "__host__cudaError_t cudaEventElapsedTime ( , , )"
+	},
+	"cudaEventQuery":{
+		"id": "cudaEventQuery",
+		"value": "__host__cudaError_t cudaEventQuery ( )"
+	},
+	"cudaEventRecord":{
+		"id": "cudaEventRecord",
+		"value": "__host____device__cudaError_t cudaEventRecord ( , )"
+	},
+	"cudaEventRecordWithFlags":{
+		"id": "cudaEventRecordWithFlags",
+		"value": "__host__cudaError_t cudaEventRecordWithFlags ( , , )"
+	},
+	"cudaEventSynchronize":{
+		"id": "cudaEventSynchronize",
+		"value": "__host__cudaError_t cudaEventSynchronize ( )"
+	},
+	"cudaDestroyExternalMemory":{
+		"id": "cudaDestroyExternalMemory",
+		"value": "__host__cudaError_t cudaDestroyExternalMemory ( )"
+	},
+	"cudaDestroyExternalSemaphore":{
+		"id": "cudaDestroyExternalSemaphore",
+		"value": "__host__cudaError_t cudaDestroyExternalSemaphore ( )"
+	},
+	"cudaExternalMemoryGetMappedBuffer":{
+		"id": "cudaExternalMemoryGetMappedBuffer",
+		"value": "__host__cudaError_t cudaExternalMemoryGetMappedBuffer ( , , )"
+	},
+	"cudaExternalMemoryGetMappedMipmappedArray":{
+		"id": "cudaExternalMemoryGetMappedMipmappedArray",
+		"value": "__host__cudaError_t cudaExternalMemoryGetMappedMipmappedArray ( , , )"
+	},
+	"cudaImportExternalMemory":{
+		"id": "cudaImportExternalMemory",
+		"value": "__host__cudaError_t cudaImportExternalMemory ( , )"
+	},
+	"cudaImportExternalSemaphore":{
+		"id": "cudaImportExternalSemaphore",
+		"value": "__host__cudaError_t cudaImportExternalSemaphore ( , )"
+	},
+	"cudaSignalExternalSemaphoresAsync":{
+		"id": "cudaSignalExternalSemaphoresAsync",
+		"value": "__host__cudaError_t cudaSignalExternalSemaphoresAsync ( , , , )"
+	},
+	"cudaWaitExternalSemaphoresAsync":{
+		"id": "cudaWaitExternalSemaphoresAsync",
+		"value": "__host__cudaError_t cudaWaitExternalSemaphoresAsync ( , , , )"
+	},
+	"cudaFuncGetAttributes":{
+		"id": "cudaFuncGetAttributes",
+		"value": "__host____device__cudaError_t cudaFuncGetAttributes ( , )"
+	},
+	"cudaFuncSetAttribute":{
+		"id": "cudaFuncSetAttribute",
+		"value": "__host__cudaError_t cudaFuncSetAttribute ( , , )"
+	},
+	"cudaFuncSetCacheConfig":{
+		"id": "cudaFuncSetCacheConfig",
+		"value": "__host__cudaError_t cudaFuncSetCacheConfig ( , )"
+	},
+	"cudaFuncSetSharedMemConfig":{
+		"id": "cudaFuncSetSharedMemConfig",
+		"value": "__host__cudaError_t cudaFuncSetSharedMemConfig ( , )"
+	},
+	"cudaGetParameterBuffer":{
+		"id": "cudaGetParameterBuffer",
+		"value": "__device__void* cudaGetParameterBuffer ( , )"
+	},
+	"cudaGetParameterBufferV2":{
+		"id": "cudaGetParameterBufferV2",
+		"value": "__device__void* cudaGetParameterBufferV2 ( , , , )"
+	},
+	"cudaGridDependencySynchronize":{
+		"id": "cudaGridDependencySynchronize",
+		"value": "__device__void cudaGridDependencySynchronize ( )"
+	},
+	"cudaLaunchCooperativeKernel":{
+		"id": "cudaLaunchCooperativeKernel",
+		"value": "__host__cudaError_t cudaLaunchCooperativeKernel ( , , , , , )"
+	},
+	"cudaLaunchCooperativeKernelMultiDevice":{
+		"id": "cudaLaunchCooperativeKernelMultiDevice",
+		"value": "__host__cudaError_t cudaLaunchCooperativeKernelMultiDevice ( , , )"
+	},
+	"cudaLaunchHostFunc":{
+		"id": "cudaLaunchHostFunc",
+		"value": "__host__cudaError_t cudaLaunchHostFunc ( , , )"
+	},
+	"cudaLaunchKernel":{
+		"id": "cudaLaunchKernel",
+		"value": "__host__cudaError_t cudaLaunchKernel ( , , , , , )"
+	},
+	"cudaLaunchKernelExC":{
+		"id": "cudaLaunchKernelExC",
+		"value": "__host__cudaError_t cudaLaunchKernelExC ( , , )"
+	},
+	"cudaSetDoubleForDevice":{
+		"id": "cudaSetDoubleForDevice",
+		"value": "__host__cudaError_t cudaSetDoubleForDevice ( )"
+	},
+	"cudaSetDoubleForHost":{
+		"id": "cudaSetDoubleForHost",
+		"value": "__host__cudaError_t cudaSetDoubleForHost ( )"
+	},
+	"cudaTriggerProgrammaticLaunchCompletion":{
+		"id": "cudaTriggerProgrammaticLaunchCompletion",
+		"value": "__device__void cudaTriggerProgrammaticLaunchCompletion ( )"
+	},
+	"cudaOccupancyAvailableDynamicSMemPerBlock":{
+		"id": "cudaOccupancyAvailableDynamicSMemPerBlock",
+		"value": "__host__cudaError_t cudaOccupancyAvailableDynamicSMemPerBlock ( , , , )"
+	},
+	"cudaOccupancyMaxActiveBlocksPerMultiprocessor":{
+		"id": "cudaOccupancyMaxActiveBlocksPerMultiprocessor",
+		"value": "__host____device__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessor ( , , , )"
+	},
+	"cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags":{
+		"id": "cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags",
+		"value": "__host__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags ( , , , , )"
+	},
+	"cudaOccupancyMaxActiveClusters":{
+		"id": "cudaOccupancyMaxActiveClusters",
+		"value": "__host__cudaError_t cudaOccupancyMaxActiveClusters ( , , )"
+	},
+	"cudaOccupancyMaxPotentialClusterSize":{
+		"id": "cudaOccupancyMaxPotentialClusterSize",
+		"value": "__host__cudaError_t cudaOccupancyMaxPotentialClusterSize ( , , )"
+	},
+	"cudaArrayGetInfo":{
+		"id": "cudaArrayGetInfo",
+		"value": "__host__cudaError_t cudaArrayGetInfo ( , , , )"
+	},
+	"cudaArrayGetMemoryRequirements":{
+		"id": "cudaArrayGetMemoryRequirements",
+		"value": "__host__cudaError_t cudaArrayGetMemoryRequirements ( , , )"
+	},
+	"cudaArrayGetPlane":{
+		"id": "cudaArrayGetPlane",
+		"value": "__host__cudaError_t cudaArrayGetPlane ( , , )"
+	},
+	"cudaArrayGetSparseProperties":{
+		"id": "cudaArrayGetSparseProperties",
+		"value": "__host__cudaError_t cudaArrayGetSparseProperties ( , )"
+	},
+	"cudaFree":{
+		"id": "cudaFree",
+		"value": "__host____device__cudaError_t cudaFree ( )"
+	},
+	"cudaFreeArray":{
+		"id": "cudaFreeArray",
+		"value": "__host__cudaError_t cudaFreeArray ( )"
+	},
+	"cudaFreeHost":{
+		"id": "cudaFreeHost",
+		"value": "__host__cudaError_t cudaFreeHost ( )"
+	},
+	"cudaFreeMipmappedArray":{
+		"id": "cudaFreeMipmappedArray",
+		"value": "__host__cudaError_t cudaFreeMipmappedArray ( )"
+	},
+	"cudaGetMipmappedArrayLevel":{
+		"id": "cudaGetMipmappedArrayLevel",
+		"value": "__host__cudaError_t cudaGetMipmappedArrayLevel ( , , )"
+	},
+	"cudaGetSymbolAddress":{
+		"id": "cudaGetSymbolAddress",
+		"value": "__host__cudaError_t cudaGetSymbolAddress ( , )"
+	},
+	"cudaGetSymbolSize":{
+		"id": "cudaGetSymbolSize",
+		"value": "__host__cudaError_t cudaGetSymbolSize ( , )"
+	},
+	"cudaHostAlloc":{
+		"id": "cudaHostAlloc",
+		"value": "__host__cudaError_t cudaHostAlloc ( , , )"
+	},
+	"cudaHostGetDevicePointer":{
+		"id": "cudaHostGetDevicePointer",
+		"value": "__host__cudaError_t cudaHostGetDevicePointer ( , , )"
+	},
+	"cudaHostGetFlags":{
+		"id": "cudaHostGetFlags",
+		"value": "__host__cudaError_t cudaHostGetFlags ( , )"
+	},
+	"cudaHostRegister":{
+		"id": "cudaHostRegister",
+		"value": "__host__cudaError_t cudaHostRegister ( , , )"
+	},
+	"cudaHostUnregister":{
+		"id": "cudaHostUnregister",
+		"value": "__host__cudaError_t cudaHostUnregister ( )"
+	},
+	"cudaMalloc":{
+		"id": "cudaMalloc",
+		"value": "__host____device__cudaError_t cudaMalloc ( , )"
+	},
+	"cudaMalloc3D":{
+		"id": "cudaMalloc3D",
+		"value": "__host__cudaError_t cudaMalloc3D ( , )"
+	},
+	"cudaMalloc3DArray":{
+		"id": "cudaMalloc3DArray",
+		"value": "__host__cudaError_t cudaMalloc3DArray ( , , , )"
+	},
+	"cudaMallocArray":{
+		"id": "cudaMallocArray",
+		"value": "__host__cudaError_t cudaMallocArray ( , , , , )"
+	},
+	"cudaMallocHost":{
+		"id": "cudaMallocHost",
+		"value": "__host__cudaError_t cudaMallocHost ( , )"
+	},
+	"cudaMallocManaged":{
+		"id": "cudaMallocManaged",
+		"value": "__host__cudaError_t cudaMallocManaged ( , , )"
+	},
+	"cudaMallocMipmappedArray":{
+		"id": "cudaMallocMipmappedArray",
+		"value": "__host__cudaError_t cudaMallocMipmappedArray ( , , , , )"
+	},
+	"cudaMallocPitch":{
+		"id": "cudaMallocPitch",
+		"value": "__host__cudaError_t cudaMallocPitch ( , , , )"
+	},
+	"cudaMemAdvise":{
+		"id": "cudaMemAdvise",
+		"value": "__host__cudaError_t cudaMemAdvise ( , , , )"
+	},
+	"cudaMemGetInfo":{
+		"id": "cudaMemGetInfo",
+		"value": "__host__cudaError_t cudaMemGetInfo ( , )"
+	},
+	"cudaMemPrefetchAsync":{
+		"id": "cudaMemPrefetchAsync",
+		"value": "__host__cudaError_t cudaMemPrefetchAsync ( , , , )"
+	},
+	"cudaMemRangeGetAttribute":{
+		"id": "cudaMemRangeGetAttribute",
+		"value": "__host__cudaError_t cudaMemRangeGetAttribute ( , , , , )"
+	},
+	"cudaMemRangeGetAttributes":{
+		"id": "cudaMemRangeGetAttributes",
+		"value": "__host__cudaError_t cudaMemRangeGetAttributes ( , , , , , )"
+	},
+	"cudaMemcpy":{
+		"id": "cudaMemcpy",
+		"value": "__host__cudaError_t cudaMemcpy ( , , , )"
+	},
+	"cudaMemcpy2D":{
+		"id": "cudaMemcpy2D",
+		"value": "__host__cudaError_t cudaMemcpy2D ( , , , , , , )"
+	},
+	"cudaMemcpy2DArrayToArray":{
+		"id": "cudaMemcpy2DArrayToArray",
+		"value": "__host__cudaError_t cudaMemcpy2DArrayToArray ( , , , , , , , , )"
+	},
+	"cudaMemcpy2DAsync":{
+		"id": "cudaMemcpy2DAsync",
+		"value": "__host____device__cudaError_t cudaMemcpy2DAsync ( , , , , , , , )"
+	},
+	"cudaMemcpy2DFromArray":{
+		"id": "cudaMemcpy2DFromArray",
+		"value": "__host__cudaError_t cudaMemcpy2DFromArray ( , , , , , , , )"
+	},
+	"cudaMemcpy2DFromArrayAsync":{
+		"id": "cudaMemcpy2DFromArrayAsync",
+		"value": "__host__cudaError_t cudaMemcpy2DFromArrayAsync ( , , , , , , , , )"
+	},
+	"cudaMemcpy2DToArray":{
+		"id": "cudaMemcpy2DToArray",
+		"value": "__host__cudaError_t cudaMemcpy2DToArray ( , , , , , , , )"
+	},
+	"cudaMemcpy2DToArrayAsync":{
+		"id": "cudaMemcpy2DToArrayAsync",
+		"value": "__host__cudaError_t cudaMemcpy2DToArrayAsync ( , , , , , , , , )"
+	},
+	"cudaMemcpy3D":{
+		"id": "cudaMemcpy3D",
+		"value": "__host__cudaError_t cudaMemcpy3D ( )"
+	},
+	"cudaMemcpy3DAsync":{
+		"id": "cudaMemcpy3DAsync",
+		"value": "__host____device__cudaError_t cudaMemcpy3DAsync ( , )"
+	},
+	"cudaMemcpy3DPeer":{
+		"id": "cudaMemcpy3DPeer",
+		"value": "__host__cudaError_t cudaMemcpy3DPeer ( )"
+	},
+	"cudaMemcpy3DPeerAsync":{
+		"id": "cudaMemcpy3DPeerAsync",
+		"value": "__host__cudaError_t cudaMemcpy3DPeerAsync ( , )"
+	},
+	"cudaMemcpyAsync":{
+		"id": "cudaMemcpyAsync",
+		"value": "__host____device__cudaError_t cudaMemcpyAsync ( , , , , )"
+	},
+	"cudaMemcpyFromSymbol":{
+		"id": "cudaMemcpyFromSymbol",
+		"value": "__host__cudaError_t cudaMemcpyFromSymbol ( , , , , )"
+	},
+	"cudaMemcpyFromSymbolAsync":{
+		"id": "cudaMemcpyFromSymbolAsync",
+		"value": "__host__cudaError_t cudaMemcpyFromSymbolAsync ( , , , , , )"
+	},
+	"cudaMemcpyPeer":{
+		"id": "cudaMemcpyPeer",
+		"value": "__host__cudaError_t cudaMemcpyPeer ( , , , , )"
+	},
+	"cudaMemcpyPeerAsync":{
+		"id": "cudaMemcpyPeerAsync",
+		"value": "__host__cudaError_t cudaMemcpyPeerAsync ( , , , , , )"
+	},
+	"cudaMemcpyToSymbol":{
+		"id": "cudaMemcpyToSymbol",
+		"value": "__host__cudaError_t cudaMemcpyToSymbol ( , , , , )"
+	},
+	"cudaMemcpyToSymbolAsync":{
+		"id": "cudaMemcpyToSymbolAsync",
+		"value": "__host__cudaError_t cudaMemcpyToSymbolAsync ( , , , , , )"
+	},
+	"cudaMemset":{
+		"id": "cudaMemset",
+		"value": "__host__cudaError_t cudaMemset ( , , )"
+	},
+	"cudaMemset2D":{
+		"id": "cudaMemset2D",
+		"value": "__host__cudaError_t cudaMemset2D ( , , , , )"
+	},
+	"cudaMemset2DAsync":{
+		"id": "cudaMemset2DAsync",
+		"value": "__host____device__cudaError_t cudaMemset2DAsync ( , , , , , )"
+	},
+	"cudaMemset3D":{
+		"id": "cudaMemset3D",
+		"value": "__host__cudaError_t cudaMemset3D ( , , )"
+	},
+	"cudaMemset3DAsync":{
+		"id": "cudaMemset3DAsync",
+		"value": "__host____device__cudaError_t cudaMemset3DAsync ( , , , )"
+	},
+	"cudaMemsetAsync":{
+		"id": "cudaMemsetAsync",
+		"value": "__host____device__cudaError_t cudaMemsetAsync ( , , , )"
+	},
+	"cudaMipmappedArrayGetMemoryRequirements":{
+		"id": "cudaMipmappedArrayGetMemoryRequirements",
+		"value": "__host__cudaError_t cudaMipmappedArrayGetMemoryRequirements ( , , )"
+	},
+	"cudaMipmappedArrayGetSparseProperties":{
+		"id": "cudaMipmappedArrayGetSparseProperties",
+		"value": "__host__cudaError_t cudaMipmappedArrayGetSparseProperties ( , )"
+	},
+	"make_cudaExtent":{
+		"id": "make_cudaExtent",
+		"value": "__host__cudaExtent make_cudaExtent ( , , )"
+	},
+	"make_cudaPitchedPtr":{
+		"id": "make_cudaPitchedPtr",
+		"value": "__host__cudaPitchedPtr make_cudaPitchedPtr ( , , , )"
+	},
+	"make_cudaPos":{
+		"id": "make_cudaPos",
+		"value": "__host__cudaPos make_cudaPos ( , , )"
+	},
+	"cudaMemcpyArrayToArray":{
+		"id": "cudaMemcpyArrayToArray",
+		"value": "__host__cudaError_t cudaMemcpyArrayToArray ( , , , , , , , )"
+	},
+	"cudaMemcpyFromArray":{
+		"id": "cudaMemcpyFromArray",
+		"value": "__host__cudaError_t cudaMemcpyFromArray ( , , , , , )"
+	},
+	"cudaMemcpyFromArrayAsync":{
+		"id": "cudaMemcpyFromArrayAsync",
+		"value": "__host__cudaError_t cudaMemcpyFromArrayAsync ( , , , , , , )"
+	},
+	"cudaMemcpyToArray":{
+		"id": "cudaMemcpyToArray",
+		"value": "__host__cudaError_t cudaMemcpyToArray ( , , , , , )"
+	},
+	"cudaMemcpyToArrayAsync":{
+		"id": "cudaMemcpyToArrayAsync",
+		"value": "__host__cudaError_t cudaMemcpyToArrayAsync ( , , , , , , )"
+	},
+	"cudaFreeAsync":{
+		"id": "cudaFreeAsync",
+		"value": "__host__cudaError_t cudaFreeAsync ( , )"
+	},
+	"cudaMallocAsync":{
+		"id": "cudaMallocAsync",
+		"value": "__host__cudaError_t cudaMallocAsync ( , , )"
+	},
+	"cudaMallocFromPoolAsync":{
+		"id": "cudaMallocFromPoolAsync",
+		"value": "__host__cudaError_t cudaMallocFromPoolAsync ( , , , )"
+	},
+	"cudaMemPoolCreate":{
+		"id": "cudaMemPoolCreate",
+		"value": "__host__cudaError_t cudaMemPoolCreate ( , )"
+	},
+	"cudaMemPoolDestroy":{
+		"id": "cudaMemPoolDestroy",
+		"value": "__host__cudaError_t cudaMemPoolDestroy ( )"
+	},
+	"cudaMemPoolExportPointer":{
+		"id": "cudaMemPoolExportPointer",
+		"value": "__host__cudaError_t cudaMemPoolExportPointer ( , )"
+	},
+	"cudaMemPoolExportToShareableHandle":{
+		"id": "cudaMemPoolExportToShareableHandle",
+		"value": "__host__cudaError_t cudaMemPoolExportToShareableHandle ( , , , )"
+	},
+	"cudaMemPoolGetAccess":{
+		"id": "cudaMemPoolGetAccess",
+		"value": "__host__cudaError_t cudaMemPoolGetAccess ( , , )"
+	},
+	"cudaMemPoolGetAttribute":{
+		"id": "cudaMemPoolGetAttribute",
+		"value": "__host__cudaError_t cudaMemPoolGetAttribute ( , , )"
+	},
+	"cudaMemPoolImportFromShareableHandle":{
+		"id": "cudaMemPoolImportFromShareableHandle",
+		"value": "__host__cudaError_t cudaMemPoolImportFromShareableHandle ( , , , )"
+	},
+	"cudaMemPoolImportPointer":{
+		"id": "cudaMemPoolImportPointer",
+		"value": "__host__cudaError_t cudaMemPoolImportPointer ( , , )"
+	},
+	"cudaMemPoolSetAccess":{
+		"id": "cudaMemPoolSetAccess",
+		"value": "__host__cudaError_t cudaMemPoolSetAccess ( , , )"
+	},
+	"cudaMemPoolSetAttribute":{
+		"id": "cudaMemPoolSetAttribute",
+		"value": "__host__cudaError_t cudaMemPoolSetAttribute ( , , )"
+	},
+	"cudaMemPoolTrimTo":{
+		"id": "cudaMemPoolTrimTo",
+		"value": "__host__cudaError_t cudaMemPoolTrimTo ( , )"
+	},
+	"cudaPointerGetAttributes":{
+		"id": "cudaPointerGetAttributes",
+		"value": "__host__cudaError_t cudaPointerGetAttributes ( , )"
+	},
+	"cudaDeviceCanAccessPeer":{
+		"id": "cudaDeviceCanAccessPeer",
+		"value": "__host__cudaError_t cudaDeviceCanAccessPeer ( , , )"
+	},
+	"cudaDeviceDisablePeerAccess":{
+		"id": "cudaDeviceDisablePeerAccess",
+		"value": "__host__cudaError_t cudaDeviceDisablePeerAccess ( )"
+	},
+	"cudaDeviceEnablePeerAccess":{
+		"id": "cudaDeviceEnablePeerAccess",
+		"value": "__host__cudaError_t cudaDeviceEnablePeerAccess ( , )"
+	},
+	"cudaGLDeviceList":{
+		"id": "cudaGLDeviceList",
+		"value": "enum cudaGLDeviceList"
+	},
+	"cudaGLGetDevices":{
+		"id": "cudaGLGetDevices",
+		"value": "__host__cudaError_t cudaGLGetDevices ( , , , )"
+	},
+	"cudaGraphicsGLRegisterBuffer":{
+		"id": "cudaGraphicsGLRegisterBuffer",
+		"value": "__host__cudaError_t cudaGraphicsGLRegisterBuffer ( , , )"
+	},
+	"cudaGraphicsGLRegisterImage":{
+		"id": "cudaGraphicsGLRegisterImage",
+		"value": "__host__cudaError_t cudaGraphicsGLRegisterImage ( , , , )"
+	},
+	"cudaWGLGetDevice":{
+		"id": "cudaWGLGetDevice",
+		"value": "__host__cudaError_t cudaWGLGetDevice ( , )"
+	},
+	"cudaGLMapFlags":{
+		"id": "cudaGLMapFlags",
+		"value": "enum cudaGLMapFlags"
+	},
+	"cudaGLMapBufferObject":{
+		"id": "cudaGLMapBufferObject",
+		"value": "__host__cudaError_t cudaGLMapBufferObject ( , )"
+	},
+	"cudaGLMapBufferObjectAsync":{
+		"id": "cudaGLMapBufferObjectAsync",
+		"value": "__host__cudaError_t cudaGLMapBufferObjectAsync ( , , )"
+	},
+	"cudaGLRegisterBufferObject":{
+		"id": "cudaGLRegisterBufferObject",
+		"value": "__host__cudaError_t cudaGLRegisterBufferObject ( )"
+	},
+	"cudaGLSetBufferObjectMapFlags":{
+		"id": "cudaGLSetBufferObjectMapFlags",
+		"value": "__host__cudaError_t cudaGLSetBufferObjectMapFlags ( , )"
+	},
+	"cudaGLSetGLDevice":{
+		"id": "cudaGLSetGLDevice",
+		"value": "__host__cudaError_t cudaGLSetGLDevice ( )"
+	},
+	"cudaGLUnmapBufferObject":{
+		"id": "cudaGLUnmapBufferObject",
+		"value": "__host__cudaError_t cudaGLUnmapBufferObject ( )"
+	},
+	"cudaGLUnmapBufferObjectAsync":{
+		"id": "cudaGLUnmapBufferObjectAsync",
+		"value": "__host__cudaError_t cudaGLUnmapBufferObjectAsync ( , )"
+	},
+	"cudaGLUnregisterBufferObject":{
+		"id": "cudaGLUnregisterBufferObject",
+		"value": "__host__cudaError_t cudaGLUnregisterBufferObject ( )"
+	},
+	"cudaD3D9DeviceList":{
+		"id": "cudaD3D9DeviceList",
+		"value": "enum cudaD3D9DeviceList"
+	},
+	"cudaD3D9GetDevice":{
+		"id": "cudaD3D9GetDevice",
+		"value": "__host__cudaError_t cudaD3D9GetDevice ( , )"
+	},
+	"cudaD3D9GetDevices":{
+		"id": "cudaD3D9GetDevices",
+		"value": "__host__cudaError_t cudaD3D9GetDevices ( , , , , )"
+	},
+	"cudaD3D9GetDirect3DDevice":{
+		"id": "cudaD3D9GetDirect3DDevice",
+		"value": "__host__cudaError_t cudaD3D9GetDirect3DDevice ( )"
+	},
+	"cudaD3D9SetDirect3DDevice":{
+		"id": "cudaD3D9SetDirect3DDevice",
+		"value": "__host__cudaError_t cudaD3D9SetDirect3DDevice ( , )"
+	},
+	"cudaGraphicsD3D9RegisterResource":{
+		"id": "cudaGraphicsD3D9RegisterResource",
+		"value": "__host__cudaError_t cudaGraphicsD3D9RegisterResource ( , , )"
+	},
+	"cudaD3D9MapFlags":{
+		"id": "cudaD3D9MapFlags",
+		"value": "enum cudaD3D9MapFlags"
+	},
+	"cudaD3D9RegisterFlags":{
+		"id": "cudaD3D9RegisterFlags",
+		"value": "enum cudaD3D9RegisterFlags"
+	},
+	"cudaD3D9MapResources":{
+		"id": "cudaD3D9MapResources",
+		"value": "__host__cudaError_t cudaD3D9MapResources ( , )"
+	},
+	"cudaD3D9RegisterResource":{
+		"id": "cudaD3D9RegisterResource",
+		"value": "__host__cudaError_t cudaD3D9RegisterResource ( , )"
+	},
+	"cudaD3D9ResourceGetMappedArray":{
+		"id": "cudaD3D9ResourceGetMappedArray",
+		"value": "__host__cudaError_t cudaD3D9ResourceGetMappedArray ( , , , )"
+	},
+	"cudaD3D9ResourceGetMappedPitch":{
+		"id": "cudaD3D9ResourceGetMappedPitch",
+		"value": "__host__cudaError_t cudaD3D9ResourceGetMappedPitch ( , , , , )"
+	},
+	"cudaD3D9ResourceGetMappedPointer":{
+		"id": "cudaD3D9ResourceGetMappedPointer",
+		"value": "__host__cudaError_t cudaD3D9ResourceGetMappedPointer ( , , , )"
+	},
+	"cudaD3D9ResourceGetMappedSize":{
+		"id": "cudaD3D9ResourceGetMappedSize",
+		"value": "__host__cudaError_t cudaD3D9ResourceGetMappedSize ( , , , )"
+	},
+	"cudaD3D9ResourceGetSurfaceDimensions":{
+		"id": "cudaD3D9ResourceGetSurfaceDimensions",
+		"value": "__host__cudaError_t cudaD3D9ResourceGetSurfaceDimensions ( , , , , , )"
+	},
+	"cudaD3D9ResourceSetMapFlags":{
+		"id": "cudaD3D9ResourceSetMapFlags",
+		"value": "__host__cudaError_t cudaD3D9ResourceSetMapFlags ( , )"
+	},
+	"cudaD3D9UnmapResources":{
+		"id": "cudaD3D9UnmapResources",
+		"value": "__host__cudaError_t cudaD3D9UnmapResources ( , )"
+	},
+	"cudaD3D9UnregisterResource":{
+		"id": "cudaD3D9UnregisterResource",
+		"value": "__host__cudaError_t cudaD3D9UnregisterResource ( )"
+	},
+	"cudaD3D10DeviceList":{
+		"id": "cudaD3D10DeviceList",
+		"value": "enum cudaD3D10DeviceList"
+	},
+	"cudaD3D10GetDevice":{
+		"id": "cudaD3D10GetDevice",
+		"value": "__host__cudaError_t cudaD3D10GetDevice ( , )"
+	},
+	"cudaD3D10GetDevices":{
+		"id": "cudaD3D10GetDevices",
+		"value": "__host__cudaError_t cudaD3D10GetDevices ( , , , , )"
+	},
+	"cudaGraphicsD3D10RegisterResource":{
+		"id": "cudaGraphicsD3D10RegisterResource",
+		"value": "__host__cudaError_t cudaGraphicsD3D10RegisterResource ( , , )"
+	},
+	"cudaD3D10MapFlags":{
+		"id": "cudaD3D10MapFlags",
+		"value": "enum cudaD3D10MapFlags"
+	},
+	"cudaD3D10RegisterFlags":{
+		"id": "cudaD3D10RegisterFlags",
+		"value": "enum cudaD3D10RegisterFlags"
+	},
+	"cudaD3D10GetDirect3DDevice":{
+		"id": "cudaD3D10GetDirect3DDevice",
+		"value": "__host__cudaError_t cudaD3D10GetDirect3DDevice ( )"
+	},
+	"cudaD3D10MapResources":{
+		"id": "cudaD3D10MapResources",
+		"value": "__host__cudaError_t cudaD3D10MapResources ( , )"
+	},
+	"cudaD3D10RegisterResource":{
+		"id": "cudaD3D10RegisterResource",
+		"value": "__host__cudaError_t cudaD3D10RegisterResource ( , )"
+	},
+	"cudaD3D10ResourceGetMappedArray":{
+		"id": "cudaD3D10ResourceGetMappedArray",
+		"value": "__host__cudaError_t cudaD3D10ResourceGetMappedArray ( , , )"
+	},
+	"cudaD3D10ResourceGetMappedPitch":{
+		"id": "cudaD3D10ResourceGetMappedPitch",
+		"value": "__host__cudaError_t cudaD3D10ResourceGetMappedPitch ( , , , )"
+	},
+	"cudaD3D10ResourceGetMappedPointer":{
+		"id": "cudaD3D10ResourceGetMappedPointer",
+		"value": "__host__cudaError_t cudaD3D10ResourceGetMappedPointer ( , , )"
+	},
+	"cudaD3D10ResourceGetMappedSize":{
+		"id": "cudaD3D10ResourceGetMappedSize",
+		"value": "__host__cudaError_t cudaD3D10ResourceGetMappedSize ( , , )"
+	},
+	"cudaD3D10ResourceGetSurfaceDimensions":{
+		"id": "cudaD3D10ResourceGetSurfaceDimensions",
+		"value": "__host__cudaError_t cudaD3D10ResourceGetSurfaceDimensions ( , , , , )"
+	},
+	"cudaD3D10ResourceSetMapFlags":{
+		"id": "cudaD3D10ResourceSetMapFlags",
+		"value": "__host__cudaError_t cudaD3D10ResourceSetMapFlags ( , )"
+	},
+	"cudaD3D10SetDirect3DDevice":{
+		"id": "cudaD3D10SetDirect3DDevice",
+		"value": "__host__cudaError_t cudaD3D10SetDirect3DDevice ( , )"
+	},
+	"cudaD3D10UnmapResources":{
+		"id": "cudaD3D10UnmapResources",
+		"value": "__host__cudaError_t cudaD3D10UnmapResources ( , )"
+	},
+	"cudaD3D10UnregisterResource":{
+		"id": "cudaD3D10UnregisterResource",
+		"value": "__host__cudaError_t cudaD3D10UnregisterResource ( )"
+	},
+	"cudaD3D11DeviceList":{
+		"id": "cudaD3D11DeviceList",
+		"value": "enum cudaD3D11DeviceList"
+	},
+	"cudaD3D11GetDevice":{
+		"id": "cudaD3D11GetDevice",
+		"value": "__host__cudaError_t cudaD3D11GetDevice ( , )"
+	},
+	"cudaD3D11GetDevices":{
+		"id": "cudaD3D11GetDevices",
+		"value": "__host__cudaError_t cudaD3D11GetDevices ( , , , , )"
+	},
+	"cudaGraphicsD3D11RegisterResource":{
+		"id": "cudaGraphicsD3D11RegisterResource",
+		"value": "__host__cudaError_t cudaGraphicsD3D11RegisterResource ( , , )"
+	},
+	"cudaD3D11GetDirect3DDevice":{
+		"id": "cudaD3D11GetDirect3DDevice",
+		"value": "__host__cudaError_t cudaD3D11GetDirect3DDevice ( )"
+	},
+	"cudaD3D11SetDirect3DDevice":{
+		"id": "cudaD3D11SetDirect3DDevice",
+		"value": "__host__cudaError_t cudaD3D11SetDirect3DDevice ( , )"
+	},
+	"cudaGraphicsVDPAURegisterOutputSurface":{
+		"id": "cudaGraphicsVDPAURegisterOutputSurface",
+		"value": "__host__cudaError_t cudaGraphicsVDPAURegisterOutputSurface ( , , )"
+	},
+	"cudaGraphicsVDPAURegisterVideoSurface":{
+		"id": "cudaGraphicsVDPAURegisterVideoSurface",
+		"value": "__host__cudaError_t cudaGraphicsVDPAURegisterVideoSurface ( , , )"
+	},
+	"cudaVDPAUGetDevice":{
+		"id": "cudaVDPAUGetDevice",
+		"value": "__host__cudaError_t cudaVDPAUGetDevice ( , , )"
+	},
+	"cudaVDPAUSetVDPAUDevice":{
+		"id": "cudaVDPAUSetVDPAUDevice",
+		"value": "__host__cudaError_t cudaVDPAUSetVDPAUDevice ( , , )"
+	},
+	"cudaEGLStreamConsumerAcquireFrame":{
+		"id": "cudaEGLStreamConsumerAcquireFrame",
+		"value": "__host__cudaError_t cudaEGLStreamConsumerAcquireFrame ( , , , )"
+	},
+	"cudaEGLStreamConsumerConnect":{
+		"id": "cudaEGLStreamConsumerConnect",
+		"value": "__host__cudaError_t cudaEGLStreamConsumerConnect ( , )"
+	},
+	"cudaEGLStreamConsumerConnectWithFlags":{
+		"id": "cudaEGLStreamConsumerConnectWithFlags",
+		"value": "__host__cudaError_t cudaEGLStreamConsumerConnectWithFlags ( , , )"
+	},
+	"cudaEGLStreamConsumerDisconnect":{
+		"id": "cudaEGLStreamConsumerDisconnect",
+		"value": "__host__cudaError_t cudaEGLStreamConsumerDisconnect ( )"
+	},
+	"cudaEGLStreamConsumerReleaseFrame":{
+		"id": "cudaEGLStreamConsumerReleaseFrame",
+		"value": "__host__cudaError_t cudaEGLStreamConsumerReleaseFrame ( , , )"
+	},
+	"cudaEGLStreamProducerConnect":{
+		"id": "cudaEGLStreamProducerConnect",
+		"value": "__host__cudaError_t cudaEGLStreamProducerConnect ( , , , )"
+	},
+	"cudaEGLStreamProducerDisconnect":{
+		"id": "cudaEGLStreamProducerDisconnect",
+		"value": "__host__cudaError_t cudaEGLStreamProducerDisconnect ( )"
+	},
+	"cudaEGLStreamProducerPresentFrame":{
+		"id": "cudaEGLStreamProducerPresentFrame",
+		"value": "__host__cudaError_t cudaEGLStreamProducerPresentFrame ( , , )"
+	},
+	"cudaEGLStreamProducerReturnFrame":{
+		"id": "cudaEGLStreamProducerReturnFrame",
+		"value": "__host__cudaError_t cudaEGLStreamProducerReturnFrame ( , , )"
+	},
+	"cudaEventCreateFromEGLSync":{
+		"id": "cudaEventCreateFromEGLSync",
+		"value": "__host__cudaError_t cudaEventCreateFromEGLSync ( , , )"
+	},
+	"cudaGraphicsEGLRegisterImage":{
+		"id": "cudaGraphicsEGLRegisterImage",
+		"value": "__host__cudaError_t cudaGraphicsEGLRegisterImage ( , , )"
+	},
+	"cudaGraphicsResourceGetMappedEglFrame":{
+		"id": "cudaGraphicsResourceGetMappedEglFrame",
+		"value": "__host__cudaError_t cudaGraphicsResourceGetMappedEglFrame ( , , , )"
+	},
+	"cudaGraphicsMapResources":{
+		"id": "cudaGraphicsMapResources",
+		"value": "__host__cudaError_t cudaGraphicsMapResources ( , , )"
+	},
+	"cudaGraphicsResourceGetMappedMipmappedArray":{
+		"id": "cudaGraphicsResourceGetMappedMipmappedArray",
+		"value": "__host__cudaError_t cudaGraphicsResourceGetMappedMipmappedArray ( , )"
+	},
+	"cudaGraphicsResourceGetMappedPointer":{
+		"id": "cudaGraphicsResourceGetMappedPointer",
+		"value": "__host__cudaError_t cudaGraphicsResourceGetMappedPointer ( , , )"
+	},
+	"cudaGraphicsResourceSetMapFlags":{
+		"id": "cudaGraphicsResourceSetMapFlags",
+		"value": "__host__cudaError_t cudaGraphicsResourceSetMapFlags ( , )"
+	},
+	"cudaGraphicsSubResourceGetMappedArray":{
+		"id": "cudaGraphicsSubResourceGetMappedArray",
+		"value": "__host__cudaError_t cudaGraphicsSubResourceGetMappedArray ( , , , )"
+	},
+	"cudaGraphicsUnmapResources":{
+		"id": "cudaGraphicsUnmapResources",
+		"value": "__host__cudaError_t cudaGraphicsUnmapResources ( , , )"
+	},
+	"cudaGraphicsUnregisterResource":{
+		"id": "cudaGraphicsUnregisterResource",
+		"value": "__host__cudaError_t cudaGraphicsUnregisterResource ( )"
+	},
+	"cudaCreateChannelDesc":{
+		"id": "cudaCreateChannelDesc",
+		"value": "__host__cudaChannelFormatDesc cudaCreateChannelDesc ( , , , , )"
+	},
+	"cudaCreateTextureObject":{
+		"id": "cudaCreateTextureObject",
+		"value": "__host__cudaError_t cudaCreateTextureObject ( , , , )"
+	},
+	"cudaDestroyTextureObject":{
+		"id": "cudaDestroyTextureObject",
+		"value": "__host__cudaError_t cudaDestroyTextureObject ( )"
+	},
+	"cudaGetChannelDesc":{
+		"id": "cudaGetChannelDesc",
+		"value": "__host__cudaError_t cudaGetChannelDesc ( , )"
+	},
+	"cudaGetTextureObjectResourceDesc":{
+		"id": "cudaGetTextureObjectResourceDesc",
+		"value": "__host__cudaError_t cudaGetTextureObjectResourceDesc ( , )"
+	},
+	"cudaGetTextureObjectResourceViewDesc":{
+		"id": "cudaGetTextureObjectResourceViewDesc",
+		"value": "__host__cudaError_t cudaGetTextureObjectResourceViewDesc ( , )"
+	},
+	"cudaGetTextureObjectTextureDesc":{
+		"id": "cudaGetTextureObjectTextureDesc",
+		"value": "__host__cudaError_t cudaGetTextureObjectTextureDesc ( , )"
+	},
+	"cudaCreateSurfaceObject":{
+		"id": "cudaCreateSurfaceObject",
+		"value": "__host__cudaError_t cudaCreateSurfaceObject ( , )"
+	},
+	"cudaDestroySurfaceObject":{
+		"id": "cudaDestroySurfaceObject",
+		"value": "__host__cudaError_t cudaDestroySurfaceObject ( )"
+	},
+	"cudaGetSurfaceObjectResourceDesc":{
+		"id": "cudaGetSurfaceObjectResourceDesc",
+		"value": "__host__cudaError_t cudaGetSurfaceObjectResourceDesc ( , )"
+	},
+	"cudaDriverGetVersion":{
+		"id": "cudaDriverGetVersion",
+		"value": "__host__cudaError_t cudaDriverGetVersion ( )"
+	},
+	"cudaRuntimeGetVersion":{
+		"id": "cudaRuntimeGetVersion",
+		"value": "__host____device__cudaError_t cudaRuntimeGetVersion ( )"
+	},
+	"cudaDeviceGetGraphMemAttribute":{
+		"id": "cudaDeviceGetGraphMemAttribute",
+		"value": "__host__cudaError_t cudaDeviceGetGraphMemAttribute ( , , )"
+	},
+	"cudaDeviceGraphMemTrim":{
+		"id": "cudaDeviceGraphMemTrim",
+		"value": "__host__cudaError_t cudaDeviceGraphMemTrim ( )"
+	},
+	"cudaDeviceSetGraphMemAttribute":{
+		"id": "cudaDeviceSetGraphMemAttribute",
+		"value": "__host__cudaError_t cudaDeviceSetGraphMemAttribute ( , , )"
+	},
+	"cudaGetCurrentGraphExec":{
+		"id": "cudaGetCurrentGraphExec",
+		"value": "__device__cudaGraphExec_t cudaGetCurrentGraphExec ( )"
+	},
+	"cudaGraphAddChildGraphNode":{
+		"id": "cudaGraphAddChildGraphNode",
+		"value": "__host__cudaError_t cudaGraphAddChildGraphNode ( , , , , )"
+	},
+	"cudaGraphAddDependencies":{
+		"id": "cudaGraphAddDependencies",
+		"value": "__host__cudaError_t cudaGraphAddDependencies ( , , , )"
+	},
+	"cudaGraphAddEmptyNode":{
+		"id": "cudaGraphAddEmptyNode",
+		"value": "__host__cudaError_t cudaGraphAddEmptyNode ( , , , )"
+	},
+	"cudaGraphAddEventRecordNode":{
+		"id": "cudaGraphAddEventRecordNode",
+		"value": "__host__cudaError_t cudaGraphAddEventRecordNode ( , , , , )"
+	},
+	"cudaGraphAddEventWaitNode":{
+		"id": "cudaGraphAddEventWaitNode",
+		"value": "__host__cudaError_t cudaGraphAddEventWaitNode ( , , , , )"
+	},
+	"cudaGraphAddExternalSemaphoresSignalNode":{
+		"id": "cudaGraphAddExternalSemaphoresSignalNode",
+		"value": "__host__cudaError_t cudaGraphAddExternalSemaphoresSignalNode ( , , , , )"
+	},
+	"cudaGraphAddExternalSemaphoresWaitNode":{
+		"id": "cudaGraphAddExternalSemaphoresWaitNode",
+		"value": "__host__cudaError_t cudaGraphAddExternalSemaphoresWaitNode ( , , , , )"
+	},
+	"cudaGraphAddHostNode":{
+		"id": "cudaGraphAddHostNode",
+		"value": "__host__cudaError_t cudaGraphAddHostNode ( , , , , )"
+	},
+	"cudaGraphAddKernelNode":{
+		"id": "cudaGraphAddKernelNode",
+		"value": "__host__cudaError_t cudaGraphAddKernelNode ( , , , , )"
+	},
+	"cudaGraphAddMemAllocNode":{
+		"id": "cudaGraphAddMemAllocNode",
+		"value": "__host__cudaError_t cudaGraphAddMemAllocNode ( , , , , )"
+	},
+	"cudaGraphAddMemFreeNode":{
+		"id": "cudaGraphAddMemFreeNode",
+		"value": "__host__cudaError_t cudaGraphAddMemFreeNode ( , , , , )"
+	},
+	"cudaGraphAddMemcpyNode":{
+		"id": "cudaGraphAddMemcpyNode",
+		"value": "__host__cudaError_t cudaGraphAddMemcpyNode ( , , , , )"
+	},
+	"cudaGraphAddMemcpyNode1D":{
+		"id": "cudaGraphAddMemcpyNode1D",
+		"value": "__host__cudaError_t cudaGraphAddMemcpyNode1D ( , , , , , , , )"
+	},
+	"cudaGraphAddMemcpyNodeFromSymbol":{
+		"id": "cudaGraphAddMemcpyNodeFromSymbol",
+		"value": "__host__cudaError_t cudaGraphAddMemcpyNodeFromSymbol ( , , , , , , , , )"
+	},
+	"cudaGraphAddMemcpyNodeToSymbol":{
+		"id": "cudaGraphAddMemcpyNodeToSymbol",
+		"value": "__host__cudaError_t cudaGraphAddMemcpyNodeToSymbol ( , , , , , , , , )"
+	},
+	"cudaGraphAddMemsetNode":{
+		"id": "cudaGraphAddMemsetNode",
+		"value": "__host__cudaError_t cudaGraphAddMemsetNode ( , , , , )"
+	},
+	"cudaGraphChildGraphNodeGetGraph":{
+		"id": "cudaGraphChildGraphNodeGetGraph",
+		"value": "__host__cudaError_t cudaGraphChildGraphNodeGetGraph ( , )"
+	},
+	"cudaGraphClone":{
+		"id": "cudaGraphClone",
+		"value": "__host__cudaError_t cudaGraphClone ( , )"
+	},
+	"cudaGraphCreate":{
+		"id": "cudaGraphCreate",
+		"value": "__host__cudaError_t cudaGraphCreate ( , )"
+	},
+	"cudaGraphDebugDotPrint":{
+		"id": "cudaGraphDebugDotPrint",
+		"value": "__host__cudaError_t cudaGraphDebugDotPrint ( , , )"
+	},
+	"cudaGraphDestroy":{
+		"id": "cudaGraphDestroy",
+		"value": "__host__cudaError_t cudaGraphDestroy ( )"
+	},
+	"cudaGraphDestroyNode":{
+		"id": "cudaGraphDestroyNode",
+		"value": "__host__cudaError_t cudaGraphDestroyNode ( )"
+	},
+	"cudaGraphEventRecordNodeGetEvent":{
+		"id": "cudaGraphEventRecordNodeGetEvent",
+		"value": "__host__cudaError_t cudaGraphEventRecordNodeGetEvent ( , )"
+	},
+	"cudaGraphEventRecordNodeSetEvent":{
+		"id": "cudaGraphEventRecordNodeSetEvent",
+		"value": "__host__cudaError_t cudaGraphEventRecordNodeSetEvent ( , )"
+	},
+	"cudaGraphEventWaitNodeGetEvent":{
+		"id": "cudaGraphEventWaitNodeGetEvent",
+		"value": "__host__cudaError_t cudaGraphEventWaitNodeGetEvent ( , )"
+	},
+	"cudaGraphEventWaitNodeSetEvent":{
+		"id": "cudaGraphEventWaitNodeSetEvent",
+		"value": "__host__cudaError_t cudaGraphEventWaitNodeSetEvent ( , )"
+	},
+	"cudaGraphExecChildGraphNodeSetParams":{
+		"id": "cudaGraphExecChildGraphNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExecChildGraphNodeSetParams ( , , )"
+	},
+	"cudaGraphExecDestroy":{
+		"id": "cudaGraphExecDestroy",
+		"value": "__host__cudaError_t cudaGraphExecDestroy ( )"
+	},
+	"cudaGraphExecEventRecordNodeSetEvent":{
+		"id": "cudaGraphExecEventRecordNodeSetEvent",
+		"value": "__host__cudaError_t cudaGraphExecEventRecordNodeSetEvent ( , , )"
+	},
+	"cudaGraphExecEventWaitNodeSetEvent":{
+		"id": "cudaGraphExecEventWaitNodeSetEvent",
+		"value": "__host__cudaError_t cudaGraphExecEventWaitNodeSetEvent ( , , )"
+	},
+	"cudaGraphExecExternalSemaphoresSignalNodeSetParams":{
+		"id": "cudaGraphExecExternalSemaphoresSignalNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExecExternalSemaphoresSignalNodeSetParams ( , , )"
+	},
+	"cudaGraphExecExternalSemaphoresWaitNodeSetParams":{
+		"id": "cudaGraphExecExternalSemaphoresWaitNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExecExternalSemaphoresWaitNodeSetParams ( , , )"
+	},
+	"cudaGraphExecGetFlags":{
+		"id": "cudaGraphExecGetFlags",
+		"value": "__host__cudaError_t cudaGraphExecGetFlags ( , )"
+	},
+	"cudaGraphExecHostNodeSetParams":{
+		"id": "cudaGraphExecHostNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExecHostNodeSetParams ( , , )"
+	},
+	"cudaGraphExecKernelNodeSetParams":{
+		"id": "cudaGraphExecKernelNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExecKernelNodeSetParams ( , , )"
+	},
+	"cudaGraphExecMemcpyNodeSetParams":{
+		"id": "cudaGraphExecMemcpyNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParams ( , , )"
+	},
+	"cudaGraphExecMemcpyNodeSetParams1D":{
+		"id": "cudaGraphExecMemcpyNodeSetParams1D",
+		"value": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParams1D ( , , , , , )"
+	},
+	"cudaGraphExecMemcpyNodeSetParamsFromSymbol":{
+		"id": "cudaGraphExecMemcpyNodeSetParamsFromSymbol",
+		"value": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParamsFromSymbol ( , , , , , , )"
+	},
+	"cudaGraphExecMemcpyNodeSetParamsToSymbol":{
+		"id": "cudaGraphExecMemcpyNodeSetParamsToSymbol",
+		"value": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParamsToSymbol ( , , , , , , )"
+	},
+	"cudaGraphExecMemsetNodeSetParams":{
+		"id": "cudaGraphExecMemsetNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExecMemsetNodeSetParams ( , , )"
+	},
+	"cudaGraphExecUpdate":{
+		"id": "cudaGraphExecUpdate",
+		"value": "__host__cudaError_t cudaGraphExecUpdate ( , , )"
+	},
+	"cudaGraphExternalSemaphoresSignalNodeGetParams":{
+		"id": "cudaGraphExternalSemaphoresSignalNodeGetParams",
+		"value": "__host__cudaError_t cudaGraphExternalSemaphoresSignalNodeGetParams ( , )"
+	},
+	"cudaGraphExternalSemaphoresSignalNodeSetParams":{
+		"id": "cudaGraphExternalSemaphoresSignalNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExternalSemaphoresSignalNodeSetParams ( , )"
+	},
+	"cudaGraphExternalSemaphoresWaitNodeGetParams":{
+		"id": "cudaGraphExternalSemaphoresWaitNodeGetParams",
+		"value": "__host__cudaError_t cudaGraphExternalSemaphoresWaitNodeGetParams ( , )"
+	},
+	"cudaGraphExternalSemaphoresWaitNodeSetParams":{
+		"id": "cudaGraphExternalSemaphoresWaitNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphExternalSemaphoresWaitNodeSetParams ( , )"
+	},
+	"cudaGraphGetEdges":{
+		"id": "cudaGraphGetEdges",
+		"value": "__host__cudaError_t cudaGraphGetEdges ( , , , )"
+	},
+	"cudaGraphGetNodes":{
+		"id": "cudaGraphGetNodes",
+		"value": "__host__cudaError_t cudaGraphGetNodes ( , , )"
+	},
+	"cudaGraphGetRootNodes":{
+		"id": "cudaGraphGetRootNodes",
+		"value": "__host__cudaError_t cudaGraphGetRootNodes ( , , )"
+	},
+	"cudaGraphHostNodeGetParams":{
+		"id": "cudaGraphHostNodeGetParams",
+		"value": "__host__cudaError_t cudaGraphHostNodeGetParams ( , )"
+	},
+	"cudaGraphHostNodeSetParams":{
+		"id": "cudaGraphHostNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphHostNodeSetParams ( , )"
+	},
+	"cudaGraphInstantiate":{
+		"id": "cudaGraphInstantiate",
+		"value": "__host__cudaError_t cudaGraphInstantiate ( , , )"
+	},
+	"cudaGraphInstantiateWithFlags":{
+		"id": "cudaGraphInstantiateWithFlags",
+		"value": "__host__cudaError_t cudaGraphInstantiateWithFlags ( , , )"
+	},
+	"cudaGraphInstantiateWithParams":{
+		"id": "cudaGraphInstantiateWithParams",
+		"value": "__host__cudaError_t cudaGraphInstantiateWithParams ( , , )"
+	},
+	"cudaGraphKernelNodeCopyAttributes":{
+		"id": "cudaGraphKernelNodeCopyAttributes",
+		"value": "__host__cudaError_t cudaGraphKernelNodeCopyAttributes ( , )"
+	},
+	"cudaGraphKernelNodeGetAttribute":{
+		"id": "cudaGraphKernelNodeGetAttribute",
+		"value": "__host__cudaError_t cudaGraphKernelNodeGetAttribute ( , , )"
+	},
+	"cudaGraphKernelNodeGetParams":{
+		"id": "cudaGraphKernelNodeGetParams",
+		"value": "__host__cudaError_t cudaGraphKernelNodeGetParams ( , )"
+	},
+	"cudaGraphKernelNodeSetAttribute":{
+		"id": "cudaGraphKernelNodeSetAttribute",
+		"value": "__host__cudaError_t cudaGraphKernelNodeSetAttribute ( , , )"
+	},
+	"cudaGraphKernelNodeSetParams":{
+		"id": "cudaGraphKernelNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphKernelNodeSetParams ( , )"
+	},
+	"cudaGraphLaunch":{
+		"id": "cudaGraphLaunch",
+		"value": "__host__cudaError_t cudaGraphLaunch ( , )"
+	},
+	"cudaGraphMemAllocNodeGetParams":{
+		"id": "cudaGraphMemAllocNodeGetParams",
+		"value": "__host__cudaError_t cudaGraphMemAllocNodeGetParams ( , )"
+	},
+	"cudaGraphMemFreeNodeGetParams":{
+		"id": "cudaGraphMemFreeNodeGetParams",
+		"value": "__host__cudaError_t cudaGraphMemFreeNodeGetParams ( , )"
+	},
+	"cudaGraphMemcpyNodeGetParams":{
+		"id": "cudaGraphMemcpyNodeGetParams",
+		"value": "__host__cudaError_t cudaGraphMemcpyNodeGetParams ( , )"
+	},
+	"cudaGraphMemcpyNodeSetParams":{
+		"id": "cudaGraphMemcpyNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphMemcpyNodeSetParams ( , )"
+	},
+	"cudaGraphMemcpyNodeSetParams1D":{
+		"id": "cudaGraphMemcpyNodeSetParams1D",
+		"value": "__host__cudaError_t cudaGraphMemcpyNodeSetParams1D ( , , , , )"
+	},
+	"cudaGraphMemcpyNodeSetParamsFromSymbol":{
+		"id": "cudaGraphMemcpyNodeSetParamsFromSymbol",
+		"value": "__host__cudaError_t cudaGraphMemcpyNodeSetParamsFromSymbol ( , , , , , )"
+	},
+	"cudaGraphMemcpyNodeSetParamsToSymbol":{
+		"id": "cudaGraphMemcpyNodeSetParamsToSymbol",
+		"value": "__host__cudaError_t cudaGraphMemcpyNodeSetParamsToSymbol ( , , , , , )"
+	},
+	"cudaGraphMemsetNodeGetParams":{
+		"id": "cudaGraphMemsetNodeGetParams",
+		"value": "__host__cudaError_t cudaGraphMemsetNodeGetParams ( , )"
+	},
+	"cudaGraphMemsetNodeSetParams":{
+		"id": "cudaGraphMemsetNodeSetParams",
+		"value": "__host__cudaError_t cudaGraphMemsetNodeSetParams ( , )"
+	},
+	"cudaGraphNodeFindInClone":{
+		"id": "cudaGraphNodeFindInClone",
+		"value": "__host__cudaError_t cudaGraphNodeFindInClone ( , , )"
+	},
+	"cudaGraphNodeGetDependencies":{
+		"id": "cudaGraphNodeGetDependencies",
+		"value": "__host__cudaError_t cudaGraphNodeGetDependencies ( , , )"
+	},
+	"cudaGraphNodeGetDependentNodes":{
+		"id": "cudaGraphNodeGetDependentNodes",
+		"value": "__host__cudaError_t cudaGraphNodeGetDependentNodes ( , , )"
+	},
+	"cudaGraphNodeGetEnabled":{
+		"id": "cudaGraphNodeGetEnabled",
+		"value": "__host__cudaError_t cudaGraphNodeGetEnabled ( , , )"
+	},
+	"cudaGraphNodeGetType":{
+		"id": "cudaGraphNodeGetType",
+		"value": "__host__cudaError_t cudaGraphNodeGetType ( , )"
+	},
+	"cudaGraphNodeSetEnabled":{
+		"id": "cudaGraphNodeSetEnabled",
+		"value": "__host__cudaError_t cudaGraphNodeSetEnabled ( , , )"
+	},
+	"cudaGraphReleaseUserObject":{
+		"id": "cudaGraphReleaseUserObject",
+		"value": "__host__cudaError_t cudaGraphReleaseUserObject ( , , )"
+	},
+	"cudaGraphRemoveDependencies":{
+		"id": "cudaGraphRemoveDependencies",
+		"value": "__host__cudaError_t cudaGraphRemoveDependencies ( , , , )"
+	},
+	"cudaGraphRetainUserObject":{
+		"id": "cudaGraphRetainUserObject",
+		"value": "__host__cudaError_t cudaGraphRetainUserObject ( , , , )"
+	},
+	"cudaGraphUpload":{
+		"id": "cudaGraphUpload",
+		"value": "__host__cudaError_t cudaGraphUpload ( , )"
+	},
+	"cudaUserObjectCreate":{
+		"id": "cudaUserObjectCreate",
+		"value": "__host__cudaError_t cudaUserObjectCreate ( , , , , )"
+	},
+	"cudaUserObjectRelease":{
+		"id": "cudaUserObjectRelease",
+		"value": "__host__cudaError_t cudaUserObjectRelease ( , )"
+	},
+	"cudaUserObjectRetain":{
+		"id": "cudaUserObjectRetain",
+		"value": "__host__cudaError_t cudaUserObjectRetain ( , )"
+	},
+	"cudaGetDriverEntryPoint":{
+		"id": "cudaGetDriverEntryPoint",
+		"value": "__host__cudaError_t cudaGetDriverEntryPoint ( , , , )"
+	},
+	"__cudaOccupancyB2DHelper":{
+		"id": "__cudaOccupancyB2DHelper",
+		"value": "class __cudaOccupancyB2DHelper"
+	},
+	"cudaCreateChannelDesc":{
+		"id": "cudaCreateChannelDesc",
+		"value": "__host__cudaChannelFormatDesc cudaCreateChannelDesc ( )"
+	},
+	"cudaEventCreate":{
+		"id": "cudaEventCreate",
+		"value": "__host__cudaError_t cudaEventCreate ( , )"
+	},
+	"cudaFuncGetAttributes":{
+		"id": "cudaFuncGetAttributes",
+		"value": "__host__cudaError_t cudaFuncGetAttributes ( , )"
+	},
+	"cudaFuncSetAttribute":{
+		"id": "cudaFuncSetAttribute",
+		"value": "__host__cudaError_t cudaFuncSetAttribute ( , , )"
+	},
+	"cudaFuncSetCacheConfig":{
+		"id": "cudaFuncSetCacheConfig",
+		"value": "__host__cudaError_t cudaFuncSetCacheConfig ( , )"
+	},
+	"cudaGetSymbolAddress":{
+		"id": "cudaGetSymbolAddress",
+		"value": "__host__cudaError_t cudaGetSymbolAddress ( , )"
+	},
+	"cudaGetSymbolSize":{
+		"id": "cudaGetSymbolSize",
+		"value": "__host__cudaError_t cudaGetSymbolSize ( , )"
+	},
+	"cudaGraphAddMemcpyNodeFromSymbol":{
+		"id": "cudaGraphAddMemcpyNodeFromSymbol",
+		"value": "__host__cudaError_t cudaGraphAddMemcpyNodeFromSymbol ( , , , , , , , , )"
+	},
+	"cudaGraphAddMemcpyNodeToSymbol":{
+		"id": "cudaGraphAddMemcpyNodeToSymbol",
+		"value": "__host__cudaError_t cudaGraphAddMemcpyNodeToSymbol ( , , , , , , , , )"
+	},
+	"cudaGraphExecMemcpyNodeSetParamsFromSymbol":{
+		"id": "cudaGraphExecMemcpyNodeSetParamsFromSymbol",
+		"value": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParamsFromSymbol ( , , , , , , )"
+	},
+	"cudaGraphExecMemcpyNodeSetParamsToSymbol":{
+		"id": "cudaGraphExecMemcpyNodeSetParamsToSymbol",
+		"value": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParamsToSymbol ( , , , , , , )"
+	},
+	"cudaGraphInstantiate":{
+		"id": "cudaGraphInstantiate",
+		"value": "__host__cudaError_t cudaGraphInstantiate ( , , , , )"
+	},
+	"cudaGraphMemcpyNodeSetParamsFromSymbol":{
+		"id": "cudaGraphMemcpyNodeSetParamsFromSymbol",
+		"value": "__host__cudaError_t cudaGraphMemcpyNodeSetParamsFromSymbol ( , , , , , )"
+	},
+	"cudaGraphMemcpyNodeSetParamsToSymbol":{
+		"id": "cudaGraphMemcpyNodeSetParamsToSymbol",
+		"value": "__host__cudaError_t cudaGraphMemcpyNodeSetParamsToSymbol ( , , , , , )"
+	},
+	"cudaLaunchCooperativeKernel":{
+		"id": "cudaLaunchCooperativeKernel",
+		"value": "__host__cudaError_t cudaLaunchCooperativeKernel ( , , , , , )"
+	},
+	"cudaLaunchKernel":{
+		"id": "cudaLaunchKernel",
+		"value": "__host__cudaError_t cudaLaunchKernel ( , , , , , )"
+	},
+	"cudaLaunchKernelEx":{
+		"id": "cudaLaunchKernelEx",
+		"value": "__host__cudaError_t cudaLaunchKernelEx ( , , )"
+	},
+	"cudaMallocAsync":{
+		"id": "cudaMallocAsync",
+		"value": "__host__cudaError_t cudaMallocAsync ( , , , )"
+	},
+	"cudaMallocHost":{
+		"id": "cudaMallocHost",
+		"value": "__host__cudaError_t cudaMallocHost ( , , )"
+	},
+	"cudaMallocManaged":{
+		"id": "cudaMallocManaged",
+		"value": "__host__cudaError_t cudaMallocManaged ( , , )"
+	},
+	"cudaMemcpyFromSymbol":{
+		"id": "cudaMemcpyFromSymbol",
+		"value": "__host__cudaError_t cudaMemcpyFromSymbol ( , , , , )"
+	},
+	"cudaMemcpyFromSymbolAsync":{
+		"id": "cudaMemcpyFromSymbolAsync",
+		"value": "__host__cudaError_t cudaMemcpyFromSymbolAsync ( , , , , , )"
+	},
+	"cudaMemcpyToSymbol":{
+		"id": "cudaMemcpyToSymbol",
+		"value": "__host__cudaError_t cudaMemcpyToSymbol ( , , , , )"
+	},
+	"cudaMemcpyToSymbolAsync":{
+		"id": "cudaMemcpyToSymbolAsync",
+		"value": "__host__cudaError_t cudaMemcpyToSymbolAsync ( , , , , , )"
+	},
+	"cudaOccupancyAvailableDynamicSMemPerBlock":{
+		"id": "cudaOccupancyAvailableDynamicSMemPerBlock",
+		"value": "__host__cudaError_t cudaOccupancyAvailableDynamicSMemPerBlock ( , , , )"
+	},
+	"cudaOccupancyMaxActiveBlocksPerMultiprocessor":{
+		"id": "cudaOccupancyMaxActiveBlocksPerMultiprocessor",
+		"value": "__host__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessor ( , , , )"
+	},
+	"cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags":{
+		"id": "cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags",
+		"value": "__host__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags ( , , , , )"
+	},
+	"cudaOccupancyMaxActiveClusters":{
+		"id": "cudaOccupancyMaxActiveClusters",
+		"value": "__host__cudaError_t cudaOccupancyMaxActiveClusters ( , , )"
+	},
+	"cudaOccupancyMaxPotentialBlockSize":{
+		"id": "cudaOccupancyMaxPotentialBlockSize",
+		"value": "__host__cudaError_t cudaOccupancyMaxPotentialBlockSize ( , , , , )"
+	},
+	"cudaOccupancyMaxPotentialBlockSizeVariableSMem":{
+		"id": "cudaOccupancyMaxPotentialBlockSizeVariableSMem",
+		"value": "__host__cudaError_t cudaOccupancyMaxPotentialBlockSizeVariableSMem ( , , , , )"
+	},
+	"cudaOccupancyMaxPotentialBlockSizeVariableSMemWithFlags":{
+		"id": "cudaOccupancyMaxPotentialBlockSizeVariableSMemWithFlags",
+		"value": "__host__cudaError_t cudaOccupancyMaxPotentialBlockSizeVariableSMemWithFlags ( , , , , , )"
+	},
+	"cudaOccupancyMaxPotentialBlockSizeWithFlags":{
+		"id": "cudaOccupancyMaxPotentialBlockSizeWithFlags",
+		"value": "__host__cudaError_t cudaOccupancyMaxPotentialBlockSizeWithFlags ( , , , , , )"
+	},
+	"cudaOccupancyMaxPotentialClusterSize":{
+		"id": "cudaOccupancyMaxPotentialClusterSize",
+		"value": "__host__cudaError_t cudaOccupancyMaxPotentialClusterSize ( , , )"
+	},
+	"cudaStreamAttachMemAsync":{
+		"id": "cudaStreamAttachMemAsync",
+		"value": "__host__cudaError_t cudaStreamAttachMemAsync ( , , , )"
+	},
+	"cudaGetFuncBySymbol":{
+		"id": "cudaGetFuncBySymbol",
+		"value": "__host__cudaError_t cudaGetFuncBySymbol ( , )"
+	},
+	"cudaProfilerStart":{
+		"id": "cudaProfilerStart",
+		"value": "__host__cudaError_t cudaProfilerStart ( )"
+	},
+	"cudaProfilerStop":{
+		"id": "cudaProfilerStop",
+		"value": "__host__cudaError_t cudaProfilerStop ( )"
+	},
+	"CUuuid_st":{
+		"id": "CUuuid_st",
+		"value": "struct CUuuid_st"
+	},
+	"cudaAccessPolicyWindow":{
+		"id": "cudaAccessPolicyWindow",
+		"value": "struct cudaAccessPolicyWindow"
+	},
+	"cudaArrayMemoryRequirements":{
+		"id": "cudaArrayMemoryRequirements",
+		"value": "struct cudaArrayMemoryRequirements"
+	},
+	"cudaArraySparseProperties":{
+		"id": "cudaArraySparseProperties",
+		"value": "struct cudaArraySparseProperties"
+	},
+	"cudaChannelFormatDesc":{
+		"id": "cudaChannelFormatDesc",
+		"value": "struct cudaChannelFormatDesc"
+	},
+	"cudaDeviceProp":{
+		"id": "cudaDeviceProp",
+		"value": "struct cudaDeviceProp"
+	},
+	"cudaEglFrame":{
+		"id": "cudaEglFrame",
+		"value": "struct cudaEglFrame"
+	},
+	"cudaEglPlaneDesc":{
+		"id": "cudaEglPlaneDesc",
+		"value": "struct cudaEglPlaneDesc"
+	},
+	"cudaExtent":{
+		"id": "cudaExtent",
+		"value": "struct cudaExtent"
+	},
+	"cudaExternalMemoryBufferDesc":{
+		"id": "cudaExternalMemoryBufferDesc",
+		"value": "struct cudaExternalMemoryBufferDesc"
+	},
+	"cudaExternalMemoryHandleDesc":{
+		"id": "cudaExternalMemoryHandleDesc",
+		"value": "struct cudaExternalMemoryHandleDesc"
+	},
+	"cudaExternalMemoryMipmappedArrayDesc":{
+		"id": "cudaExternalMemoryMipmappedArrayDesc",
+		"value": "struct cudaExternalMemoryMipmappedArrayDesc"
+	},
+	"cudaExternalSemaphoreHandleDesc":{
+		"id": "cudaExternalSemaphoreHandleDesc",
+		"value": "struct cudaExternalSemaphoreHandleDesc"
+	},
+	"cudaExternalSemaphoreSignalNodeParams":{
+		"id": "cudaExternalSemaphoreSignalNodeParams",
+		"value": "struct cudaExternalSemaphoreSignalNodeParams"
+	},
+	"cudaExternalSemaphoreSignalParams":{
+		"id": "cudaExternalSemaphoreSignalParams",
+		"value": "struct cudaExternalSemaphoreSignalParams"
+	},
+	"cudaExternalSemaphoreSignalParams_v1":{
+		"id": "cudaExternalSemaphoreSignalParams_v1",
+		"value": "struct cudaExternalSemaphoreSignalParams_v1"
+	},
+	"cudaExternalSemaphoreWaitNodeParams":{
+		"id": "cudaExternalSemaphoreWaitNodeParams",
+		"value": "struct cudaExternalSemaphoreWaitNodeParams"
+	},
+	"cudaExternalSemaphoreWaitParams":{
+		"id": "cudaExternalSemaphoreWaitParams",
+		"value": "struct cudaExternalSemaphoreWaitParams"
+	},
+	"cudaExternalSemaphoreWaitParams_v1":{
+		"id": "cudaExternalSemaphoreWaitParams_v1",
+		"value": "struct cudaExternalSemaphoreWaitParams_v1"
+	},
+	"cudaFuncAttributes":{
+		"id": "cudaFuncAttributes",
+		"value": "struct cudaFuncAttributes"
+	},
+	"cudaGraphExecUpdateResultInfo":{
+		"id": "cudaGraphExecUpdateResultInfo",
+		"value": "struct cudaGraphExecUpdateResultInfo"
+	},
+	"cudaGraphInstantiateParams":{
+		"id": "cudaGraphInstantiateParams",
+		"value": "struct cudaGraphInstantiateParams"
+	},
+	"cudaHostNodeParams":{
+		"id": "cudaHostNodeParams",
+		"value": "struct cudaHostNodeParams"
+	},
+	"cudaIpcEventHandle_t":{
+		"id": "cudaIpcEventHandle_t",
+		"value": "struct cudaIpcEventHandle_t"
+	},
+	"cudaIpcMemHandle_t":{
+		"id": "cudaIpcMemHandle_t",
+		"value": "struct cudaIpcMemHandle_t"
+	},
+	"cudaKernelNodeParams":{
+		"id": "cudaKernelNodeParams",
+		"value": "struct cudaKernelNodeParams"
+	},
+	"cudaLaunchAttribute":{
+		"id": "cudaLaunchAttribute",
+		"value": "struct cudaLaunchAttribute"
+	},
+	"cudaLaunchAttributeValue":{
+		"id": "cudaLaunchAttributeValue",
+		"value": "union cudaLaunchAttributeValue"
+	},
+	"cudaLaunchConfig_t":{
+		"id": "cudaLaunchConfig_t",
+		"value": "struct cudaLaunchConfig_t"
+	},
+	"cudaLaunchParams":{
+		"id": "cudaLaunchParams",
+		"value": "struct cudaLaunchParams"
+	},
+	"cudaMemAccessDesc":{
+		"id": "cudaMemAccessDesc",
+		"value": "struct cudaMemAccessDesc"
+	},
+	"cudaMemAllocNodeParams":{
+		"id": "cudaMemAllocNodeParams",
+		"value": "struct cudaMemAllocNodeParams"
+	},
+	"cudaMemLocation":{
+		"id": "cudaMemLocation",
+		"value": "struct cudaMemLocation"
+	},
+	"cudaMemPoolProps":{
+		"id": "cudaMemPoolProps",
+		"value": "struct cudaMemPoolProps"
+	},
+	"cudaMemPoolPtrExportData":{
+		"id": "cudaMemPoolPtrExportData",
+		"value": "struct cudaMemPoolPtrExportData"
+	},
+	"cudaMemcpy3DParms":{
+		"id": "cudaMemcpy3DParms",
+		"value": "struct cudaMemcpy3DParms"
+	},
+	"cudaMemcpy3DPeerParms":{
+		"id": "cudaMemcpy3DPeerParms",
+		"value": "struct cudaMemcpy3DPeerParms"
+	},
+	"cudaMemsetParams":{
+		"id": "cudaMemsetParams",
+		"value": "struct cudaMemsetParams"
+	},
+	"cudaPitchedPtr":{
+		"id": "cudaPitchedPtr",
+		"value": "struct cudaPitchedPtr"
+	},
+	"cudaPointerAttributes":{
+		"id": "cudaPointerAttributes",
+		"value": "struct cudaPointerAttributes"
+	},
+	"cudaPos":{
+		"id": "cudaPos",
+		"value": "struct cudaPos"
+	},
+	"cudaResourceDesc":{
+		"id": "cudaResourceDesc",
+		"value": "struct cudaResourceDesc"
+	},
+	"cudaResourceViewDesc":{
+		"id": "cudaResourceViewDesc",
+		"value": "struct cudaResourceViewDesc"
+	},
+	"cudaTextureDesc":{
+		"id": "cudaTextureDesc",
+		"value": "struct cudaTextureDesc"
+	},
+	"CUDA_EGL_MAX_PLANES":{
+		"id": "CUDA_EGL_MAX_PLANES",
+		"value": "#define CUDA_EGL_MAX_PLANES 3"
+	},
+	"CUDA_IPC_HANDLE_SIZE":{
+		"id": "CUDA_IPC_HANDLE_SIZE",
+		"value": "#define CUDA_IPC_HANDLE_SIZE 64"
+	},
+	"cudaArrayColorAttachment":{
+		"id": "cudaArrayColorAttachment",
+		"value": "#define cudaArrayColorAttachment 0x20"
+	},
+	"cudaArrayCubemap":{
+		"id": "cudaArrayCubemap",
+		"value": "#define cudaArrayCubemap 0x04"
+	},
+	"cudaArrayDefault":{
+		"id": "cudaArrayDefault",
+		"value": "#define cudaArrayDefault 0x00"
+	},
+	"cudaArrayDeferredMapping":{
+		"id": "cudaArrayDeferredMapping",
+		"value": "#define cudaArrayDeferredMapping 0x80"
+	},
+	"cudaArrayLayered":{
+		"id": "cudaArrayLayered",
+		"value": "#define cudaArrayLayered 0x01"
+	},
+	"cudaArraySparse":{
+		"id": "cudaArraySparse",
+		"value": "#define cudaArraySparse 0x40"
+	},
+	"cudaArraySparsePropertiesSingleMipTail":{
+		"id": "cudaArraySparsePropertiesSingleMipTail",
+		"value": "#define cudaArraySparsePropertiesSingleMipTail 0x1"
+	},
+	"cudaArraySurfaceLoadStore":{
+		"id": "cudaArraySurfaceLoadStore",
+		"value": "#define cudaArraySurfaceLoadStore 0x02"
+	},
+	"cudaArrayTextureGather":{
+		"id": "cudaArrayTextureGather",
+		"value": "#define cudaArrayTextureGather 0x08"
+	},
+	"cudaCooperativeLaunchMultiDeviceNoPostSync":{
+		"id": "cudaCooperativeLaunchMultiDeviceNoPostSync",
+		"value": "#define cudaCooperativeLaunchMultiDeviceNoPostSync 0x02"
+	},
+	"cudaCooperativeLaunchMultiDeviceNoPreSync":{
+		"id": "cudaCooperativeLaunchMultiDeviceNoPreSync",
+		"value": "#define cudaCooperativeLaunchMultiDeviceNoPreSync 0x01"
+	},
+	"cudaCpuDeviceId":{
+		"id": "cudaCpuDeviceId",
+		"value": "#define cudaCpuDeviceId ((int)-1)"
+	},
+	"cudaDeviceBlockingSync":{
+		"id": "cudaDeviceBlockingSync",
+		"value": "#define cudaDeviceBlockingSync 0x04"
+	},
+	"cudaDeviceLmemResizeToMax":{
+		"id": "cudaDeviceLmemResizeToMax",
+		"value": "#define cudaDeviceLmemResizeToMax 0x10"
+	},
+	"cudaDeviceMapHost":{
+		"id": "cudaDeviceMapHost",
+		"value": "#define cudaDeviceMapHost 0x08"
+	},
+	"cudaDeviceMask":{
+		"id": "cudaDeviceMask",
+		"value": "#define cudaDeviceMask 0x1f"
+	},
+	"cudaDeviceScheduleAuto":{
+		"id": "cudaDeviceScheduleAuto",
+		"value": "#define cudaDeviceScheduleAuto 0x00"
+	},
+	"cudaDeviceScheduleBlockingSync":{
+		"id": "cudaDeviceScheduleBlockingSync",
+		"value": "#define cudaDeviceScheduleBlockingSync 0x04"
+	},
+	"cudaDeviceScheduleMask":{
+		"id": "cudaDeviceScheduleMask",
+		"value": "#define cudaDeviceScheduleMask 0x07"
+	},
+	"cudaDeviceScheduleSpin":{
+		"id": "cudaDeviceScheduleSpin",
+		"value": "#define cudaDeviceScheduleSpin 0x01"
+	},
+	"cudaDeviceScheduleYield":{
+		"id": "cudaDeviceScheduleYield",
+		"value": "#define cudaDeviceScheduleYield 0x02"
+	},
+	"cudaEventBlockingSync":{
+		"id": "cudaEventBlockingSync",
+		"value": "#define cudaEventBlockingSync 0x01"
+	},
+	"cudaEventDefault":{
+		"id": "cudaEventDefault",
+		"value": "#define cudaEventDefault 0x00"
+	},
+	"cudaEventDisableTiming":{
+		"id": "cudaEventDisableTiming",
+		"value": "#define cudaEventDisableTiming 0x02"
+	},
+	"cudaEventInterprocess":{
+		"id": "cudaEventInterprocess",
+		"value": "#define cudaEventInterprocess 0x04"
+	},
+	"cudaEventRecordDefault":{
+		"id": "cudaEventRecordDefault",
+		"value": "#define cudaEventRecordDefault 0x00"
+	},
+	"cudaEventRecordExternal":{
+		"id": "cudaEventRecordExternal",
+		"value": "#define cudaEventRecordExternal 0x01"
+	},
+	"cudaEventWaitDefault":{
+		"id": "cudaEventWaitDefault",
+		"value": "#define cudaEventWaitDefault 0x00"
+	},
+	"cudaEventWaitExternal":{
+		"id": "cudaEventWaitExternal",
+		"value": "#define cudaEventWaitExternal 0x01"
+	},
+	"cudaExternalMemoryDedicated":{
+		"id": "cudaExternalMemoryDedicated",
+		"value": "#define cudaExternalMemoryDedicated 0x1"
+	},
+	"cudaExternalSemaphoreSignalSkipNvSciBufMemSync":{
+		"id": "cudaExternalSemaphoreSignalSkipNvSciBufMemSync",
+		"value": "#define cudaExternalSemaphoreSignalSkipNvSciBufMemSync 0x01"
+	},
+	"cudaExternalSemaphoreWaitSkipNvSciBufMemSync":{
+		"id": "cudaExternalSemaphoreWaitSkipNvSciBufMemSync",
+		"value": "#define cudaExternalSemaphoreWaitSkipNvSciBufMemSync 0x02"
+	},
+	"cudaHostAllocDefault":{
+		"id": "cudaHostAllocDefault",
+		"value": "#define cudaHostAllocDefault 0x00"
+	},
+	"cudaHostAllocMapped":{
+		"id": "cudaHostAllocMapped",
+		"value": "#define cudaHostAllocMapped 0x02"
+	},
+	"cudaHostAllocPortable":{
+		"id": "cudaHostAllocPortable",
+		"value": "#define cudaHostAllocPortable 0x01"
+	},
+	"cudaHostAllocWriteCombined":{
+		"id": "cudaHostAllocWriteCombined",
+		"value": "#define cudaHostAllocWriteCombined 0x04"
+	},
+	"cudaHostRegisterDefault":{
+		"id": "cudaHostRegisterDefault",
+		"value": "#define cudaHostRegisterDefault 0x00"
+	},
+	"cudaHostRegisterIoMemory":{
+		"id": "cudaHostRegisterIoMemory",
+		"value": "#define cudaHostRegisterIoMemory 0x04"
+	},
+	"cudaHostRegisterMapped":{
+		"id": "cudaHostRegisterMapped",
+		"value": "#define cudaHostRegisterMapped 0x02"
+	},
+	"cudaHostRegisterPortable":{
+		"id": "cudaHostRegisterPortable",
+		"value": "#define cudaHostRegisterPortable 0x01"
+	},
+	"cudaHostRegisterReadOnly":{
+		"id": "cudaHostRegisterReadOnly",
+		"value": "#define cudaHostRegisterReadOnly 0x08"
+	},
+	"cudaInitDeviceFlagsAreValid":{
+		"id": "cudaInitDeviceFlagsAreValid",
+		"value": "#define cudaInitDeviceFlagsAreValid 0x01"
+	},
+	"cudaInvalidDeviceId":{
+		"id": "cudaInvalidDeviceId",
+		"value": "#define cudaInvalidDeviceId ((int)-2)"
+	},
+	"cudaIpcMemLazyEnablePeerAccess":{
+		"id": "cudaIpcMemLazyEnablePeerAccess",
+		"value": "#define cudaIpcMemLazyEnablePeerAccess 0x01"
+	},
+	"cudaKernelNodeAttrID":{
+		"id": "cudaKernelNodeAttrID",
+		"value": "#define cudaKernelNodeAttrID cudaLaunchAttributeID"
+	},
+	"cudaKernelNodeAttrValue":{
+		"id": "cudaKernelNodeAttrValue",
+		"value": "#define cudaKernelNodeAttrValue cudaLaunchAttributeValue"
+	},
+	"cudaMemAttachGlobal":{
+		"id": "cudaMemAttachGlobal",
+		"value": "#define cudaMemAttachGlobal 0x01"
+	},
+	"cudaMemAttachHost":{
+		"id": "cudaMemAttachHost",
+		"value": "#define cudaMemAttachHost 0x02"
+	},
+	"cudaMemAttachSingle":{
+		"id": "cudaMemAttachSingle",
+		"value": "#define cudaMemAttachSingle 0x04"
+	},
+	"cudaNvSciSyncAttrSignal":{
+		"id": "cudaNvSciSyncAttrSignal",
+		"value": "#define cudaNvSciSyncAttrSignal 0x1"
+	},
+	"cudaNvSciSyncAttrWait":{
+		"id": "cudaNvSciSyncAttrWait",
+		"value": "#define cudaNvSciSyncAttrWait 0x2"
+	},
+	"cudaOccupancyDefault":{
+		"id": "cudaOccupancyDefault",
+		"value": "#define cudaOccupancyDefault 0x00"
+	},
+	"cudaOccupancyDisableCachingOverride":{
+		"id": "cudaOccupancyDisableCachingOverride",
+		"value": "#define cudaOccupancyDisableCachingOverride 0x01"
+	},
+	"cudaPeerAccessDefault":{
+		"id": "cudaPeerAccessDefault",
+		"value": "#define cudaPeerAccessDefault 0x00"
+	},
+	"cudaStreamAttrID":{
+		"id": "cudaStreamAttrID",
+		"value": "#define cudaStreamAttrID cudaLaunchAttributeID"
+	},
+	"cudaStreamAttrValue":{
+		"id": "cudaStreamAttrValue",
+		"value": "#define cudaStreamAttrValue cudaLaunchAttributeValue"
+	},
+	"cudaStreamDefault":{
+		"id": "cudaStreamDefault",
+		"value": "#define cudaStreamDefault 0x00"
+	},
+	"cudaStreamLegacy":{
+		"id": "cudaStreamLegacy",
+		"value": "#define cudaStreamLegacy ((cudaStream_t)0x1)"
+	},
+	"cudaStreamNonBlocking":{
+		"id": "cudaStreamNonBlocking",
+		"value": "#define cudaStreamNonBlocking 0x01"
+	},
+	"cudaStreamPerThread":{
+		"id": "cudaStreamPerThread",
+		"value": "#define cudaStreamPerThread ((cudaStream_t)0x2)"
+	},
+	"cudaArray_const_t":{
+		"id": "cudaArray_const_t",
+		"value": "typedefcudaArray* cudaArray_const_t"
+	},
+	"cudaArray_t":{
+		"id": "cudaArray_t",
+		"value": "typedefcudaArray* cudaArray_t"
+	},
+	"cudaEglStreamConnection":{
+		"id": "cudaEglStreamConnection",
+		"value": "typedefCUeglStreamConnection_st* cudaEglStreamConnection"
+	},
+	"cudaError_t":{
+		"id": "cudaError_t",
+		"value": "typedefenumcudaError cudaError_t"
+	},
+	"cudaEvent_t":{
+		"id": "cudaEvent_t",
+		"value": "typedefCUevent_st* cudaEvent_t"
+	},
+	"cudaExternalMemory_t":{
+		"id": "cudaExternalMemory_t",
+		"value": "typedefCUexternalMemory_st* cudaExternalMemory_t"
+	},
+	"cudaExternalSemaphore_t":{
+		"id": "cudaExternalSemaphore_t",
+		"value": "typedefCUexternalSemaphore_st* cudaExternalSemaphore_t"
+	},
+	"cudaFunction_t":{
+		"id": "cudaFunction_t",
+		"value": "typedefCUfunc_st* cudaFunction_t"
+	},
+	"cudaGraphExec_t":{
+		"id": "cudaGraphExec_t",
+		"value": "typedefCUgraphExec_st* cudaGraphExec_t"
+	},
+	"cudaGraphNode_t":{
+		"id": "cudaGraphNode_t",
+		"value": "typedefCUgraphNode_st* cudaGraphNode_t"
+	},
+	"cudaGraph_t":{
+		"id": "cudaGraph_t",
+		"value": "typedefCUgraph_st* cudaGraph_t"
+	},
+	"cudaGraphicsResource_t":{
+		"id": "cudaGraphicsResource_t",
+		"value": "typedefcudaGraphicsResource* cudaGraphicsResource_t"
+	},
+	"cudaHostFn_t":{
+		"id": "cudaHostFn_t",
+		"value": "typedefvoid(CUDART_CB* cudaHostFn_t ( )"
+	},
+	"cudaMemPool_t":{
+		"id": "cudaMemPool_t",
+		"value": "typedefCUmemPoolHandle_st* cudaMemPool_t"
+	},
+	"cudaMipmappedArray_const_t":{
+		"id": "cudaMipmappedArray_const_t",
+		"value": "typedefcudaMipmappedArray* cudaMipmappedArray_const_t"
+	},
+	"cudaMipmappedArray_t":{
+		"id": "cudaMipmappedArray_t",
+		"value": "typedefcudaMipmappedArray* cudaMipmappedArray_t"
+	},
+	"cudaStream_t":{
+		"id": "cudaStream_t",
+		"value": "typedefCUstream_st* cudaStream_t"
+	},
+	"cudaSurfaceObject_t":{
+		"id": "cudaSurfaceObject_t",
+		"value": "typedefunsignedlonglong cudaSurfaceObject_t"
+	},
+	"cudaTextureObject_t":{
+		"id": "cudaTextureObject_t",
+		"value": "typedefunsignedlonglong cudaTextureObject_t"
+	},
+	"cudaUserObject_t":{
+		"id": "cudaUserObject_t",
+		"value": "typedefCUuserObject_st* cudaUserObject_t"
+	},
+	"cudaAccessProperty":{
+		"id": "cudaAccessProperty",
+		"value": "enum cudaAccessProperty"
+	},
+	"cudaCGScope":{
+		"id": "cudaCGScope",
+		"value": "enum cudaCGScope"
+	},
+	"cudaChannelFormatKind":{
+		"id": "cudaChannelFormatKind",
+		"value": "enum cudaChannelFormatKind"
+	},
+	"cudaClusterSchedulingPolicy":{
+		"id": "cudaClusterSchedulingPolicy",
+		"value": "enum cudaClusterSchedulingPolicy"
+	},
+	"cudaComputeMode":{
+		"id": "cudaComputeMode",
+		"value": "enum cudaComputeMode"
+	},
+	"cudaDeviceAttr":{
+		"id": "cudaDeviceAttr",
+		"value": "enum cudaDeviceAttr"
+	},
+	"cudaDeviceP2PAttr":{
+		"id": "cudaDeviceP2PAttr",
+		"value": "enum cudaDeviceP2PAttr"
+	},
+	"cudaDriverEntryPointQueryResult":{
+		"id": "cudaDriverEntryPointQueryResult",
+		"value": "enum cudaDriverEntryPointQueryResult"
+	},
+	"cudaEglColorFormat":{
+		"id": "cudaEglColorFormat",
+		"value": "enum cudaEglColorFormat"
+	},
+	"cudaEglFrameType":{
+		"id": "cudaEglFrameType",
+		"value": "enum cudaEglFrameType"
+	},
+	"cudaEglResourceLocationFlags":{
+		"id": "cudaEglResourceLocationFlags",
+		"value": "enum cudaEglResourceLocationFlags"
+	},
+	"cudaError":{
+		"id": "cudaError",
+		"value": "enum cudaError"
+	},
+	"cudaExternalMemoryHandleType":{
+		"id": "cudaExternalMemoryHandleType",
+		"value": "enum cudaExternalMemoryHandleType"
+	},
+	"cudaExternalSemaphoreHandleType":{
+		"id": "cudaExternalSemaphoreHandleType",
+		"value": "enum cudaExternalSemaphoreHandleType"
+	},
+	"cudaFlushGPUDirectRDMAWritesOptions":{
+		"id": "cudaFlushGPUDirectRDMAWritesOptions",
+		"value": "enum cudaFlushGPUDirectRDMAWritesOptions"
+	},
+	"cudaFlushGPUDirectRDMAWritesScope":{
+		"id": "cudaFlushGPUDirectRDMAWritesScope",
+		"value": "enum cudaFlushGPUDirectRDMAWritesScope"
+	},
+	"cudaFlushGPUDirectRDMAWritesTarget":{
+		"id": "cudaFlushGPUDirectRDMAWritesTarget",
+		"value": "enum cudaFlushGPUDirectRDMAWritesTarget"
+	},
+	"cudaFuncAttribute":{
+		"id": "cudaFuncAttribute",
+		"value": "enum cudaFuncAttribute"
+	},
+	"cudaFuncCache":{
+		"id": "cudaFuncCache",
+		"value": "enum cudaFuncCache"
+	},
+	"cudaGPUDirectRDMAWritesOrdering":{
+		"id": "cudaGPUDirectRDMAWritesOrdering",
+		"value": "enum cudaGPUDirectRDMAWritesOrdering"
+	},
+	"cudaGetDriverEntryPointFlags":{
+		"id": "cudaGetDriverEntryPointFlags",
+		"value": "enum cudaGetDriverEntryPointFlags"
+	},
+	"cudaGraphDebugDotFlags":{
+		"id": "cudaGraphDebugDotFlags",
+		"value": "enum cudaGraphDebugDotFlags"
+	},
+	"cudaGraphExecUpdateResult":{
+		"id": "cudaGraphExecUpdateResult",
+		"value": "enum cudaGraphExecUpdateResult"
+	},
+	"cudaGraphInstantiateFlags":{
+		"id": "cudaGraphInstantiateFlags",
+		"value": "enum cudaGraphInstantiateFlags"
+	},
+	"cudaGraphInstantiateResult":{
+		"id": "cudaGraphInstantiateResult",
+		"value": "enum cudaGraphInstantiateResult"
+	},
+	"cudaGraphMemAttributeType":{
+		"id": "cudaGraphMemAttributeType",
+		"value": "enum cudaGraphMemAttributeType"
+	},
+	"cudaGraphNodeType":{
+		"id": "cudaGraphNodeType",
+		"value": "enum cudaGraphNodeType"
+	},
+	"cudaGraphicsCubeFace":{
+		"id": "cudaGraphicsCubeFace",
+		"value": "enum cudaGraphicsCubeFace"
+	},
+	"cudaGraphicsMapFlags":{
+		"id": "cudaGraphicsMapFlags",
+		"value": "enum cudaGraphicsMapFlags"
+	},
+	"cudaGraphicsRegisterFlags":{
+		"id": "cudaGraphicsRegisterFlags",
+		"value": "enum cudaGraphicsRegisterFlags"
+	},
+	"cudaLaunchAttributeID":{
+		"id": "cudaLaunchAttributeID",
+		"value": "enum cudaLaunchAttributeID"
+	},
+	"cudaLimit":{
+		"id": "cudaLimit",
+		"value": "enum cudaLimit"
+	},
+	"cudaMemAccessFlags":{
+		"id": "cudaMemAccessFlags",
+		"value": "enum cudaMemAccessFlags"
+	},
+	"cudaMemAllocationHandleType":{
+		"id": "cudaMemAllocationHandleType",
+		"value": "enum cudaMemAllocationHandleType"
+	},
+	"cudaMemAllocationType":{
+		"id": "cudaMemAllocationType",
+		"value": "enum cudaMemAllocationType"
+	},
+	"cudaMemLocationType":{
+		"id": "cudaMemLocationType",
+		"value": "enum cudaMemLocationType"
+	},
+	"cudaMemPoolAttr":{
+		"id": "cudaMemPoolAttr",
+		"value": "enum cudaMemPoolAttr"
+	},
+	"cudaMemRangeAttribute":{
+		"id": "cudaMemRangeAttribute",
+		"value": "enum cudaMemRangeAttribute"
+	},
+	"cudaMemcpyKind":{
+		"id": "cudaMemcpyKind",
+		"value": "enum cudaMemcpyKind"
+	},
+	"cudaMemoryAdvise":{
+		"id": "cudaMemoryAdvise",
+		"value": "enum cudaMemoryAdvise"
+	},
+	"cudaMemoryType":{
+		"id": "cudaMemoryType",
+		"value": "enum cudaMemoryType"
+	},
+	"cudaResourceType":{
+		"id": "cudaResourceType",
+		"value": "enum cudaResourceType"
+	},
+	"cudaResourceViewFormat":{
+		"id": "cudaResourceViewFormat",
+		"value": "enum cudaResourceViewFormat"
+	},
+	"cudaSharedCarveout":{
+		"id": "cudaSharedCarveout",
+		"value": "enum cudaSharedCarveout"
+	},
+	"cudaSharedMemConfig":{
+		"id": "cudaSharedMemConfig",
+		"value": "enum cudaSharedMemConfig"
+	},
+	"cudaStreamCaptureMode":{
+		"id": "cudaStreamCaptureMode",
+		"value": "enum cudaStreamCaptureMode"
+	},
+	"cudaStreamCaptureStatus":{
+		"id": "cudaStreamCaptureStatus",
+		"value": "enum cudaStreamCaptureStatus"
+	},
+	"cudaStreamUpdateCaptureDependenciesFlags":{
+		"id": "cudaStreamUpdateCaptureDependenciesFlags",
+		"value": "enum cudaStreamUpdateCaptureDependenciesFlags"
+	},
+	"cudaSurfaceBoundaryMode":{
+		"id": "cudaSurfaceBoundaryMode",
+		"value": "enum cudaSurfaceBoundaryMode"
+	},
+	"cudaSurfaceFormatMode":{
+		"id": "cudaSurfaceFormatMode",
+		"value": "enum cudaSurfaceFormatMode"
+	},
+	"cudaTextureAddressMode":{
+		"id": "cudaTextureAddressMode",
+		"value": "enum cudaTextureAddressMode"
+	},
+	"cudaTextureFilterMode":{
+		"id": "cudaTextureFilterMode",
+		"value": "enum cudaTextureFilterMode"
+	},
+	"cudaTextureReadMode":{
+		"id": "cudaTextureReadMode",
+		"value": "enum cudaTextureReadMode"
+	},
+	"cudaUserObjectFlags":{
+		"id": "cudaUserObjectFlags",
+		"value": "enum cudaUserObjectFlags"
+	},
+	"cudaUserObjectRetainFlags":{
+		"id": "cudaUserObjectRetainFlags",
+		"value": "enum cudaUserObjectRetainFlags"
+	}
+}

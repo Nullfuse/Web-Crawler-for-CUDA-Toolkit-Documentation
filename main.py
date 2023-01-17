@@ -1,5 +1,5 @@
-import requests
 import re
+import requests
 from bs4 import BeautifulSoup
 
 URLs = ["https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__DEVICE.html",
@@ -40,8 +40,12 @@ function_id = []
 function_value = []
 function_completion = []
 
+prevEndingIndex = 0
+
+print("Starting Crawler")
+
 for URL in URLs:
-  print(URL)
+  print("Crawling: " + URL)
   lastValue = len(function_value)
   page = requests.get(URL)
   soup = BeautifulSoup(page.content, "html.parser")
@@ -49,48 +53,41 @@ for URL in URLs:
 
   member_types = results.find_all(class_=["member_type", "member_long_type"])
   member_names = results.find_all(class_=["member_name", "member_name_long_type"])
-  #descs = results.find_all("dd", class_="shortdesc")
 
-  for member_type in member_types:
-    str = member_type.text
-    str = "".join(str.split()) # Remove unnecessary whitespaces
-    str = re.sub(r"[\u200B-\u200D\uFEFF]", "", str) # Remove zero-width characters
-    function_value.append(str)
-    function_completion.append(str)
-  
-  i = lastValue
-  for member_name in member_names:
-    function_id.append(member_name.a.text)
-    str = member_name.text
-    str = " ".join(str.split()) # Remove unnecessary whitespaces
-    function_value[i] = function_value[i] + " " + str
-    function_completion[i] = function_completion[i] + " " + member_name.a.text
-    if not function_value[i].startswith("struct") and not function_value[i].startswith("#define") and not function_value[i].startswith("enum"):
-      if re.search("\(", str):
-        modifiedStr = " "
-        for j in range(0, len(re.findall(r"(,)", str))): 
-          modifiedStr = modifiedStr + ", "
-        modifiedStr = "(" + modifiedStr + ")"
-        function_completion[i] = function_completion[i] + " " + modifiedStr
+  if len(member_types) != len(member_names):
+    raise Exception("Size Mismatch")
+    
+  size = len(member_types)
+
+  for i in range(size):
+    member_type_str = member_types[i].text
+    member_type_str = "".join(member_type_str.split()) # Remove unnecessary whitespaces
+    member_type_str = re.sub(r"[\u200B-\u200D\uFEFF]", "", member_type_str) # Remove zero-width characters
+    member_name_str = member_names[i].text
+    member_name_str = " ".join(member_name_str.split()) # Remove unnecessary whitespaces
+    member_name_str = re.sub(r"[\u200B-\u200D\uFEFF]", "", member_name_str) # Remove zero-width characters
+    function_value.append(member_type_str + " " + member_name_str)
+    function_completion.append(member_type_str + " " + member_names[i].a.text)
+    function_id.append(member_names[i].a.text)
+    if not function_value[i + prevEndingIndex].startswith("struct") and not function_value[i + prevEndingIndex].startswith("#define") and not function_value[i + prevEndingIndex].startswith("enum"):
+      if re.search("\(", member_name_str):
+        member_name_modifiedStr = " "
+        for j in range(len(re.findall(r"(,)", member_name_str))): 
+          member_name_modifiedStr = member_name_modifiedStr + ", "
+        member_name_modifiedStr = "(" + member_name_modifiedStr + ")"
+        function_completion[i + prevEndingIndex] = function_completion[i + prevEndingIndex] + " " + member_name_modifiedStr
       else:
-        function_completion[i] = function_value[i]
+        function_completion[i + prevEndingIndex] = function_value[i + prevEndingIndex]
     else:
-      function_completion[i] = function_value[i]
-    i += 1
-  
-for i in range(0, len(function_value)): 
-  print(i)
-  print(function_value[i])
-  
-for i in range(0, len(function_id)): 
-  print(i)
-  print(function_id[i])
+      function_completion[i + prevEndingIndex] = function_value[i + prevEndingIndex]
+    function_value[i + prevEndingIndex] = re.sub(r"_", "\\\\\_", function_value[i + prevEndingIndex])
+  prevEndingIndex = prevEndingIndex + size;
+print("Crawling Complete")
 
-for i in range(0, len(function_completion)): 
-  print(i)
-  print(function_completion[i])
+print("\n")
 
 with open('cuda-functions.json', 'w') as f:
+  print("Writing to: " + "cuda-functions.json")
   f.write("{")
   f.write("\n")
   for i in range(0, len(function_value)):
@@ -105,6 +102,7 @@ with open('cuda-functions.json', 'w') as f:
   f.close()
 
 with open('cuda-common.json', 'w') as f:
+  print("Writing to: " + "cuda-common.json")
   f.write("{")
   f.write("\n")
   for i in range(0, len(function_completion)):
@@ -117,7 +115,3 @@ with open('cuda-common.json', 'w') as f:
       f.write("\t" + "}," + "\n")
   f.write("}")
   f.close()
-
-#https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__DEVICE.html
-#https://www.skytowner.com/explore/beautiful_soup_find_all_method
-#https://realpython.com/beautiful-soup-web-scraper-python/

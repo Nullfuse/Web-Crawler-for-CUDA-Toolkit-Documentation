@@ -1443,121 +1443,13 @@
 		"id": "cudaGetDriverEntryPoint",
 		"value": "__host__cudaError_t cudaGetDriverEntryPoint ( , , , )"
 	},
-	"__cudaOccupancyB2DHelper":{
-		"id": "__cudaOccupancyB2DHelper",
-		"value": "class __cudaOccupancyB2DHelper"
-	},
-	"cudaCreateChannelDesc":{
-		"id": "cudaCreateChannelDesc",
-		"value": "__host__cudaChannelFormatDesc cudaCreateChannelDesc ( )"
-	},
-	"cudaEventCreate":{
-		"id": "cudaEventCreate",
-		"value": "__host__cudaError_t cudaEventCreate ( , )"
-	},
-	"cudaFuncGetAttributes":{
-		"id": "cudaFuncGetAttributes",
-		"value": "__host__cudaError_t cudaFuncGetAttributes ( , )"
-	},
-	"cudaFuncSetAttribute":{
-		"id": "cudaFuncSetAttribute",
-		"value": "__host__cudaError_t cudaFuncSetAttribute ( , , )"
-	},
-	"cudaFuncSetCacheConfig":{
-		"id": "cudaFuncSetCacheConfig",
-		"value": "__host__cudaError_t cudaFuncSetCacheConfig ( , )"
-	},
-	"cudaGetSymbolAddress":{
-		"id": "cudaGetSymbolAddress",
-		"value": "__host__cudaError_t cudaGetSymbolAddress ( , )"
-	},
-	"cudaGetSymbolSize":{
-		"id": "cudaGetSymbolSize",
-		"value": "__host__cudaError_t cudaGetSymbolSize ( , )"
-	},
-	"cudaGraphAddMemcpyNodeFromSymbol":{
-		"id": "cudaGraphAddMemcpyNodeFromSymbol",
-		"value": "__host__cudaError_t cudaGraphAddMemcpyNodeFromSymbol ( , , , , , , , , )"
-	},
-	"cudaGraphAddMemcpyNodeToSymbol":{
-		"id": "cudaGraphAddMemcpyNodeToSymbol",
-		"value": "__host__cudaError_t cudaGraphAddMemcpyNodeToSymbol ( , , , , , , , , )"
-	},
-	"cudaGraphExecMemcpyNodeSetParamsFromSymbol":{
-		"id": "cudaGraphExecMemcpyNodeSetParamsFromSymbol",
-		"value": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParamsFromSymbol ( , , , , , , )"
-	},
-	"cudaGraphExecMemcpyNodeSetParamsToSymbol":{
-		"id": "cudaGraphExecMemcpyNodeSetParamsToSymbol",
-		"value": "__host__cudaError_t cudaGraphExecMemcpyNodeSetParamsToSymbol ( , , , , , , )"
-	},
-	"cudaGraphInstantiate":{
-		"id": "cudaGraphInstantiate",
-		"value": "__host__cudaError_t cudaGraphInstantiate ( , , , , )"
-	},
-	"cudaGraphMemcpyNodeSetParamsFromSymbol":{
-		"id": "cudaGraphMemcpyNodeSetParamsFromSymbol",
-		"value": "__host__cudaError_t cudaGraphMemcpyNodeSetParamsFromSymbol ( , , , , , )"
-	},
-	"cudaGraphMemcpyNodeSetParamsToSymbol":{
-		"id": "cudaGraphMemcpyNodeSetParamsToSymbol",
-		"value": "__host__cudaError_t cudaGraphMemcpyNodeSetParamsToSymbol ( , , , , , )"
-	},
-	"cudaLaunchCooperativeKernel":{
-		"id": "cudaLaunchCooperativeKernel",
-		"value": "__host__cudaError_t cudaLaunchCooperativeKernel ( , , , , , )"
-	},
-	"cudaLaunchKernel":{
-		"id": "cudaLaunchKernel",
-		"value": "__host__cudaError_t cudaLaunchKernel ( , , , , , )"
+	"cudaGetKernel":{
+		"id": "cudaGetKernel",
+		"value": "__host__cudaError_t cudaGetKernel ( , )"
 	},
 	"cudaLaunchKernelEx":{
 		"id": "cudaLaunchKernelEx",
 		"value": "__host__cudaError_t cudaLaunchKernelEx ( , , )"
-	},
-	"cudaMallocAsync":{
-		"id": "cudaMallocAsync",
-		"value": "__host__cudaError_t cudaMallocAsync ( , , , )"
-	},
-	"cudaMallocHost":{
-		"id": "cudaMallocHost",
-		"value": "__host__cudaError_t cudaMallocHost ( , , )"
-	},
-	"cudaMallocManaged":{
-		"id": "cudaMallocManaged",
-		"value": "__host__cudaError_t cudaMallocManaged ( , , )"
-	},
-	"cudaMemcpyFromSymbol":{
-		"id": "cudaMemcpyFromSymbol",
-		"value": "__host__cudaError_t cudaMemcpyFromSymbol ( , , , , )"
-	},
-	"cudaMemcpyFromSymbolAsync":{
-		"id": "cudaMemcpyFromSymbolAsync",
-		"value": "__host__cudaError_t cudaMemcpyFromSymbolAsync ( , , , , , )"
-	},
-	"cudaMemcpyToSymbol":{
-		"id": "cudaMemcpyToSymbol",
-		"value": "__host__cudaError_t cudaMemcpyToSymbol ( , , , , )"
-	},
-	"cudaMemcpyToSymbolAsync":{
-		"id": "cudaMemcpyToSymbolAsync",
-		"value": "__host__cudaError_t cudaMemcpyToSymbolAsync ( , , , , , )"
-	},
-	"cudaOccupancyAvailableDynamicSMemPerBlock":{
-		"id": "cudaOccupancyAvailableDynamicSMemPerBlock",
-		"value": "__host__cudaError_t cudaOccupancyAvailableDynamicSMemPerBlock ( , , , )"
-	},
-	"cudaOccupancyMaxActiveBlocksPerMultiprocessor":{
-		"id": "cudaOccupancyMaxActiveBlocksPerMultiprocessor",
-		"value": "__host__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessor ( , , , )"
-	},
-	"cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags":{
-		"id": "cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags",
-		"value": "__host__cudaError_t cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags ( , , , , )"
-	},
-	"cudaOccupancyMaxActiveClusters":{
-		"id": "cudaOccupancyMaxActiveClusters",
-		"value": "__host__cudaError_t cudaOccupancyMaxActiveClusters ( , , )"
 	},
 	"cudaOccupancyMaxPotentialBlockSize":{
 		"id": "cudaOccupancyMaxPotentialBlockSize",
@@ -1575,14 +1467,6 @@
 		"id": "cudaOccupancyMaxPotentialBlockSizeWithFlags",
 		"value": "__host__cudaError_t cudaOccupancyMaxPotentialBlockSizeWithFlags ( , , , , , )"
 	},
-	"cudaOccupancyMaxPotentialClusterSize":{
-		"id": "cudaOccupancyMaxPotentialClusterSize",
-		"value": "__host__cudaError_t cudaOccupancyMaxPotentialClusterSize ( , , )"
-	},
-	"cudaStreamAttachMemAsync":{
-		"id": "cudaStreamAttachMemAsync",
-		"value": "__host__cudaError_t cudaStreamAttachMemAsync ( , , , )"
-	},
 	"cudaGetFuncBySymbol":{
 		"id": "cudaGetFuncBySymbol",
 		"value": "__host__cudaError_t cudaGetFuncBySymbol ( , )"
@@ -1594,182 +1478,6 @@
 	"cudaProfilerStop":{
 		"id": "cudaProfilerStop",
 		"value": "__host__cudaError_t cudaProfilerStop ( )"
-	},
-	"CUuuid_st":{
-		"id": "CUuuid_st",
-		"value": "struct CUuuid_st"
-	},
-	"cudaAccessPolicyWindow":{
-		"id": "cudaAccessPolicyWindow",
-		"value": "struct cudaAccessPolicyWindow"
-	},
-	"cudaArrayMemoryRequirements":{
-		"id": "cudaArrayMemoryRequirements",
-		"value": "struct cudaArrayMemoryRequirements"
-	},
-	"cudaArraySparseProperties":{
-		"id": "cudaArraySparseProperties",
-		"value": "struct cudaArraySparseProperties"
-	},
-	"cudaChannelFormatDesc":{
-		"id": "cudaChannelFormatDesc",
-		"value": "struct cudaChannelFormatDesc"
-	},
-	"cudaDeviceProp":{
-		"id": "cudaDeviceProp",
-		"value": "struct cudaDeviceProp"
-	},
-	"cudaEglFrame":{
-		"id": "cudaEglFrame",
-		"value": "struct cudaEglFrame"
-	},
-	"cudaEglPlaneDesc":{
-		"id": "cudaEglPlaneDesc",
-		"value": "struct cudaEglPlaneDesc"
-	},
-	"cudaExtent":{
-		"id": "cudaExtent",
-		"value": "struct cudaExtent"
-	},
-	"cudaExternalMemoryBufferDesc":{
-		"id": "cudaExternalMemoryBufferDesc",
-		"value": "struct cudaExternalMemoryBufferDesc"
-	},
-	"cudaExternalMemoryHandleDesc":{
-		"id": "cudaExternalMemoryHandleDesc",
-		"value": "struct cudaExternalMemoryHandleDesc"
-	},
-	"cudaExternalMemoryMipmappedArrayDesc":{
-		"id": "cudaExternalMemoryMipmappedArrayDesc",
-		"value": "struct cudaExternalMemoryMipmappedArrayDesc"
-	},
-	"cudaExternalSemaphoreHandleDesc":{
-		"id": "cudaExternalSemaphoreHandleDesc",
-		"value": "struct cudaExternalSemaphoreHandleDesc"
-	},
-	"cudaExternalSemaphoreSignalNodeParams":{
-		"id": "cudaExternalSemaphoreSignalNodeParams",
-		"value": "struct cudaExternalSemaphoreSignalNodeParams"
-	},
-	"cudaExternalSemaphoreSignalParams":{
-		"id": "cudaExternalSemaphoreSignalParams",
-		"value": "struct cudaExternalSemaphoreSignalParams"
-	},
-	"cudaExternalSemaphoreSignalParams_v1":{
-		"id": "cudaExternalSemaphoreSignalParams_v1",
-		"value": "struct cudaExternalSemaphoreSignalParams_v1"
-	},
-	"cudaExternalSemaphoreWaitNodeParams":{
-		"id": "cudaExternalSemaphoreWaitNodeParams",
-		"value": "struct cudaExternalSemaphoreWaitNodeParams"
-	},
-	"cudaExternalSemaphoreWaitParams":{
-		"id": "cudaExternalSemaphoreWaitParams",
-		"value": "struct cudaExternalSemaphoreWaitParams"
-	},
-	"cudaExternalSemaphoreWaitParams_v1":{
-		"id": "cudaExternalSemaphoreWaitParams_v1",
-		"value": "struct cudaExternalSemaphoreWaitParams_v1"
-	},
-	"cudaFuncAttributes":{
-		"id": "cudaFuncAttributes",
-		"value": "struct cudaFuncAttributes"
-	},
-	"cudaGraphExecUpdateResultInfo":{
-		"id": "cudaGraphExecUpdateResultInfo",
-		"value": "struct cudaGraphExecUpdateResultInfo"
-	},
-	"cudaGraphInstantiateParams":{
-		"id": "cudaGraphInstantiateParams",
-		"value": "struct cudaGraphInstantiateParams"
-	},
-	"cudaHostNodeParams":{
-		"id": "cudaHostNodeParams",
-		"value": "struct cudaHostNodeParams"
-	},
-	"cudaIpcEventHandle_t":{
-		"id": "cudaIpcEventHandle_t",
-		"value": "struct cudaIpcEventHandle_t"
-	},
-	"cudaIpcMemHandle_t":{
-		"id": "cudaIpcMemHandle_t",
-		"value": "struct cudaIpcMemHandle_t"
-	},
-	"cudaKernelNodeParams":{
-		"id": "cudaKernelNodeParams",
-		"value": "struct cudaKernelNodeParams"
-	},
-	"cudaLaunchAttribute":{
-		"id": "cudaLaunchAttribute",
-		"value": "struct cudaLaunchAttribute"
-	},
-	"cudaLaunchAttributeValue":{
-		"id": "cudaLaunchAttributeValue",
-		"value": "union cudaLaunchAttributeValue"
-	},
-	"cudaLaunchConfig_t":{
-		"id": "cudaLaunchConfig_t",
-		"value": "struct cudaLaunchConfig_t"
-	},
-	"cudaLaunchParams":{
-		"id": "cudaLaunchParams",
-		"value": "struct cudaLaunchParams"
-	},
-	"cudaMemAccessDesc":{
-		"id": "cudaMemAccessDesc",
-		"value": "struct cudaMemAccessDesc"
-	},
-	"cudaMemAllocNodeParams":{
-		"id": "cudaMemAllocNodeParams",
-		"value": "struct cudaMemAllocNodeParams"
-	},
-	"cudaMemLocation":{
-		"id": "cudaMemLocation",
-		"value": "struct cudaMemLocation"
-	},
-	"cudaMemPoolProps":{
-		"id": "cudaMemPoolProps",
-		"value": "struct cudaMemPoolProps"
-	},
-	"cudaMemPoolPtrExportData":{
-		"id": "cudaMemPoolPtrExportData",
-		"value": "struct cudaMemPoolPtrExportData"
-	},
-	"cudaMemcpy3DParms":{
-		"id": "cudaMemcpy3DParms",
-		"value": "struct cudaMemcpy3DParms"
-	},
-	"cudaMemcpy3DPeerParms":{
-		"id": "cudaMemcpy3DPeerParms",
-		"value": "struct cudaMemcpy3DPeerParms"
-	},
-	"cudaMemsetParams":{
-		"id": "cudaMemsetParams",
-		"value": "struct cudaMemsetParams"
-	},
-	"cudaPitchedPtr":{
-		"id": "cudaPitchedPtr",
-		"value": "struct cudaPitchedPtr"
-	},
-	"cudaPointerAttributes":{
-		"id": "cudaPointerAttributes",
-		"value": "struct cudaPointerAttributes"
-	},
-	"cudaPos":{
-		"id": "cudaPos",
-		"value": "struct cudaPos"
-	},
-	"cudaResourceDesc":{
-		"id": "cudaResourceDesc",
-		"value": "struct cudaResourceDesc"
-	},
-	"cudaResourceViewDesc":{
-		"id": "cudaResourceViewDesc",
-		"value": "struct cudaResourceViewDesc"
-	},
-	"cudaTextureDesc":{
-		"id": "cudaTextureDesc",
-		"value": "struct cudaTextureDesc"
 	},
 	"CUDA_EGL_MAX_PLANES":{
 		"id": "CUDA_EGL_MAX_PLANES",
@@ -1841,7 +1549,7 @@
 	},
 	"cudaDeviceMask":{
 		"id": "cudaDeviceMask",
-		"value": "#define cudaDeviceMask 0x1f"
+		"value": "#define cudaDeviceMask 0xff"
 	},
 	"cudaDeviceScheduleAuto":{
 		"id": "cudaDeviceScheduleAuto",
@@ -1862,6 +1570,10 @@
 	"cudaDeviceScheduleYield":{
 		"id": "cudaDeviceScheduleYield",
 		"value": "#define cudaDeviceScheduleYield 0x02"
+	},
+	"cudaDeviceSyncMemops":{
+		"id": "cudaDeviceSyncMemops",
+		"value": "#define cudaDeviceSyncMemops 0x80"
 	},
 	"cudaEventBlockingSync":{
 		"id": "cudaEventBlockingSync",
@@ -1955,14 +1667,6 @@
 		"id": "cudaIpcMemLazyEnablePeerAccess",
 		"value": "#define cudaIpcMemLazyEnablePeerAccess 0x01"
 	},
-	"cudaKernelNodeAttrID":{
-		"id": "cudaKernelNodeAttrID",
-		"value": "#define cudaKernelNodeAttrID cudaLaunchAttributeID"
-	},
-	"cudaKernelNodeAttrValue":{
-		"id": "cudaKernelNodeAttrValue",
-		"value": "#define cudaKernelNodeAttrValue cudaLaunchAttributeValue"
-	},
 	"cudaMemAttachGlobal":{
 		"id": "cudaMemAttachGlobal",
 		"value": "#define cudaMemAttachGlobal 0x01"
@@ -1994,14 +1698,6 @@
 	"cudaPeerAccessDefault":{
 		"id": "cudaPeerAccessDefault",
 		"value": "#define cudaPeerAccessDefault 0x00"
-	},
-	"cudaStreamAttrID":{
-		"id": "cudaStreamAttrID",
-		"value": "#define cudaStreamAttrID cudaLaunchAttributeID"
-	},
-	"cudaStreamAttrValue":{
-		"id": "cudaStreamAttrValue",
-		"value": "#define cudaStreamAttrValue cudaLaunchAttributeValue"
 	},
 	"cudaStreamDefault":{
 		"id": "cudaStreamDefault",
@@ -2070,6 +1766,10 @@
 	"cudaHostFn_t":{
 		"id": "cudaHostFn_t",
 		"value": "typedefvoid(CUDART_CB* cudaHostFn_t ( )"
+	},
+	"cudaKernel_t":{
+		"id": "cudaKernel_t",
+		"value": "typedefCUkern_st* cudaKernel_t"
 	},
 	"cudaMemPool_t":{
 		"id": "cudaMemPool_t",
@@ -2318,5 +2018,2497 @@
 	"cudaUserObjectRetainFlags":{
 		"id": "cudaUserObjectRetainFlags",
 		"value": "enum cudaUserObjectRetainFlags"
+	},
+	"CUDA_ARRAY3D_2DARRAY":{
+		"id": "CUDA_ARRAY3D_2DARRAY",
+		"value": "#define CUDA_ARRAY3D_2DARRAY 0x01"
+	},
+	"CUDA_ARRAY3D_COLOR_ATTACHMENT":{
+		"id": "CUDA_ARRAY3D_COLOR_ATTACHMENT",
+		"value": "#define CUDA_ARRAY3D_COLOR_ATTACHMENT 0x20"
+	},
+	"CUDA_ARRAY3D_CUBEMAP":{
+		"id": "CUDA_ARRAY3D_CUBEMAP",
+		"value": "#define CUDA_ARRAY3D_CUBEMAP 0x04"
+	},
+	"CUDA_ARRAY3D_DEFERRED_MAPPING":{
+		"id": "CUDA_ARRAY3D_DEFERRED_MAPPING",
+		"value": "#define CUDA_ARRAY3D_DEFERRED_MAPPING 0x80"
+	},
+	"CUDA_ARRAY3D_DEPTH_TEXTURE":{
+		"id": "CUDA_ARRAY3D_DEPTH_TEXTURE",
+		"value": "#define CUDA_ARRAY3D_DEPTH_TEXTURE 0x10"
+	},
+	"CUDA_ARRAY3D_LAYERED":{
+		"id": "CUDA_ARRAY3D_LAYERED",
+		"value": "#define CUDA_ARRAY3D_LAYERED 0x01"
+	},
+	"CUDA_ARRAY3D_SPARSE":{
+		"id": "CUDA_ARRAY3D_SPARSE",
+		"value": "#define CUDA_ARRAY3D_SPARSE 0x40"
+	},
+	"CUDA_ARRAY3D_SURFACE_LDST":{
+		"id": "CUDA_ARRAY3D_SURFACE_LDST",
+		"value": "#define CUDA_ARRAY3D_SURFACE_LDST 0x02"
+	},
+	"CUDA_ARRAY3D_TEXTURE_GATHER":{
+		"id": "CUDA_ARRAY3D_TEXTURE_GATHER",
+		"value": "#define CUDA_ARRAY3D_TEXTURE_GATHER 0x08"
+	},
+	"CUDA_COOPERATIVE_LAUNCH_MULTI_DEVICE_NO_POST_LAUNCH_SYNC":{
+		"id": "CUDA_COOPERATIVE_LAUNCH_MULTI_DEVICE_NO_POST_LAUNCH_SYNC",
+		"value": "#define CUDA_COOPERATIVE_LAUNCH_MULTI_DEVICE_NO_POST_LAUNCH_SYNC 0x02"
+	},
+	"CUDA_COOPERATIVE_LAUNCH_MULTI_DEVICE_NO_PRE_LAUNCH_SYNC":{
+		"id": "CUDA_COOPERATIVE_LAUNCH_MULTI_DEVICE_NO_PRE_LAUNCH_SYNC",
+		"value": "#define CUDA_COOPERATIVE_LAUNCH_MULTI_DEVICE_NO_PRE_LAUNCH_SYNC 0x01"
+	},
+	"CUDA_EGL_INFINITE_TIMEOUT":{
+		"id": "CUDA_EGL_INFINITE_TIMEOUT",
+		"value": "#define CUDA_EGL_INFINITE_TIMEOUT 0xFFFFFFFF"
+	},
+	"CUDA_EXTERNAL_MEMORY_DEDICATED":{
+		"id": "CUDA_EXTERNAL_MEMORY_DEDICATED",
+		"value": "#define CUDA_EXTERNAL_MEMORY_DEDICATED 0x1"
+	},
+	"CUDA_EXTERNAL_SEMAPHORE_SIGNAL_SKIP_NVSCIBUF_MEMSYNC":{
+		"id": "CUDA_EXTERNAL_SEMAPHORE_SIGNAL_SKIP_NVSCIBUF_MEMSYNC",
+		"value": "#define CUDA_EXTERNAL_SEMAPHORE_SIGNAL_SKIP_NVSCIBUF_MEMSYNC 0x01"
+	},
+	"CUDA_EXTERNAL_SEMAPHORE_WAIT_SKIP_NVSCIBUF_MEMSYNC":{
+		"id": "CUDA_EXTERNAL_SEMAPHORE_WAIT_SKIP_NVSCIBUF_MEMSYNC",
+		"value": "#define CUDA_EXTERNAL_SEMAPHORE_WAIT_SKIP_NVSCIBUF_MEMSYNC 0x02"
+	},
+	"CUDA_NVSCISYNC_ATTR_SIGNAL":{
+		"id": "CUDA_NVSCISYNC_ATTR_SIGNAL",
+		"value": "#define CUDA_NVSCISYNC_ATTR_SIGNAL 0x1"
+	},
+	"CUDA_NVSCISYNC_ATTR_WAIT":{
+		"id": "CUDA_NVSCISYNC_ATTR_WAIT",
+		"value": "#define CUDA_NVSCISYNC_ATTR_WAIT 0x2"
+	},
+	"CUDA_VERSION":{
+		"id": "CUDA_VERSION",
+		"value": "#define CUDA_VERSION 12010"
+	},
+	"CU_ARRAY_SPARSE_PROPERTIES_SINGLE_MIPTAIL":{
+		"id": "CU_ARRAY_SPARSE_PROPERTIES_SINGLE_MIPTAIL",
+		"value": "#define CU_ARRAY_SPARSE_PROPERTIES_SINGLE_MIPTAIL 0x1"
+	},
+	"CU_DEVICE_CPU":{
+		"id": "CU_DEVICE_CPU",
+		"value": "#define CU_DEVICE_CPU ((CUdevice)-1)"
+	},
+	"CU_DEVICE_INVALID":{
+		"id": "CU_DEVICE_INVALID",
+		"value": "#define CU_DEVICE_INVALID ((CUdevice)-2)"
+	},
+	"CU_IPC_HANDLE_SIZE":{
+		"id": "CU_IPC_HANDLE_SIZE",
+		"value": "#define CU_IPC_HANDLE_SIZE 64"
+	},
+	"CU_LAUNCH_PARAM_BUFFER_POINTER":{
+		"id": "CU_LAUNCH_PARAM_BUFFER_POINTER",
+		"value": "#define CU_LAUNCH_PARAM_BUFFER_POINTER"
+	},
+	"CU_LAUNCH_PARAM_BUFFER_POINTER_AS_INT":{
+		"id": "CU_LAUNCH_PARAM_BUFFER_POINTER_AS_INT",
+		"value": "#define CU_LAUNCH_PARAM_BUFFER_POINTER_AS_INT 0x01"
+	},
+	"CU_LAUNCH_PARAM_BUFFER_SIZE":{
+		"id": "CU_LAUNCH_PARAM_BUFFER_SIZE",
+		"value": "#define CU_LAUNCH_PARAM_BUFFER_SIZE"
+	},
+	"CU_LAUNCH_PARAM_BUFFER_SIZE_AS_INT":{
+		"id": "CU_LAUNCH_PARAM_BUFFER_SIZE_AS_INT",
+		"value": "#define CU_LAUNCH_PARAM_BUFFER_SIZE_AS_INT 0x02"
+	},
+	"CU_LAUNCH_PARAM_END":{
+		"id": "CU_LAUNCH_PARAM_END",
+		"value": "#define CU_LAUNCH_PARAM_END"
+	},
+	"CU_LAUNCH_PARAM_END_AS_INT":{
+		"id": "CU_LAUNCH_PARAM_END_AS_INT",
+		"value": "#define CU_LAUNCH_PARAM_END_AS_INT 0x00"
+	},
+	"CU_MEMHOSTALLOC_DEVICEMAP":{
+		"id": "CU_MEMHOSTALLOC_DEVICEMAP",
+		"value": "#define CU_MEMHOSTALLOC_DEVICEMAP 0x02"
+	},
+	"CU_MEMHOSTALLOC_PORTABLE":{
+		"id": "CU_MEMHOSTALLOC_PORTABLE",
+		"value": "#define CU_MEMHOSTALLOC_PORTABLE 0x01"
+	},
+	"CU_MEMHOSTALLOC_WRITECOMBINED":{
+		"id": "CU_MEMHOSTALLOC_WRITECOMBINED",
+		"value": "#define CU_MEMHOSTALLOC_WRITECOMBINED 0x04"
+	},
+	"CU_MEMHOSTREGISTER_DEVICEMAP":{
+		"id": "CU_MEMHOSTREGISTER_DEVICEMAP",
+		"value": "#define CU_MEMHOSTREGISTER_DEVICEMAP 0x02"
+	},
+	"CU_MEMHOSTREGISTER_IOMEMORY":{
+		"id": "CU_MEMHOSTREGISTER_IOMEMORY",
+		"value": "#define CU_MEMHOSTREGISTER_IOMEMORY 0x04"
+	},
+	"CU_MEMHOSTREGISTER_PORTABLE":{
+		"id": "CU_MEMHOSTREGISTER_PORTABLE",
+		"value": "#define CU_MEMHOSTREGISTER_PORTABLE 0x01"
+	},
+	"CU_MEMHOSTREGISTER_READ_ONLY":{
+		"id": "CU_MEMHOSTREGISTER_READ_ONLY",
+		"value": "#define CU_MEMHOSTREGISTER_READ_ONLY 0x08"
+	},
+	"CU_MEM_CREATE_USAGE_TILE_POOL":{
+		"id": "CU_MEM_CREATE_USAGE_TILE_POOL",
+		"value": "#define CU_MEM_CREATE_USAGE_TILE_POOL 0x1"
+	},
+	"CU_PARAM_TR_DEFAULT":{
+		"id": "CU_PARAM_TR_DEFAULT",
+		"value": "#define CU_PARAM_TR_DEFAULT -1"
+	},
+	"CU_STREAM_LEGACY":{
+		"id": "CU_STREAM_LEGACY",
+		"value": "#define CU_STREAM_LEGACY ((CUstream)0x1)"
+	},
+	"CU_STREAM_PER_THREAD":{
+		"id": "CU_STREAM_PER_THREAD",
+		"value": "#define CU_STREAM_PER_THREAD ((CUstream)0x2)"
+	},
+	"CU_TENSOR_MAP_NUM_QWORDS":{
+		"id": "CU_TENSOR_MAP_NUM_QWORDS",
+		"value": "#define CU_TENSOR_MAP_NUM_QWORDS 16"
+	},
+	"CU_TRSA_OVERRIDE_FORMAT":{
+		"id": "CU_TRSA_OVERRIDE_FORMAT",
+		"value": "#define CU_TRSA_OVERRIDE_FORMAT 0x01"
+	},
+	"CU_TRSF_DISABLE_TRILINEAR_OPTIMIZATION":{
+		"id": "CU_TRSF_DISABLE_TRILINEAR_OPTIMIZATION",
+		"value": "#define CU_TRSF_DISABLE_TRILINEAR_OPTIMIZATION 0x20"
+	},
+	"CU_TRSF_NORMALIZED_COORDINATES":{
+		"id": "CU_TRSF_NORMALIZED_COORDINATES",
+		"value": "#define CU_TRSF_NORMALIZED_COORDINATES 0x02"
+	},
+	"CU_TRSF_READ_AS_INTEGER":{
+		"id": "CU_TRSF_READ_AS_INTEGER",
+		"value": "#define CU_TRSF_READ_AS_INTEGER 0x01"
+	},
+	"CU_TRSF_SEAMLESS_CUBEMAP":{
+		"id": "CU_TRSF_SEAMLESS_CUBEMAP",
+		"value": "#define CU_TRSF_SEAMLESS_CUBEMAP 0x40"
+	},
+	"CU_TRSF_SRGB":{
+		"id": "CU_TRSF_SRGB",
+		"value": "#define CU_TRSF_SRGB 0x10"
+	},
+	"MAX_PLANES":{
+		"id": "MAX_PLANES",
+		"value": "#define MAX_PLANES 3"
+	},
+	"CUaccessPolicyWindow":{
+		"id": "CUaccessPolicyWindow",
+		"value": "typedefstructCUaccessPolicyWindow_v1 CUaccessPolicyWindow"
+	},
+	"CUarray":{
+		"id": "CUarray",
+		"value": "typedefCUarray_st* CUarray"
+	},
+	"CUcontext":{
+		"id": "CUcontext",
+		"value": "typedefCUctx_st* CUcontext"
+	},
+	"CUdevice":{
+		"id": "CUdevice",
+		"value": "typedefCUdevice_v1 CUdevice"
+	},
+	"CUdevice_v1":{
+		"id": "CUdevice_v1",
+		"value": "typedefint CUdevice_v1"
+	},
+	"CUdeviceptr":{
+		"id": "CUdeviceptr",
+		"value": "typedefCUdeviceptr_v2 CUdeviceptr"
+	},
+	"CUdeviceptr_v2":{
+		"id": "CUdeviceptr_v2",
+		"value": "typedefunsignedint CUdeviceptr_v2"
+	},
+	"CUeglStreamConnection":{
+		"id": "CUeglStreamConnection",
+		"value": "typedefCUeglStreamConnection_st* CUeglStreamConnection"
+	},
+	"CUevent":{
+		"id": "CUevent",
+		"value": "typedefCUevent_st* CUevent"
+	},
+	"CUexecAffinityParam":{
+		"id": "CUexecAffinityParam",
+		"value": "typedefstructCUexecAffinityParam_v1 CUexecAffinityParam"
+	},
+	"CUexternalMemory":{
+		"id": "CUexternalMemory",
+		"value": "typedefCUextMemory_st* CUexternalMemory"
+	},
+	"CUexternalSemaphore":{
+		"id": "CUexternalSemaphore",
+		"value": "typedefCUextSemaphore_st* CUexternalSemaphore"
+	},
+	"CUfunction":{
+		"id": "CUfunction",
+		"value": "typedefCUfunc_st* CUfunction"
+	},
+	"CUgraph":{
+		"id": "CUgraph",
+		"value": "typedefCUgraph_st* CUgraph"
+	},
+	"CUgraphExec":{
+		"id": "CUgraphExec",
+		"value": "typedefCUgraphExec_st* CUgraphExec"
+	},
+	"CUgraphNode":{
+		"id": "CUgraphNode",
+		"value": "typedefCUgraphNode_st* CUgraphNode"
+	},
+	"CUgraphicsResource":{
+		"id": "CUgraphicsResource",
+		"value": "typedefCUgraphicsResource_st* CUgraphicsResource"
+	},
+	"CUhostFn":{
+		"id": "CUhostFn",
+		"value": "typedefvoid(CUDA_CB* CUhostFn ( )"
+	},
+	"CUkernel":{
+		"id": "CUkernel",
+		"value": "typedefCUkern_st* CUkernel"
+	},
+	"CUlibrary":{
+		"id": "CUlibrary",
+		"value": "typedefCUlib_st* CUlibrary"
+	},
+	"CUmemoryPool":{
+		"id": "CUmemoryPool",
+		"value": "typedefCUmemPoolHandle_st* CUmemoryPool"
+	},
+	"CUmipmappedArray":{
+		"id": "CUmipmappedArray",
+		"value": "typedefCUmipmappedArray_st* CUmipmappedArray"
+	},
+	"CUmodule":{
+		"id": "CUmodule",
+		"value": "typedefCUmod_st* CUmodule"
+	},
+	"CUoccupancyB2DSize":{
+		"id": "CUoccupancyB2DSize",
+		"value": "typedefsize_t(CUDA_CB* CUoccupancyB2DSize ( )"
+	},
+	"CUstream":{
+		"id": "CUstream",
+		"value": "typedefCUstream_st* CUstream"
+	},
+	"CUstreamCallback":{
+		"id": "CUstreamCallback",
+		"value": "typedefvoid(CUDA_CB* CUstreamCallback ( , , )"
+	},
+	"CUsurfObject":{
+		"id": "CUsurfObject",
+		"value": "typedefCUsurfObject_v1 CUsurfObject"
+	},
+	"CUsurfObject_v1":{
+		"id": "CUsurfObject_v1",
+		"value": "typedefunsignedlonglong CUsurfObject_v1"
+	},
+	"CUsurfref":{
+		"id": "CUsurfref",
+		"value": "typedefCUsurfref_st* CUsurfref"
+	},
+	"CUtexObject":{
+		"id": "CUtexObject",
+		"value": "typedefCUtexObject_v1 CUtexObject"
+	},
+	"CUtexObject_v1":{
+		"id": "CUtexObject_v1",
+		"value": "typedefunsignedlonglong CUtexObject_v1"
+	},
+	"CUtexref":{
+		"id": "CUtexref",
+		"value": "typedefCUtexref_st* CUtexref"
+	},
+	"CUuserObject":{
+		"id": "CUuserObject",
+		"value": "typedefCUuserObject_st* CUuserObject"
+	},
+	"CUDA_POINTER_ATTRIBUTE_ACCESS_FLAGS":{
+		"id": "CUDA_POINTER_ATTRIBUTE_ACCESS_FLAGS",
+		"value": "enum CUDA_POINTER_ATTRIBUTE_ACCESS_FLAGS"
+	},
+	"CUGPUDirectRDMAWritesOrdering":{
+		"id": "CUGPUDirectRDMAWritesOrdering",
+		"value": "enum CUGPUDirectRDMAWritesOrdering"
+	},
+	"CUaccessProperty":{
+		"id": "CUaccessProperty",
+		"value": "enum CUaccessProperty"
+	},
+	"CUaddress_mode":{
+		"id": "CUaddress_mode",
+		"value": "enum CUaddress_mode"
+	},
+	"CUarraySparseSubresourceType":{
+		"id": "CUarraySparseSubresourceType",
+		"value": "enum CUarraySparseSubresourceType"
+	},
+	"CUarray_cubemap_face":{
+		"id": "CUarray_cubemap_face",
+		"value": "enum CUarray_cubemap_face"
+	},
+	"CUarray_format":{
+		"id": "CUarray_format",
+		"value": "enum CUarray_format"
+	},
+	"CUclusterSchedulingPolicy":{
+		"id": "CUclusterSchedulingPolicy",
+		"value": "enum CUclusterSchedulingPolicy"
+	},
+	"CUcomputemode":{
+		"id": "CUcomputemode",
+		"value": "enum CUcomputemode"
+	},
+	"CUctx_flags":{
+		"id": "CUctx_flags",
+		"value": "enum CUctx_flags"
+	},
+	"CUdevice_P2PAttribute":{
+		"id": "CUdevice_P2PAttribute",
+		"value": "enum CUdevice_P2PAttribute"
+	},
+	"CUdevice_attribute":{
+		"id": "CUdevice_attribute",
+		"value": "enum CUdevice_attribute"
+	},
+	"CUdriverProcAddressQueryResult":{
+		"id": "CUdriverProcAddressQueryResult",
+		"value": "enum CUdriverProcAddressQueryResult"
+	},
+	"CUdriverProcAddress_flags":{
+		"id": "CUdriverProcAddress_flags",
+		"value": "enum CUdriverProcAddress_flags"
+	},
+	"CUeglColorFormat":{
+		"id": "CUeglColorFormat",
+		"value": "enum CUeglColorFormat"
+	},
+	"CUeglFrameType":{
+		"id": "CUeglFrameType",
+		"value": "enum CUeglFrameType"
+	},
+	"CUeglResourceLocationFlags":{
+		"id": "CUeglResourceLocationFlags",
+		"value": "enum CUeglResourceLocationFlags"
+	},
+	"CUevent_flags":{
+		"id": "CUevent_flags",
+		"value": "enum CUevent_flags"
+	},
+	"CUevent_record_flags":{
+		"id": "CUevent_record_flags",
+		"value": "enum CUevent_record_flags"
+	},
+	"CUevent_sched_flags":{
+		"id": "CUevent_sched_flags",
+		"value": "enum CUevent_sched_flags"
+	},
+	"CUevent_wait_flags":{
+		"id": "CUevent_wait_flags",
+		"value": "enum CUevent_wait_flags"
+	},
+	"CUexecAffinityType":{
+		"id": "CUexecAffinityType",
+		"value": "enum CUexecAffinityType"
+	},
+	"CUexternalMemoryHandleType":{
+		"id": "CUexternalMemoryHandleType",
+		"value": "enum CUexternalMemoryHandleType"
+	},
+	"CUexternalSemaphoreHandleType":{
+		"id": "CUexternalSemaphoreHandleType",
+		"value": "enum CUexternalSemaphoreHandleType"
+	},
+	"CUfilter_mode":{
+		"id": "CUfilter_mode",
+		"value": "enum CUfilter_mode"
+	},
+	"CUflushGPUDirectRDMAWritesOptions":{
+		"id": "CUflushGPUDirectRDMAWritesOptions",
+		"value": "enum CUflushGPUDirectRDMAWritesOptions"
+	},
+	"CUflushGPUDirectRDMAWritesScope":{
+		"id": "CUflushGPUDirectRDMAWritesScope",
+		"value": "enum CUflushGPUDirectRDMAWritesScope"
+	},
+	"CUflushGPUDirectRDMAWritesTarget":{
+		"id": "CUflushGPUDirectRDMAWritesTarget",
+		"value": "enum CUflushGPUDirectRDMAWritesTarget"
+	},
+	"CUfunc_cache":{
+		"id": "CUfunc_cache",
+		"value": "enum CUfunc_cache"
+	},
+	"CUfunction_attribute":{
+		"id": "CUfunction_attribute",
+		"value": "enum CUfunction_attribute"
+	},
+	"CUgraphDebugDot_flags":{
+		"id": "CUgraphDebugDot_flags",
+		"value": "enum CUgraphDebugDot_flags"
+	},
+	"CUgraphExecUpdateResult":{
+		"id": "CUgraphExecUpdateResult",
+		"value": "enum CUgraphExecUpdateResult"
+	},
+	"CUgraphInstantiateResult":{
+		"id": "CUgraphInstantiateResult",
+		"value": "enum CUgraphInstantiateResult"
+	},
+	"CUgraphInstantiate_flags":{
+		"id": "CUgraphInstantiate_flags",
+		"value": "enum CUgraphInstantiate_flags"
+	},
+	"CUgraphNodeType":{
+		"id": "CUgraphNodeType",
+		"value": "enum CUgraphNodeType"
+	},
+	"CUgraphicsMapResourceFlags":{
+		"id": "CUgraphicsMapResourceFlags",
+		"value": "enum CUgraphicsMapResourceFlags"
+	},
+	"CUgraphicsRegisterFlags":{
+		"id": "CUgraphicsRegisterFlags",
+		"value": "enum CUgraphicsRegisterFlags"
+	},
+	"CUipcMem_flags":{
+		"id": "CUipcMem_flags",
+		"value": "enum CUipcMem_flags"
+	},
+	"CUjitInputType":{
+		"id": "CUjitInputType",
+		"value": "enum CUjitInputType"
+	},
+	"CUjit_cacheMode":{
+		"id": "CUjit_cacheMode",
+		"value": "enum CUjit_cacheMode"
+	},
+	"CUjit_fallback":{
+		"id": "CUjit_fallback",
+		"value": "enum CUjit_fallback"
+	},
+	"CUjit_option":{
+		"id": "CUjit_option",
+		"value": "enum CUjit_option"
+	},
+	"CUjit_target":{
+		"id": "CUjit_target",
+		"value": "enum CUjit_target"
+	},
+	"CUlibraryOption":{
+		"id": "CUlibraryOption",
+		"value": "enum CUlibraryOption"
+	},
+	"CUlimit":{
+		"id": "CUlimit",
+		"value": "enum CUlimit"
+	},
+	"CUmemAccess_flags":{
+		"id": "CUmemAccess_flags",
+		"value": "enum CUmemAccess_flags"
+	},
+	"CUmemAllocationCompType":{
+		"id": "CUmemAllocationCompType",
+		"value": "enum CUmemAllocationCompType"
+	},
+	"CUmemAllocationGranularity_flags":{
+		"id": "CUmemAllocationGranularity_flags",
+		"value": "enum CUmemAllocationGranularity_flags"
+	},
+	"CUmemAllocationHandleType":{
+		"id": "CUmemAllocationHandleType",
+		"value": "enum CUmemAllocationHandleType"
+	},
+	"CUmemAllocationType":{
+		"id": "CUmemAllocationType",
+		"value": "enum CUmemAllocationType"
+	},
+	"CUmemAttach_flags":{
+		"id": "CUmemAttach_flags",
+		"value": "enum CUmemAttach_flags"
+	},
+	"CUmemHandleType":{
+		"id": "CUmemHandleType",
+		"value": "enum CUmemHandleType"
+	},
+	"CUmemLocationType":{
+		"id": "CUmemLocationType",
+		"value": "enum CUmemLocationType"
+	},
+	"CUmemOperationType":{
+		"id": "CUmemOperationType",
+		"value": "enum CUmemOperationType"
+	},
+	"CUmemPool_attribute":{
+		"id": "CUmemPool_attribute",
+		"value": "enum CUmemPool_attribute"
+	},
+	"CUmemRangeHandleType":{
+		"id": "CUmemRangeHandleType",
+		"value": "enum CUmemRangeHandleType"
+	},
+	"CUmem_advise":{
+		"id": "CUmem_advise",
+		"value": "enum CUmem_advise"
+	},
+	"CUmemorytype":{
+		"id": "CUmemorytype",
+		"value": "enum CUmemorytype"
+	},
+	"CUmulticastGranularity_flags":{
+		"id": "CUmulticastGranularity_flags",
+		"value": "enum CUmulticastGranularity_flags"
+	},
+	"CUoccupancy_flags":{
+		"id": "CUoccupancy_flags",
+		"value": "enum CUoccupancy_flags"
+	},
+	"CUpointer_attribute":{
+		"id": "CUpointer_attribute",
+		"value": "enum CUpointer_attribute"
+	},
+	"CUresourceViewFormat":{
+		"id": "CUresourceViewFormat",
+		"value": "enum CUresourceViewFormat"
+	},
+	"CUresourcetype":{
+		"id": "CUresourcetype",
+		"value": "enum CUresourcetype"
+	},
+	"CUresult":{
+		"id": "CUresult",
+		"value": "enum CUresult"
+	},
+	"CUshared_carveout":{
+		"id": "CUshared_carveout",
+		"value": "enum CUshared_carveout"
+	},
+	"CUsharedconfig":{
+		"id": "CUsharedconfig",
+		"value": "enum CUsharedconfig"
+	},
+	"CUstreamBatchMemOpType":{
+		"id": "CUstreamBatchMemOpType",
+		"value": "enum CUstreamBatchMemOpType"
+	},
+	"CUstreamCaptureMode":{
+		"id": "CUstreamCaptureMode",
+		"value": "enum CUstreamCaptureMode"
+	},
+	"CUstreamCaptureStatus":{
+		"id": "CUstreamCaptureStatus",
+		"value": "enum CUstreamCaptureStatus"
+	},
+	"CUstreamMemoryBarrier_flags":{
+		"id": "CUstreamMemoryBarrier_flags",
+		"value": "enum CUstreamMemoryBarrier_flags"
+	},
+	"CUstreamUpdateCaptureDependencies_flags":{
+		"id": "CUstreamUpdateCaptureDependencies_flags",
+		"value": "enum CUstreamUpdateCaptureDependencies_flags"
+	},
+	"CUstreamWaitValue_flags":{
+		"id": "CUstreamWaitValue_flags",
+		"value": "enum CUstreamWaitValue_flags"
+	},
+	"CUstreamWriteValue_flags":{
+		"id": "CUstreamWriteValue_flags",
+		"value": "enum CUstreamWriteValue_flags"
+	},
+	"CUstream_flags":{
+		"id": "CUstream_flags",
+		"value": "enum CUstream_flags"
+	},
+	"CUtensorMapDataType":{
+		"id": "CUtensorMapDataType",
+		"value": "enum CUtensorMapDataType"
+	},
+	"CUtensorMapFloatOOBfill":{
+		"id": "CUtensorMapFloatOOBfill",
+		"value": "enum CUtensorMapFloatOOBfill"
+	},
+	"CUtensorMapInterleave":{
+		"id": "CUtensorMapInterleave",
+		"value": "enum CUtensorMapInterleave"
+	},
+	"CUtensorMapL2promotion":{
+		"id": "CUtensorMapL2promotion",
+		"value": "enum CUtensorMapL2promotion"
+	},
+	"CUtensorMapSwizzle":{
+		"id": "CUtensorMapSwizzle",
+		"value": "enum CUtensorMapSwizzle"
+	},
+	"CUuserObjectRetain_flags":{
+		"id": "CUuserObjectRetain_flags",
+		"value": "enum CUuserObjectRetain_flags"
+	},
+	"CUuserObject_flags":{
+		"id": "CUuserObject_flags",
+		"value": "enum CUuserObject_flags"
+	},
+	"cl_context_flags":{
+		"id": "cl_context_flags",
+		"value": "enum cl_context_flags"
+	},
+	"cl_event_flags":{
+		"id": "cl_event_flags",
+		"value": "enum cl_event_flags"
+	},
+	"cuGetErrorName":{
+		"id": "cuGetErrorName",
+		"value": "CUresult cuGetErrorName ( , )"
+	},
+	"cuGetErrorString":{
+		"id": "cuGetErrorString",
+		"value": "CUresult cuGetErrorString ( , )"
+	},
+	"cuInit":{
+		"id": "cuInit",
+		"value": "CUresult cuInit ( )"
+	},
+	"cuDriverGetVersion":{
+		"id": "cuDriverGetVersion",
+		"value": "CUresult cuDriverGetVersion ( )"
+	},
+	"cuDeviceGet":{
+		"id": "cuDeviceGet",
+		"value": "CUresult cuDeviceGet ( , )"
+	},
+	"cuDeviceGetAttribute":{
+		"id": "cuDeviceGetAttribute",
+		"value": "CUresult cuDeviceGetAttribute ( , , )"
+	},
+	"cuDeviceGetCount":{
+		"id": "cuDeviceGetCount",
+		"value": "CUresult cuDeviceGetCount ( )"
+	},
+	"cuDeviceGetDefaultMemPool":{
+		"id": "cuDeviceGetDefaultMemPool",
+		"value": "CUresult cuDeviceGetDefaultMemPool ( , )"
+	},
+	"cuDeviceGetExecAffinitySupport":{
+		"id": "cuDeviceGetExecAffinitySupport",
+		"value": "CUresult cuDeviceGetExecAffinitySupport ( , , )"
+	},
+	"cuDeviceGetLuid":{
+		"id": "cuDeviceGetLuid",
+		"value": "CUresult cuDeviceGetLuid ( , , )"
+	},
+	"cuDeviceGetMemPool":{
+		"id": "cuDeviceGetMemPool",
+		"value": "CUresult cuDeviceGetMemPool ( , )"
+	},
+	"cuDeviceGetName":{
+		"id": "cuDeviceGetName",
+		"value": "CUresult cuDeviceGetName ( , , )"
+	},
+	"cuDeviceGetNvSciSyncAttributes":{
+		"id": "cuDeviceGetNvSciSyncAttributes",
+		"value": "CUresult cuDeviceGetNvSciSyncAttributes ( , , )"
+	},
+	"cuDeviceGetTexture1DLinearMaxWidth":{
+		"id": "cuDeviceGetTexture1DLinearMaxWidth",
+		"value": "CUresult cuDeviceGetTexture1DLinearMaxWidth ( , , , )"
+	},
+	"cuDeviceGetUuid":{
+		"id": "cuDeviceGetUuid",
+		"value": "CUresult cuDeviceGetUuid ( , )"
+	},
+	"cuDeviceGetUuid_v2":{
+		"id": "cuDeviceGetUuid_v2",
+		"value": "CUresult cuDeviceGetUuid_v2 ( , )"
+	},
+	"cuDeviceSetMemPool":{
+		"id": "cuDeviceSetMemPool",
+		"value": "CUresult cuDeviceSetMemPool ( , )"
+	},
+	"cuDeviceTotalMem":{
+		"id": "cuDeviceTotalMem",
+		"value": "CUresult cuDeviceTotalMem ( , )"
+	},
+	"cuFlushGPUDirectRDMAWrites":{
+		"id": "cuFlushGPUDirectRDMAWrites",
+		"value": "CUresult cuFlushGPUDirectRDMAWrites ( , )"
+	},
+	"cuDeviceComputeCapability":{
+		"id": "cuDeviceComputeCapability",
+		"value": "CUresult cuDeviceComputeCapability ( , , )"
+	},
+	"cuDeviceGetProperties":{
+		"id": "cuDeviceGetProperties",
+		"value": "CUresult cuDeviceGetProperties ( , )"
+	},
+	"cuDevicePrimaryCtxGetState":{
+		"id": "cuDevicePrimaryCtxGetState",
+		"value": "CUresult cuDevicePrimaryCtxGetState ( , , )"
+	},
+	"cuDevicePrimaryCtxRelease":{
+		"id": "cuDevicePrimaryCtxRelease",
+		"value": "CUresult cuDevicePrimaryCtxRelease ( )"
+	},
+	"cuDevicePrimaryCtxReset":{
+		"id": "cuDevicePrimaryCtxReset",
+		"value": "CUresult cuDevicePrimaryCtxReset ( )"
+	},
+	"cuDevicePrimaryCtxRetain":{
+		"id": "cuDevicePrimaryCtxRetain",
+		"value": "CUresult cuDevicePrimaryCtxRetain ( , )"
+	},
+	"cuDevicePrimaryCtxSetFlags":{
+		"id": "cuDevicePrimaryCtxSetFlags",
+		"value": "CUresult cuDevicePrimaryCtxSetFlags ( , )"
+	},
+	"cuCtxCreate":{
+		"id": "cuCtxCreate",
+		"value": "CUresult cuCtxCreate ( , , )"
+	},
+	"cuCtxCreate_v3":{
+		"id": "cuCtxCreate_v3",
+		"value": "CUresult cuCtxCreate_v3 ( , , , , )"
+	},
+	"cuCtxDestroy":{
+		"id": "cuCtxDestroy",
+		"value": "CUresult cuCtxDestroy ( )"
+	},
+	"cuCtxGetApiVersion":{
+		"id": "cuCtxGetApiVersion",
+		"value": "CUresult cuCtxGetApiVersion ( , )"
+	},
+	"cuCtxGetCacheConfig":{
+		"id": "cuCtxGetCacheConfig",
+		"value": "CUresult cuCtxGetCacheConfig ( )"
+	},
+	"cuCtxGetCurrent":{
+		"id": "cuCtxGetCurrent",
+		"value": "CUresult cuCtxGetCurrent ( )"
+	},
+	"cuCtxGetDevice":{
+		"id": "cuCtxGetDevice",
+		"value": "CUresult cuCtxGetDevice ( )"
+	},
+	"cuCtxGetExecAffinity":{
+		"id": "cuCtxGetExecAffinity",
+		"value": "CUresult cuCtxGetExecAffinity ( , )"
+	},
+	"cuCtxGetFlags":{
+		"id": "cuCtxGetFlags",
+		"value": "CUresult cuCtxGetFlags ( )"
+	},
+	"cuCtxGetId":{
+		"id": "cuCtxGetId",
+		"value": "CUresult cuCtxGetId ( , )"
+	},
+	"cuCtxGetLimit":{
+		"id": "cuCtxGetLimit",
+		"value": "CUresult cuCtxGetLimit ( , )"
+	},
+	"cuCtxGetSharedMemConfig":{
+		"id": "cuCtxGetSharedMemConfig",
+		"value": "CUresult cuCtxGetSharedMemConfig ( )"
+	},
+	"cuCtxGetStreamPriorityRange":{
+		"id": "cuCtxGetStreamPriorityRange",
+		"value": "CUresult cuCtxGetStreamPriorityRange ( , )"
+	},
+	"cuCtxPopCurrent":{
+		"id": "cuCtxPopCurrent",
+		"value": "CUresult cuCtxPopCurrent ( )"
+	},
+	"cuCtxPushCurrent":{
+		"id": "cuCtxPushCurrent",
+		"value": "CUresult cuCtxPushCurrent ( )"
+	},
+	"cuCtxResetPersistingL2Cache":{
+		"id": "cuCtxResetPersistingL2Cache",
+		"value": "CUresult cuCtxResetPersistingL2Cache ( )"
+	},
+	"cuCtxSetCacheConfig":{
+		"id": "cuCtxSetCacheConfig",
+		"value": "CUresult cuCtxSetCacheConfig ( )"
+	},
+	"cuCtxSetCurrent":{
+		"id": "cuCtxSetCurrent",
+		"value": "CUresult cuCtxSetCurrent ( )"
+	},
+	"cuCtxSetFlags":{
+		"id": "cuCtxSetFlags",
+		"value": "CUresult cuCtxSetFlags ( )"
+	},
+	"cuCtxSetLimit":{
+		"id": "cuCtxSetLimit",
+		"value": "CUresult cuCtxSetLimit ( , )"
+	},
+	"cuCtxSetSharedMemConfig":{
+		"id": "cuCtxSetSharedMemConfig",
+		"value": "CUresult cuCtxSetSharedMemConfig ( )"
+	},
+	"cuCtxSynchronize":{
+		"id": "cuCtxSynchronize",
+		"value": "CUresult cuCtxSynchronize ( )"
+	},
+	"cuCtxAttach":{
+		"id": "cuCtxAttach",
+		"value": "CUresult cuCtxAttach ( , )"
+	},
+	"cuCtxDetach":{
+		"id": "cuCtxDetach",
+		"value": "CUresult cuCtxDetach ( )"
+	},
+	"CUmoduleLoadingMode":{
+		"id": "CUmoduleLoadingMode",
+		"value": "enum CUmoduleLoadingMode"
+	},
+	"cuLinkAddData":{
+		"id": "cuLinkAddData",
+		"value": "CUresult cuLinkAddData ( , , , , , , , )"
+	},
+	"cuLinkAddFile":{
+		"id": "cuLinkAddFile",
+		"value": "CUresult cuLinkAddFile ( , , , , , )"
+	},
+	"cuLinkComplete":{
+		"id": "cuLinkComplete",
+		"value": "CUresult cuLinkComplete ( , , )"
+	},
+	"cuLinkCreate":{
+		"id": "cuLinkCreate",
+		"value": "CUresult cuLinkCreate ( , , , )"
+	},
+	"cuLinkDestroy":{
+		"id": "cuLinkDestroy",
+		"value": "CUresult cuLinkDestroy ( )"
+	},
+	"cuModuleGetFunction":{
+		"id": "cuModuleGetFunction",
+		"value": "CUresult cuModuleGetFunction ( , , )"
+	},
+	"cuModuleGetGlobal":{
+		"id": "cuModuleGetGlobal",
+		"value": "CUresult cuModuleGetGlobal ( , , , )"
+	},
+	"cuModuleGetLoadingMode":{
+		"id": "cuModuleGetLoadingMode",
+		"value": "CUresult cuModuleGetLoadingMode ( )"
+	},
+	"cuModuleLoad":{
+		"id": "cuModuleLoad",
+		"value": "CUresult cuModuleLoad ( , )"
+	},
+	"cuModuleLoadData":{
+		"id": "cuModuleLoadData",
+		"value": "CUresult cuModuleLoadData ( , )"
+	},
+	"cuModuleLoadDataEx":{
+		"id": "cuModuleLoadDataEx",
+		"value": "CUresult cuModuleLoadDataEx ( , , , , )"
+	},
+	"cuModuleLoadFatBinary":{
+		"id": "cuModuleLoadFatBinary",
+		"value": "CUresult cuModuleLoadFatBinary ( , )"
+	},
+	"cuModuleUnload":{
+		"id": "cuModuleUnload",
+		"value": "CUresult cuModuleUnload ( )"
+	},
+	"cuModuleGetSurfRef":{
+		"id": "cuModuleGetSurfRef",
+		"value": "CUresult cuModuleGetSurfRef ( , , )"
+	},
+	"cuModuleGetTexRef":{
+		"id": "cuModuleGetTexRef",
+		"value": "CUresult cuModuleGetTexRef ( , , )"
+	},
+	"cuKernelGetAttribute":{
+		"id": "cuKernelGetAttribute",
+		"value": "CUresult cuKernelGetAttribute ( , , , )"
+	},
+	"cuKernelGetFunction":{
+		"id": "cuKernelGetFunction",
+		"value": "CUresult cuKernelGetFunction ( , )"
+	},
+	"cuKernelSetAttribute":{
+		"id": "cuKernelSetAttribute",
+		"value": "CUresult cuKernelSetAttribute ( , , , )"
+	},
+	"cuKernelSetCacheConfig":{
+		"id": "cuKernelSetCacheConfig",
+		"value": "CUresult cuKernelSetCacheConfig ( , , )"
+	},
+	"cuLibraryGetGlobal":{
+		"id": "cuLibraryGetGlobal",
+		"value": "CUresult cuLibraryGetGlobal ( , , , )"
+	},
+	"cuLibraryGetKernel":{
+		"id": "cuLibraryGetKernel",
+		"value": "CUresult cuLibraryGetKernel ( , , )"
+	},
+	"cuLibraryGetManaged":{
+		"id": "cuLibraryGetManaged",
+		"value": "CUresult cuLibraryGetManaged ( , , , )"
+	},
+	"cuLibraryGetModule":{
+		"id": "cuLibraryGetModule",
+		"value": "CUresult cuLibraryGetModule ( , )"
+	},
+	"cuLibraryGetUnifiedFunction":{
+		"id": "cuLibraryGetUnifiedFunction",
+		"value": "CUresult cuLibraryGetUnifiedFunction ( , , )"
+	},
+	"cuLibraryLoadData":{
+		"id": "cuLibraryLoadData",
+		"value": "CUresult cuLibraryLoadData ( , , , , , , , )"
+	},
+	"cuLibraryLoadFromFile":{
+		"id": "cuLibraryLoadFromFile",
+		"value": "CUresult cuLibraryLoadFromFile ( , , , , , , , )"
+	},
+	"cuLibraryUnload":{
+		"id": "cuLibraryUnload",
+		"value": "CUresult cuLibraryUnload ( )"
+	},
+	"cuArray3DCreate":{
+		"id": "cuArray3DCreate",
+		"value": "CUresult cuArray3DCreate ( , )"
+	},
+	"cuArray3DGetDescriptor":{
+		"id": "cuArray3DGetDescriptor",
+		"value": "CUresult cuArray3DGetDescriptor ( , )"
+	},
+	"cuArrayCreate":{
+		"id": "cuArrayCreate",
+		"value": "CUresult cuArrayCreate ( , )"
+	},
+	"cuArrayDestroy":{
+		"id": "cuArrayDestroy",
+		"value": "CUresult cuArrayDestroy ( )"
+	},
+	"cuArrayGetDescriptor":{
+		"id": "cuArrayGetDescriptor",
+		"value": "CUresult cuArrayGetDescriptor ( , )"
+	},
+	"cuArrayGetMemoryRequirements":{
+		"id": "cuArrayGetMemoryRequirements",
+		"value": "CUresult cuArrayGetMemoryRequirements ( , , )"
+	},
+	"cuArrayGetPlane":{
+		"id": "cuArrayGetPlane",
+		"value": "CUresult cuArrayGetPlane ( , , )"
+	},
+	"cuArrayGetSparseProperties":{
+		"id": "cuArrayGetSparseProperties",
+		"value": "CUresult cuArrayGetSparseProperties ( , )"
+	},
+	"cuDeviceGetByPCIBusId":{
+		"id": "cuDeviceGetByPCIBusId",
+		"value": "CUresult cuDeviceGetByPCIBusId ( , )"
+	},
+	"cuDeviceGetPCIBusId":{
+		"id": "cuDeviceGetPCIBusId",
+		"value": "CUresult cuDeviceGetPCIBusId ( , , )"
+	},
+	"cuIpcCloseMemHandle":{
+		"id": "cuIpcCloseMemHandle",
+		"value": "CUresult cuIpcCloseMemHandle ( )"
+	},
+	"cuIpcGetEventHandle":{
+		"id": "cuIpcGetEventHandle",
+		"value": "CUresult cuIpcGetEventHandle ( , )"
+	},
+	"cuIpcGetMemHandle":{
+		"id": "cuIpcGetMemHandle",
+		"value": "CUresult cuIpcGetMemHandle ( , )"
+	},
+	"cuIpcOpenEventHandle":{
+		"id": "cuIpcOpenEventHandle",
+		"value": "CUresult cuIpcOpenEventHandle ( , )"
+	},
+	"cuIpcOpenMemHandle":{
+		"id": "cuIpcOpenMemHandle",
+		"value": "CUresult cuIpcOpenMemHandle ( , , )"
+	},
+	"cuMemAlloc":{
+		"id": "cuMemAlloc",
+		"value": "CUresult cuMemAlloc ( , )"
+	},
+	"cuMemAllocHost":{
+		"id": "cuMemAllocHost",
+		"value": "CUresult cuMemAllocHost ( , )"
+	},
+	"cuMemAllocManaged":{
+		"id": "cuMemAllocManaged",
+		"value": "CUresult cuMemAllocManaged ( , , )"
+	},
+	"cuMemAllocPitch":{
+		"id": "cuMemAllocPitch",
+		"value": "CUresult cuMemAllocPitch ( , , , , )"
+	},
+	"cuMemFree":{
+		"id": "cuMemFree",
+		"value": "CUresult cuMemFree ( )"
+	},
+	"cuMemFreeHost":{
+		"id": "cuMemFreeHost",
+		"value": "CUresult cuMemFreeHost ( )"
+	},
+	"cuMemGetAddressRange":{
+		"id": "cuMemGetAddressRange",
+		"value": "CUresult cuMemGetAddressRange ( , , )"
+	},
+	"cuMemGetHandleForAddressRange":{
+		"id": "cuMemGetHandleForAddressRange",
+		"value": "CUresult cuMemGetHandleForAddressRange ( , , , , )"
+	},
+	"cuMemGetInfo":{
+		"id": "cuMemGetInfo",
+		"value": "CUresult cuMemGetInfo ( , )"
+	},
+	"cuMemHostAlloc":{
+		"id": "cuMemHostAlloc",
+		"value": "CUresult cuMemHostAlloc ( , , )"
+	},
+	"cuMemHostGetDevicePointer":{
+		"id": "cuMemHostGetDevicePointer",
+		"value": "CUresult cuMemHostGetDevicePointer ( , , )"
+	},
+	"cuMemHostGetFlags":{
+		"id": "cuMemHostGetFlags",
+		"value": "CUresult cuMemHostGetFlags ( , )"
+	},
+	"cuMemHostRegister":{
+		"id": "cuMemHostRegister",
+		"value": "CUresult cuMemHostRegister ( , , )"
+	},
+	"cuMemHostUnregister":{
+		"id": "cuMemHostUnregister",
+		"value": "CUresult cuMemHostUnregister ( )"
+	},
+	"cuMemcpy":{
+		"id": "cuMemcpy",
+		"value": "CUresult cuMemcpy ( , , )"
+	},
+	"cuMemcpy2D":{
+		"id": "cuMemcpy2D",
+		"value": "CUresult cuMemcpy2D ( )"
+	},
+	"cuMemcpy2DAsync":{
+		"id": "cuMemcpy2DAsync",
+		"value": "CUresult cuMemcpy2DAsync ( , )"
+	},
+	"cuMemcpy2DUnaligned":{
+		"id": "cuMemcpy2DUnaligned",
+		"value": "CUresult cuMemcpy2DUnaligned ( )"
+	},
+	"cuMemcpy3D":{
+		"id": "cuMemcpy3D",
+		"value": "CUresult cuMemcpy3D ( )"
+	},
+	"cuMemcpy3DAsync":{
+		"id": "cuMemcpy3DAsync",
+		"value": "CUresult cuMemcpy3DAsync ( , )"
+	},
+	"cuMemcpy3DPeer":{
+		"id": "cuMemcpy3DPeer",
+		"value": "CUresult cuMemcpy3DPeer ( )"
+	},
+	"cuMemcpy3DPeerAsync":{
+		"id": "cuMemcpy3DPeerAsync",
+		"value": "CUresult cuMemcpy3DPeerAsync ( , )"
+	},
+	"cuMemcpyAsync":{
+		"id": "cuMemcpyAsync",
+		"value": "CUresult cuMemcpyAsync ( , , , )"
+	},
+	"cuMemcpyAtoA":{
+		"id": "cuMemcpyAtoA",
+		"value": "CUresult cuMemcpyAtoA ( , , , , )"
+	},
+	"cuMemcpyAtoD":{
+		"id": "cuMemcpyAtoD",
+		"value": "CUresult cuMemcpyAtoD ( , , , )"
+	},
+	"cuMemcpyAtoH":{
+		"id": "cuMemcpyAtoH",
+		"value": "CUresult cuMemcpyAtoH ( , , , )"
+	},
+	"cuMemcpyAtoHAsync":{
+		"id": "cuMemcpyAtoHAsync",
+		"value": "CUresult cuMemcpyAtoHAsync ( , , , , )"
+	},
+	"cuMemcpyDtoA":{
+		"id": "cuMemcpyDtoA",
+		"value": "CUresult cuMemcpyDtoA ( , , , )"
+	},
+	"cuMemcpyDtoD":{
+		"id": "cuMemcpyDtoD",
+		"value": "CUresult cuMemcpyDtoD ( , , )"
+	},
+	"cuMemcpyDtoDAsync":{
+		"id": "cuMemcpyDtoDAsync",
+		"value": "CUresult cuMemcpyDtoDAsync ( , , , )"
+	},
+	"cuMemcpyDtoH":{
+		"id": "cuMemcpyDtoH",
+		"value": "CUresult cuMemcpyDtoH ( , , )"
+	},
+	"cuMemcpyDtoHAsync":{
+		"id": "cuMemcpyDtoHAsync",
+		"value": "CUresult cuMemcpyDtoHAsync ( , , , )"
+	},
+	"cuMemcpyHtoA":{
+		"id": "cuMemcpyHtoA",
+		"value": "CUresult cuMemcpyHtoA ( , , , )"
+	},
+	"cuMemcpyHtoAAsync":{
+		"id": "cuMemcpyHtoAAsync",
+		"value": "CUresult cuMemcpyHtoAAsync ( , , , , )"
+	},
+	"cuMemcpyHtoD":{
+		"id": "cuMemcpyHtoD",
+		"value": "CUresult cuMemcpyHtoD ( , , )"
+	},
+	"cuMemcpyHtoDAsync":{
+		"id": "cuMemcpyHtoDAsync",
+		"value": "CUresult cuMemcpyHtoDAsync ( , , , )"
+	},
+	"cuMemcpyPeer":{
+		"id": "cuMemcpyPeer",
+		"value": "CUresult cuMemcpyPeer ( , , , , )"
+	},
+	"cuMemcpyPeerAsync":{
+		"id": "cuMemcpyPeerAsync",
+		"value": "CUresult cuMemcpyPeerAsync ( , , , , , )"
+	},
+	"cuMemsetD16":{
+		"id": "cuMemsetD16",
+		"value": "CUresult cuMemsetD16 ( , , )"
+	},
+	"cuMemsetD16Async":{
+		"id": "cuMemsetD16Async",
+		"value": "CUresult cuMemsetD16Async ( , , , )"
+	},
+	"cuMemsetD2D16":{
+		"id": "cuMemsetD2D16",
+		"value": "CUresult cuMemsetD2D16 ( , , , , )"
+	},
+	"cuMemsetD2D16Async":{
+		"id": "cuMemsetD2D16Async",
+		"value": "CUresult cuMemsetD2D16Async ( , , , , , )"
+	},
+	"cuMemsetD2D32":{
+		"id": "cuMemsetD2D32",
+		"value": "CUresult cuMemsetD2D32 ( , , , , )"
+	},
+	"cuMemsetD2D32Async":{
+		"id": "cuMemsetD2D32Async",
+		"value": "CUresult cuMemsetD2D32Async ( , , , , , )"
+	},
+	"cuMemsetD2D8":{
+		"id": "cuMemsetD2D8",
+		"value": "CUresult cuMemsetD2D8 ( , , , , )"
+	},
+	"cuMemsetD2D8Async":{
+		"id": "cuMemsetD2D8Async",
+		"value": "CUresult cuMemsetD2D8Async ( , , , , , )"
+	},
+	"cuMemsetD32":{
+		"id": "cuMemsetD32",
+		"value": "CUresult cuMemsetD32 ( , , )"
+	},
+	"cuMemsetD32Async":{
+		"id": "cuMemsetD32Async",
+		"value": "CUresult cuMemsetD32Async ( , , , )"
+	},
+	"cuMemsetD8":{
+		"id": "cuMemsetD8",
+		"value": "CUresult cuMemsetD8 ( , , )"
+	},
+	"cuMemsetD8Async":{
+		"id": "cuMemsetD8Async",
+		"value": "CUresult cuMemsetD8Async ( , , , )"
+	},
+	"cuMipmappedArrayCreate":{
+		"id": "cuMipmappedArrayCreate",
+		"value": "CUresult cuMipmappedArrayCreate ( , , )"
+	},
+	"cuMipmappedArrayDestroy":{
+		"id": "cuMipmappedArrayDestroy",
+		"value": "CUresult cuMipmappedArrayDestroy ( )"
+	},
+	"cuMipmappedArrayGetLevel":{
+		"id": "cuMipmappedArrayGetLevel",
+		"value": "CUresult cuMipmappedArrayGetLevel ( , , )"
+	},
+	"cuMipmappedArrayGetMemoryRequirements":{
+		"id": "cuMipmappedArrayGetMemoryRequirements",
+		"value": "CUresult cuMipmappedArrayGetMemoryRequirements ( , , )"
+	},
+	"cuMipmappedArrayGetSparseProperties":{
+		"id": "cuMipmappedArrayGetSparseProperties",
+		"value": "CUresult cuMipmappedArrayGetSparseProperties ( , )"
+	},
+	"cuMemAddressFree":{
+		"id": "cuMemAddressFree",
+		"value": "CUresult cuMemAddressFree ( , )"
+	},
+	"cuMemAddressReserve":{
+		"id": "cuMemAddressReserve",
+		"value": "CUresult cuMemAddressReserve ( , , , , )"
+	},
+	"cuMemCreate":{
+		"id": "cuMemCreate",
+		"value": "CUresult cuMemCreate ( , , , )"
+	},
+	"cuMemExportToShareableHandle":{
+		"id": "cuMemExportToShareableHandle",
+		"value": "CUresult cuMemExportToShareableHandle ( , , , )"
+	},
+	"cuMemGetAccess":{
+		"id": "cuMemGetAccess",
+		"value": "CUresult cuMemGetAccess ( , , )"
+	},
+	"cuMemGetAllocationGranularity":{
+		"id": "cuMemGetAllocationGranularity",
+		"value": "CUresult cuMemGetAllocationGranularity ( , , )"
+	},
+	"cuMemGetAllocationPropertiesFromHandle":{
+		"id": "cuMemGetAllocationPropertiesFromHandle",
+		"value": "CUresult cuMemGetAllocationPropertiesFromHandle ( , )"
+	},
+	"cuMemImportFromShareableHandle":{
+		"id": "cuMemImportFromShareableHandle",
+		"value": "CUresult cuMemImportFromShareableHandle ( , , )"
+	},
+	"cuMemMap":{
+		"id": "cuMemMap",
+		"value": "CUresult cuMemMap ( , , , , )"
+	},
+	"cuMemMapArrayAsync":{
+		"id": "cuMemMapArrayAsync",
+		"value": "CUresult cuMemMapArrayAsync ( , , )"
+	},
+	"cuMemRelease":{
+		"id": "cuMemRelease",
+		"value": "CUresult cuMemRelease ( )"
+	},
+	"cuMemRetainAllocationHandle":{
+		"id": "cuMemRetainAllocationHandle",
+		"value": "CUresult cuMemRetainAllocationHandle ( , )"
+	},
+	"cuMemSetAccess":{
+		"id": "cuMemSetAccess",
+		"value": "CUresult cuMemSetAccess ( , , , )"
+	},
+	"cuMemUnmap":{
+		"id": "cuMemUnmap",
+		"value": "CUresult cuMemUnmap ( , )"
+	},
+	"cuMemAllocAsync":{
+		"id": "cuMemAllocAsync",
+		"value": "CUresult cuMemAllocAsync ( , , )"
+	},
+	"cuMemAllocFromPoolAsync":{
+		"id": "cuMemAllocFromPoolAsync",
+		"value": "CUresult cuMemAllocFromPoolAsync ( , , , )"
+	},
+	"cuMemFreeAsync":{
+		"id": "cuMemFreeAsync",
+		"value": "CUresult cuMemFreeAsync ( , )"
+	},
+	"cuMemPoolCreate":{
+		"id": "cuMemPoolCreate",
+		"value": "CUresult cuMemPoolCreate ( , )"
+	},
+	"cuMemPoolDestroy":{
+		"id": "cuMemPoolDestroy",
+		"value": "CUresult cuMemPoolDestroy ( )"
+	},
+	"cuMemPoolExportPointer":{
+		"id": "cuMemPoolExportPointer",
+		"value": "CUresult cuMemPoolExportPointer ( , )"
+	},
+	"cuMemPoolExportToShareableHandle":{
+		"id": "cuMemPoolExportToShareableHandle",
+		"value": "CUresult cuMemPoolExportToShareableHandle ( , , , )"
+	},
+	"cuMemPoolGetAccess":{
+		"id": "cuMemPoolGetAccess",
+		"value": "CUresult cuMemPoolGetAccess ( , , )"
+	},
+	"cuMemPoolGetAttribute":{
+		"id": "cuMemPoolGetAttribute",
+		"value": "CUresult cuMemPoolGetAttribute ( , , )"
+	},
+	"cuMemPoolImportFromShareableHandle":{
+		"id": "cuMemPoolImportFromShareableHandle",
+		"value": "CUresult cuMemPoolImportFromShareableHandle ( , , , )"
+	},
+	"cuMemPoolImportPointer":{
+		"id": "cuMemPoolImportPointer",
+		"value": "CUresult cuMemPoolImportPointer ( , , )"
+	},
+	"cuMemPoolSetAccess":{
+		"id": "cuMemPoolSetAccess",
+		"value": "CUresult cuMemPoolSetAccess ( , , )"
+	},
+	"cuMemPoolSetAttribute":{
+		"id": "cuMemPoolSetAttribute",
+		"value": "CUresult cuMemPoolSetAttribute ( , , )"
+	},
+	"cuMemPoolTrimTo":{
+		"id": "cuMemPoolTrimTo",
+		"value": "CUresult cuMemPoolTrimTo ( , )"
+	},
+	"cuMemAdvise":{
+		"id": "cuMemAdvise",
+		"value": "CUresult cuMemAdvise ( , , , )"
+	},
+	"cuMemPrefetchAsync":{
+		"id": "cuMemPrefetchAsync",
+		"value": "CUresult cuMemPrefetchAsync ( , , , )"
+	},
+	"cuMemRangeGetAttribute":{
+		"id": "cuMemRangeGetAttribute",
+		"value": "CUresult cuMemRangeGetAttribute ( , , , , )"
+	},
+	"cuMemRangeGetAttributes":{
+		"id": "cuMemRangeGetAttributes",
+		"value": "CUresult cuMemRangeGetAttributes ( , , , , , )"
+	},
+	"cuPointerGetAttribute":{
+		"id": "cuPointerGetAttribute",
+		"value": "CUresult cuPointerGetAttribute ( , , )"
+	},
+	"cuPointerGetAttributes":{
+		"id": "cuPointerGetAttributes",
+		"value": "CUresult cuPointerGetAttributes ( , , , )"
+	},
+	"cuPointerSetAttribute":{
+		"id": "cuPointerSetAttribute",
+		"value": "CUresult cuPointerSetAttribute ( , , )"
+	},
+	"cuStreamAddCallback":{
+		"id": "cuStreamAddCallback",
+		"value": "CUresult cuStreamAddCallback ( , , , )"
+	},
+	"cuStreamAttachMemAsync":{
+		"id": "cuStreamAttachMemAsync",
+		"value": "CUresult cuStreamAttachMemAsync ( , , , )"
+	},
+	"cuStreamBeginCapture":{
+		"id": "cuStreamBeginCapture",
+		"value": "CUresult cuStreamBeginCapture ( , )"
+	},
+	"cuStreamCopyAttributes":{
+		"id": "cuStreamCopyAttributes",
+		"value": "CUresult cuStreamCopyAttributes ( , )"
+	},
+	"cuStreamCreate":{
+		"id": "cuStreamCreate",
+		"value": "CUresult cuStreamCreate ( , )"
+	},
+	"cuStreamCreateWithPriority":{
+		"id": "cuStreamCreateWithPriority",
+		"value": "CUresult cuStreamCreateWithPriority ( , , )"
+	},
+	"cuStreamDestroy":{
+		"id": "cuStreamDestroy",
+		"value": "CUresult cuStreamDestroy ( )"
+	},
+	"cuStreamEndCapture":{
+		"id": "cuStreamEndCapture",
+		"value": "CUresult cuStreamEndCapture ( , )"
+	},
+	"cuStreamGetAttribute":{
+		"id": "cuStreamGetAttribute",
+		"value": "CUresult cuStreamGetAttribute ( , , )"
+	},
+	"cuStreamGetCaptureInfo":{
+		"id": "cuStreamGetCaptureInfo",
+		"value": "CUresult cuStreamGetCaptureInfo ( , , , , , )"
+	},
+	"cuStreamGetCtx":{
+		"id": "cuStreamGetCtx",
+		"value": "CUresult cuStreamGetCtx ( , )"
+	},
+	"cuStreamGetFlags":{
+		"id": "cuStreamGetFlags",
+		"value": "CUresult cuStreamGetFlags ( , )"
+	},
+	"cuStreamGetId":{
+		"id": "cuStreamGetId",
+		"value": "CUresult cuStreamGetId ( , )"
+	},
+	"cuStreamGetPriority":{
+		"id": "cuStreamGetPriority",
+		"value": "CUresult cuStreamGetPriority ( , )"
+	},
+	"cuStreamIsCapturing":{
+		"id": "cuStreamIsCapturing",
+		"value": "CUresult cuStreamIsCapturing ( , )"
+	},
+	"cuStreamQuery":{
+		"id": "cuStreamQuery",
+		"value": "CUresult cuStreamQuery ( )"
+	},
+	"cuStreamSetAttribute":{
+		"id": "cuStreamSetAttribute",
+		"value": "CUresult cuStreamSetAttribute ( , , )"
+	},
+	"cuStreamSynchronize":{
+		"id": "cuStreamSynchronize",
+		"value": "CUresult cuStreamSynchronize ( )"
+	},
+	"cuStreamUpdateCaptureDependencies":{
+		"id": "cuStreamUpdateCaptureDependencies",
+		"value": "CUresult cuStreamUpdateCaptureDependencies ( , , , )"
+	},
+	"cuStreamWaitEvent":{
+		"id": "cuStreamWaitEvent",
+		"value": "CUresult cuStreamWaitEvent ( , , )"
+	},
+	"cuThreadExchangeStreamCaptureMode":{
+		"id": "cuThreadExchangeStreamCaptureMode",
+		"value": "CUresult cuThreadExchangeStreamCaptureMode ( )"
+	},
+	"cuEventCreate":{
+		"id": "cuEventCreate",
+		"value": "CUresult cuEventCreate ( , )"
+	},
+	"cuEventDestroy":{
+		"id": "cuEventDestroy",
+		"value": "CUresult cuEventDestroy ( )"
+	},
+	"cuEventElapsedTime":{
+		"id": "cuEventElapsedTime",
+		"value": "CUresult cuEventElapsedTime ( , , )"
+	},
+	"cuEventQuery":{
+		"id": "cuEventQuery",
+		"value": "CUresult cuEventQuery ( )"
+	},
+	"cuEventRecord":{
+		"id": "cuEventRecord",
+		"value": "CUresult cuEventRecord ( , )"
+	},
+	"cuEventRecordWithFlags":{
+		"id": "cuEventRecordWithFlags",
+		"value": "CUresult cuEventRecordWithFlags ( , , )"
+	},
+	"cuEventSynchronize":{
+		"id": "cuEventSynchronize",
+		"value": "CUresult cuEventSynchronize ( )"
+	},
+	"cuDestroyExternalMemory":{
+		"id": "cuDestroyExternalMemory",
+		"value": "CUresult cuDestroyExternalMemory ( )"
+	},
+	"cuDestroyExternalSemaphore":{
+		"id": "cuDestroyExternalSemaphore",
+		"value": "CUresult cuDestroyExternalSemaphore ( )"
+	},
+	"cuExternalMemoryGetMappedBuffer":{
+		"id": "cuExternalMemoryGetMappedBuffer",
+		"value": "CUresult cuExternalMemoryGetMappedBuffer ( , , )"
+	},
+	"cuExternalMemoryGetMappedMipmappedArray":{
+		"id": "cuExternalMemoryGetMappedMipmappedArray",
+		"value": "CUresult cuExternalMemoryGetMappedMipmappedArray ( , , )"
+	},
+	"cuImportExternalMemory":{
+		"id": "cuImportExternalMemory",
+		"value": "CUresult cuImportExternalMemory ( , )"
+	},
+	"cuImportExternalSemaphore":{
+		"id": "cuImportExternalSemaphore",
+		"value": "CUresult cuImportExternalSemaphore ( , )"
+	},
+	"cuSignalExternalSemaphoresAsync":{
+		"id": "cuSignalExternalSemaphoresAsync",
+		"value": "CUresult cuSignalExternalSemaphoresAsync ( , , , )"
+	},
+	"cuWaitExternalSemaphoresAsync":{
+		"id": "cuWaitExternalSemaphoresAsync",
+		"value": "CUresult cuWaitExternalSemaphoresAsync ( , , , )"
+	},
+	"cuStreamBatchMemOp":{
+		"id": "cuStreamBatchMemOp",
+		"value": "CUresult cuStreamBatchMemOp ( , , , )"
+	},
+	"cuStreamWaitValue32":{
+		"id": "cuStreamWaitValue32",
+		"value": "CUresult cuStreamWaitValue32 ( , , , )"
+	},
+	"cuStreamWaitValue64":{
+		"id": "cuStreamWaitValue64",
+		"value": "CUresult cuStreamWaitValue64 ( , , , )"
+	},
+	"cuStreamWriteValue32":{
+		"id": "cuStreamWriteValue32",
+		"value": "CUresult cuStreamWriteValue32 ( , , , )"
+	},
+	"cuStreamWriteValue64":{
+		"id": "cuStreamWriteValue64",
+		"value": "CUresult cuStreamWriteValue64 ( , , , )"
+	},
+	"cuFuncGetAttribute":{
+		"id": "cuFuncGetAttribute",
+		"value": "CUresult cuFuncGetAttribute ( , , )"
+	},
+	"cuFuncGetModule":{
+		"id": "cuFuncGetModule",
+		"value": "CUresult cuFuncGetModule ( , )"
+	},
+	"cuFuncSetAttribute":{
+		"id": "cuFuncSetAttribute",
+		"value": "CUresult cuFuncSetAttribute ( , , )"
+	},
+	"cuFuncSetCacheConfig":{
+		"id": "cuFuncSetCacheConfig",
+		"value": "CUresult cuFuncSetCacheConfig ( , )"
+	},
+	"cuFuncSetSharedMemConfig":{
+		"id": "cuFuncSetSharedMemConfig",
+		"value": "CUresult cuFuncSetSharedMemConfig ( , )"
+	},
+	"cuLaunchCooperativeKernel":{
+		"id": "cuLaunchCooperativeKernel",
+		"value": "CUresult cuLaunchCooperativeKernel ( , , , , , , , , , )"
+	},
+	"cuLaunchCooperativeKernelMultiDevice":{
+		"id": "cuLaunchCooperativeKernelMultiDevice",
+		"value": "CUresult cuLaunchCooperativeKernelMultiDevice ( , , )"
+	},
+	"cuLaunchHostFunc":{
+		"id": "cuLaunchHostFunc",
+		"value": "CUresult cuLaunchHostFunc ( , , )"
+	},
+	"cuLaunchKernel":{
+		"id": "cuLaunchKernel",
+		"value": "CUresult cuLaunchKernel ( , , , , , , , , , , )"
+	},
+	"cuLaunchKernelEx":{
+		"id": "cuLaunchKernelEx",
+		"value": "CUresult cuLaunchKernelEx ( , , , )"
+	},
+	"cuFuncSetBlockShape":{
+		"id": "cuFuncSetBlockShape",
+		"value": "CUresult cuFuncSetBlockShape ( , , , )"
+	},
+	"cuFuncSetSharedSize":{
+		"id": "cuFuncSetSharedSize",
+		"value": "CUresult cuFuncSetSharedSize ( , )"
+	},
+	"cuLaunch":{
+		"id": "cuLaunch",
+		"value": "CUresult cuLaunch ( )"
+	},
+	"cuLaunchGrid":{
+		"id": "cuLaunchGrid",
+		"value": "CUresult cuLaunchGrid ( , , )"
+	},
+	"cuLaunchGridAsync":{
+		"id": "cuLaunchGridAsync",
+		"value": "CUresult cuLaunchGridAsync ( , , , )"
+	},
+	"cuParamSetSize":{
+		"id": "cuParamSetSize",
+		"value": "CUresult cuParamSetSize ( , )"
+	},
+	"cuParamSetTexRef":{
+		"id": "cuParamSetTexRef",
+		"value": "CUresult cuParamSetTexRef ( , , )"
+	},
+	"cuParamSetf":{
+		"id": "cuParamSetf",
+		"value": "CUresult cuParamSetf ( , , )"
+	},
+	"cuParamSeti":{
+		"id": "cuParamSeti",
+		"value": "CUresult cuParamSeti ( , , )"
+	},
+	"cuParamSetv":{
+		"id": "cuParamSetv",
+		"value": "CUresult cuParamSetv ( , , , )"
+	},
+	"cuDeviceGetGraphMemAttribute":{
+		"id": "cuDeviceGetGraphMemAttribute",
+		"value": "CUresult cuDeviceGetGraphMemAttribute ( , , )"
+	},
+	"cuDeviceGraphMemTrim":{
+		"id": "cuDeviceGraphMemTrim",
+		"value": "CUresult cuDeviceGraphMemTrim ( )"
+	},
+	"cuDeviceSetGraphMemAttribute":{
+		"id": "cuDeviceSetGraphMemAttribute",
+		"value": "CUresult cuDeviceSetGraphMemAttribute ( , , )"
+	},
+	"cuGraphAddBatchMemOpNode":{
+		"id": "cuGraphAddBatchMemOpNode",
+		"value": "CUresult cuGraphAddBatchMemOpNode ( , , , , )"
+	},
+	"cuGraphAddChildGraphNode":{
+		"id": "cuGraphAddChildGraphNode",
+		"value": "CUresult cuGraphAddChildGraphNode ( , , , , )"
+	},
+	"cuGraphAddDependencies":{
+		"id": "cuGraphAddDependencies",
+		"value": "CUresult cuGraphAddDependencies ( , , , )"
+	},
+	"cuGraphAddEmptyNode":{
+		"id": "cuGraphAddEmptyNode",
+		"value": "CUresult cuGraphAddEmptyNode ( , , , )"
+	},
+	"cuGraphAddEventRecordNode":{
+		"id": "cuGraphAddEventRecordNode",
+		"value": "CUresult cuGraphAddEventRecordNode ( , , , , )"
+	},
+	"cuGraphAddEventWaitNode":{
+		"id": "cuGraphAddEventWaitNode",
+		"value": "CUresult cuGraphAddEventWaitNode ( , , , , )"
+	},
+	"cuGraphAddExternalSemaphoresSignalNode":{
+		"id": "cuGraphAddExternalSemaphoresSignalNode",
+		"value": "CUresult cuGraphAddExternalSemaphoresSignalNode ( , , , , )"
+	},
+	"cuGraphAddExternalSemaphoresWaitNode":{
+		"id": "cuGraphAddExternalSemaphoresWaitNode",
+		"value": "CUresult cuGraphAddExternalSemaphoresWaitNode ( , , , , )"
+	},
+	"cuGraphAddHostNode":{
+		"id": "cuGraphAddHostNode",
+		"value": "CUresult cuGraphAddHostNode ( , , , , )"
+	},
+	"cuGraphAddKernelNode":{
+		"id": "cuGraphAddKernelNode",
+		"value": "CUresult cuGraphAddKernelNode ( , , , , )"
+	},
+	"cuGraphAddMemAllocNode":{
+		"id": "cuGraphAddMemAllocNode",
+		"value": "CUresult cuGraphAddMemAllocNode ( , , , , )"
+	},
+	"cuGraphAddMemFreeNode":{
+		"id": "cuGraphAddMemFreeNode",
+		"value": "CUresult cuGraphAddMemFreeNode ( , , , , )"
+	},
+	"cuGraphAddMemcpyNode":{
+		"id": "cuGraphAddMemcpyNode",
+		"value": "CUresult cuGraphAddMemcpyNode ( , , , , , )"
+	},
+	"cuGraphAddMemsetNode":{
+		"id": "cuGraphAddMemsetNode",
+		"value": "CUresult cuGraphAddMemsetNode ( , , , , , )"
+	},
+	"cuGraphBatchMemOpNodeGetParams":{
+		"id": "cuGraphBatchMemOpNodeGetParams",
+		"value": "CUresult cuGraphBatchMemOpNodeGetParams ( , )"
+	},
+	"cuGraphBatchMemOpNodeSetParams":{
+		"id": "cuGraphBatchMemOpNodeSetParams",
+		"value": "CUresult cuGraphBatchMemOpNodeSetParams ( , )"
+	},
+	"cuGraphChildGraphNodeGetGraph":{
+		"id": "cuGraphChildGraphNodeGetGraph",
+		"value": "CUresult cuGraphChildGraphNodeGetGraph ( , )"
+	},
+	"cuGraphClone":{
+		"id": "cuGraphClone",
+		"value": "CUresult cuGraphClone ( , )"
+	},
+	"cuGraphCreate":{
+		"id": "cuGraphCreate",
+		"value": "CUresult cuGraphCreate ( , )"
+	},
+	"cuGraphDebugDotPrint":{
+		"id": "cuGraphDebugDotPrint",
+		"value": "CUresult cuGraphDebugDotPrint ( , , )"
+	},
+	"cuGraphDestroy":{
+		"id": "cuGraphDestroy",
+		"value": "CUresult cuGraphDestroy ( )"
+	},
+	"cuGraphDestroyNode":{
+		"id": "cuGraphDestroyNode",
+		"value": "CUresult cuGraphDestroyNode ( )"
+	},
+	"cuGraphEventRecordNodeGetEvent":{
+		"id": "cuGraphEventRecordNodeGetEvent",
+		"value": "CUresult cuGraphEventRecordNodeGetEvent ( , )"
+	},
+	"cuGraphEventRecordNodeSetEvent":{
+		"id": "cuGraphEventRecordNodeSetEvent",
+		"value": "CUresult cuGraphEventRecordNodeSetEvent ( , )"
+	},
+	"cuGraphEventWaitNodeGetEvent":{
+		"id": "cuGraphEventWaitNodeGetEvent",
+		"value": "CUresult cuGraphEventWaitNodeGetEvent ( , )"
+	},
+	"cuGraphEventWaitNodeSetEvent":{
+		"id": "cuGraphEventWaitNodeSetEvent",
+		"value": "CUresult cuGraphEventWaitNodeSetEvent ( , )"
+	},
+	"cuGraphExecBatchMemOpNodeSetParams":{
+		"id": "cuGraphExecBatchMemOpNodeSetParams",
+		"value": "CUresult cuGraphExecBatchMemOpNodeSetParams ( , , )"
+	},
+	"cuGraphExecChildGraphNodeSetParams":{
+		"id": "cuGraphExecChildGraphNodeSetParams",
+		"value": "CUresult cuGraphExecChildGraphNodeSetParams ( , , )"
+	},
+	"cuGraphExecDestroy":{
+		"id": "cuGraphExecDestroy",
+		"value": "CUresult cuGraphExecDestroy ( )"
+	},
+	"cuGraphExecEventRecordNodeSetEvent":{
+		"id": "cuGraphExecEventRecordNodeSetEvent",
+		"value": "CUresult cuGraphExecEventRecordNodeSetEvent ( , , )"
+	},
+	"cuGraphExecEventWaitNodeSetEvent":{
+		"id": "cuGraphExecEventWaitNodeSetEvent",
+		"value": "CUresult cuGraphExecEventWaitNodeSetEvent ( , , )"
+	},
+	"cuGraphExecExternalSemaphoresSignalNodeSetParams":{
+		"id": "cuGraphExecExternalSemaphoresSignalNodeSetParams",
+		"value": "CUresult cuGraphExecExternalSemaphoresSignalNodeSetParams ( , , )"
+	},
+	"cuGraphExecExternalSemaphoresWaitNodeSetParams":{
+		"id": "cuGraphExecExternalSemaphoresWaitNodeSetParams",
+		"value": "CUresult cuGraphExecExternalSemaphoresWaitNodeSetParams ( , , )"
+	},
+	"cuGraphExecGetFlags":{
+		"id": "cuGraphExecGetFlags",
+		"value": "CUresult cuGraphExecGetFlags ( , )"
+	},
+	"cuGraphExecHostNodeSetParams":{
+		"id": "cuGraphExecHostNodeSetParams",
+		"value": "CUresult cuGraphExecHostNodeSetParams ( , , )"
+	},
+	"cuGraphExecKernelNodeSetParams":{
+		"id": "cuGraphExecKernelNodeSetParams",
+		"value": "CUresult cuGraphExecKernelNodeSetParams ( , , )"
+	},
+	"cuGraphExecMemcpyNodeSetParams":{
+		"id": "cuGraphExecMemcpyNodeSetParams",
+		"value": "CUresult cuGraphExecMemcpyNodeSetParams ( , , , )"
+	},
+	"cuGraphExecMemsetNodeSetParams":{
+		"id": "cuGraphExecMemsetNodeSetParams",
+		"value": "CUresult cuGraphExecMemsetNodeSetParams ( , , , )"
+	},
+	"cuGraphExecUpdate":{
+		"id": "cuGraphExecUpdate",
+		"value": "CUresult cuGraphExecUpdate ( , , )"
+	},
+	"cuGraphExternalSemaphoresSignalNodeGetParams":{
+		"id": "cuGraphExternalSemaphoresSignalNodeGetParams",
+		"value": "CUresult cuGraphExternalSemaphoresSignalNodeGetParams ( , )"
+	},
+	"cuGraphExternalSemaphoresSignalNodeSetParams":{
+		"id": "cuGraphExternalSemaphoresSignalNodeSetParams",
+		"value": "CUresult cuGraphExternalSemaphoresSignalNodeSetParams ( , )"
+	},
+	"cuGraphExternalSemaphoresWaitNodeGetParams":{
+		"id": "cuGraphExternalSemaphoresWaitNodeGetParams",
+		"value": "CUresult cuGraphExternalSemaphoresWaitNodeGetParams ( , )"
+	},
+	"cuGraphExternalSemaphoresWaitNodeSetParams":{
+		"id": "cuGraphExternalSemaphoresWaitNodeSetParams",
+		"value": "CUresult cuGraphExternalSemaphoresWaitNodeSetParams ( , )"
+	},
+	"cuGraphGetEdges":{
+		"id": "cuGraphGetEdges",
+		"value": "CUresult cuGraphGetEdges ( , , , )"
+	},
+	"cuGraphGetNodes":{
+		"id": "cuGraphGetNodes",
+		"value": "CUresult cuGraphGetNodes ( , , )"
+	},
+	"cuGraphGetRootNodes":{
+		"id": "cuGraphGetRootNodes",
+		"value": "CUresult cuGraphGetRootNodes ( , , )"
+	},
+	"cuGraphHostNodeGetParams":{
+		"id": "cuGraphHostNodeGetParams",
+		"value": "CUresult cuGraphHostNodeGetParams ( , )"
+	},
+	"cuGraphHostNodeSetParams":{
+		"id": "cuGraphHostNodeSetParams",
+		"value": "CUresult cuGraphHostNodeSetParams ( , )"
+	},
+	"cuGraphInstantiate":{
+		"id": "cuGraphInstantiate",
+		"value": "CUresult cuGraphInstantiate ( , , )"
+	},
+	"cuGraphInstantiateWithParams":{
+		"id": "cuGraphInstantiateWithParams",
+		"value": "CUresult cuGraphInstantiateWithParams ( , , )"
+	},
+	"cuGraphKernelNodeCopyAttributes":{
+		"id": "cuGraphKernelNodeCopyAttributes",
+		"value": "CUresult cuGraphKernelNodeCopyAttributes ( , )"
+	},
+	"cuGraphKernelNodeGetAttribute":{
+		"id": "cuGraphKernelNodeGetAttribute",
+		"value": "CUresult cuGraphKernelNodeGetAttribute ( , , )"
+	},
+	"cuGraphKernelNodeGetParams":{
+		"id": "cuGraphKernelNodeGetParams",
+		"value": "CUresult cuGraphKernelNodeGetParams ( , )"
+	},
+	"cuGraphKernelNodeSetAttribute":{
+		"id": "cuGraphKernelNodeSetAttribute",
+		"value": "CUresult cuGraphKernelNodeSetAttribute ( , , )"
+	},
+	"cuGraphKernelNodeSetParams":{
+		"id": "cuGraphKernelNodeSetParams",
+		"value": "CUresult cuGraphKernelNodeSetParams ( , )"
+	},
+	"cuGraphLaunch":{
+		"id": "cuGraphLaunch",
+		"value": "CUresult cuGraphLaunch ( , )"
+	},
+	"cuGraphMemAllocNodeGetParams":{
+		"id": "cuGraphMemAllocNodeGetParams",
+		"value": "CUresult cuGraphMemAllocNodeGetParams ( , )"
+	},
+	"cuGraphMemFreeNodeGetParams":{
+		"id": "cuGraphMemFreeNodeGetParams",
+		"value": "CUresult cuGraphMemFreeNodeGetParams ( , )"
+	},
+	"cuGraphMemcpyNodeGetParams":{
+		"id": "cuGraphMemcpyNodeGetParams",
+		"value": "CUresult cuGraphMemcpyNodeGetParams ( , )"
+	},
+	"cuGraphMemcpyNodeSetParams":{
+		"id": "cuGraphMemcpyNodeSetParams",
+		"value": "CUresult cuGraphMemcpyNodeSetParams ( , )"
+	},
+	"cuGraphMemsetNodeGetParams":{
+		"id": "cuGraphMemsetNodeGetParams",
+		"value": "CUresult cuGraphMemsetNodeGetParams ( , )"
+	},
+	"cuGraphMemsetNodeSetParams":{
+		"id": "cuGraphMemsetNodeSetParams",
+		"value": "CUresult cuGraphMemsetNodeSetParams ( , )"
+	},
+	"cuGraphNodeFindInClone":{
+		"id": "cuGraphNodeFindInClone",
+		"value": "CUresult cuGraphNodeFindInClone ( , , )"
+	},
+	"cuGraphNodeGetDependencies":{
+		"id": "cuGraphNodeGetDependencies",
+		"value": "CUresult cuGraphNodeGetDependencies ( , , )"
+	},
+	"cuGraphNodeGetDependentNodes":{
+		"id": "cuGraphNodeGetDependentNodes",
+		"value": "CUresult cuGraphNodeGetDependentNodes ( , , )"
+	},
+	"cuGraphNodeGetEnabled":{
+		"id": "cuGraphNodeGetEnabled",
+		"value": "CUresult cuGraphNodeGetEnabled ( , , )"
+	},
+	"cuGraphNodeGetType":{
+		"id": "cuGraphNodeGetType",
+		"value": "CUresult cuGraphNodeGetType ( , )"
+	},
+	"cuGraphNodeSetEnabled":{
+		"id": "cuGraphNodeSetEnabled",
+		"value": "CUresult cuGraphNodeSetEnabled ( , , )"
+	},
+	"cuGraphReleaseUserObject":{
+		"id": "cuGraphReleaseUserObject",
+		"value": "CUresult cuGraphReleaseUserObject ( , , )"
+	},
+	"cuGraphRemoveDependencies":{
+		"id": "cuGraphRemoveDependencies",
+		"value": "CUresult cuGraphRemoveDependencies ( , , , )"
+	},
+	"cuGraphRetainUserObject":{
+		"id": "cuGraphRetainUserObject",
+		"value": "CUresult cuGraphRetainUserObject ( , , , )"
+	},
+	"cuGraphUpload":{
+		"id": "cuGraphUpload",
+		"value": "CUresult cuGraphUpload ( , )"
+	},
+	"cuUserObjectCreate":{
+		"id": "cuUserObjectCreate",
+		"value": "CUresult cuUserObjectCreate ( , , , , )"
+	},
+	"cuUserObjectRelease":{
+		"id": "cuUserObjectRelease",
+		"value": "CUresult cuUserObjectRelease ( , )"
+	},
+	"cuUserObjectRetain":{
+		"id": "cuUserObjectRetain",
+		"value": "CUresult cuUserObjectRetain ( , )"
+	},
+	"cuOccupancyAvailableDynamicSMemPerBlock":{
+		"id": "cuOccupancyAvailableDynamicSMemPerBlock",
+		"value": "CUresult cuOccupancyAvailableDynamicSMemPerBlock ( , , , )"
+	},
+	"cuOccupancyMaxActiveBlocksPerMultiprocessor":{
+		"id": "cuOccupancyMaxActiveBlocksPerMultiprocessor",
+		"value": "CUresult cuOccupancyMaxActiveBlocksPerMultiprocessor ( , , , )"
+	},
+	"cuOccupancyMaxActiveBlocksPerMultiprocessorWithFlags":{
+		"id": "cuOccupancyMaxActiveBlocksPerMultiprocessorWithFlags",
+		"value": "CUresult cuOccupancyMaxActiveBlocksPerMultiprocessorWithFlags ( , , , , )"
+	},
+	"cuOccupancyMaxActiveClusters":{
+		"id": "cuOccupancyMaxActiveClusters",
+		"value": "CUresult cuOccupancyMaxActiveClusters ( , , )"
+	},
+	"cuOccupancyMaxPotentialBlockSize":{
+		"id": "cuOccupancyMaxPotentialBlockSize",
+		"value": "CUresult cuOccupancyMaxPotentialBlockSize ( , , , , , )"
+	},
+	"cuOccupancyMaxPotentialBlockSizeWithFlags":{
+		"id": "cuOccupancyMaxPotentialBlockSizeWithFlags",
+		"value": "CUresult cuOccupancyMaxPotentialBlockSizeWithFlags ( , , , , , , )"
+	},
+	"cuOccupancyMaxPotentialClusterSize":{
+		"id": "cuOccupancyMaxPotentialClusterSize",
+		"value": "CUresult cuOccupancyMaxPotentialClusterSize ( , , )"
+	},
+	"cuTexRefCreate":{
+		"id": "cuTexRefCreate",
+		"value": "CUresult cuTexRefCreate ( )"
+	},
+	"cuTexRefDestroy":{
+		"id": "cuTexRefDestroy",
+		"value": "CUresult cuTexRefDestroy ( )"
+	},
+	"cuTexRefGetAddress":{
+		"id": "cuTexRefGetAddress",
+		"value": "CUresult cuTexRefGetAddress ( , )"
+	},
+	"cuTexRefGetAddressMode":{
+		"id": "cuTexRefGetAddressMode",
+		"value": "CUresult cuTexRefGetAddressMode ( , , )"
+	},
+	"cuTexRefGetArray":{
+		"id": "cuTexRefGetArray",
+		"value": "CUresult cuTexRefGetArray ( , )"
+	},
+	"cuTexRefGetBorderColor":{
+		"id": "cuTexRefGetBorderColor",
+		"value": "CUresult cuTexRefGetBorderColor ( , )"
+	},
+	"cuTexRefGetFilterMode":{
+		"id": "cuTexRefGetFilterMode",
+		"value": "CUresult cuTexRefGetFilterMode ( , )"
+	},
+	"cuTexRefGetFlags":{
+		"id": "cuTexRefGetFlags",
+		"value": "CUresult cuTexRefGetFlags ( , )"
+	},
+	"cuTexRefGetFormat":{
+		"id": "cuTexRefGetFormat",
+		"value": "CUresult cuTexRefGetFormat ( , , )"
+	},
+	"cuTexRefGetMaxAnisotropy":{
+		"id": "cuTexRefGetMaxAnisotropy",
+		"value": "CUresult cuTexRefGetMaxAnisotropy ( , )"
+	},
+	"cuTexRefGetMipmapFilterMode":{
+		"id": "cuTexRefGetMipmapFilterMode",
+		"value": "CUresult cuTexRefGetMipmapFilterMode ( , )"
+	},
+	"cuTexRefGetMipmapLevelBias":{
+		"id": "cuTexRefGetMipmapLevelBias",
+		"value": "CUresult cuTexRefGetMipmapLevelBias ( , )"
+	},
+	"cuTexRefGetMipmapLevelClamp":{
+		"id": "cuTexRefGetMipmapLevelClamp",
+		"value": "CUresult cuTexRefGetMipmapLevelClamp ( , , )"
+	},
+	"cuTexRefGetMipmappedArray":{
+		"id": "cuTexRefGetMipmappedArray",
+		"value": "CUresult cuTexRefGetMipmappedArray ( , )"
+	},
+	"cuTexRefSetAddress":{
+		"id": "cuTexRefSetAddress",
+		"value": "CUresult cuTexRefSetAddress ( , , , )"
+	},
+	"cuTexRefSetAddress2D":{
+		"id": "cuTexRefSetAddress2D",
+		"value": "CUresult cuTexRefSetAddress2D ( , , , )"
+	},
+	"cuTexRefSetAddressMode":{
+		"id": "cuTexRefSetAddressMode",
+		"value": "CUresult cuTexRefSetAddressMode ( , , )"
+	},
+	"cuTexRefSetArray":{
+		"id": "cuTexRefSetArray",
+		"value": "CUresult cuTexRefSetArray ( , , )"
+	},
+	"cuTexRefSetBorderColor":{
+		"id": "cuTexRefSetBorderColor",
+		"value": "CUresult cuTexRefSetBorderColor ( , )"
+	},
+	"cuTexRefSetFilterMode":{
+		"id": "cuTexRefSetFilterMode",
+		"value": "CUresult cuTexRefSetFilterMode ( , )"
+	},
+	"cuTexRefSetFlags":{
+		"id": "cuTexRefSetFlags",
+		"value": "CUresult cuTexRefSetFlags ( , )"
+	},
+	"cuTexRefSetFormat":{
+		"id": "cuTexRefSetFormat",
+		"value": "CUresult cuTexRefSetFormat ( , , )"
+	},
+	"cuTexRefSetMaxAnisotropy":{
+		"id": "cuTexRefSetMaxAnisotropy",
+		"value": "CUresult cuTexRefSetMaxAnisotropy ( , )"
+	},
+	"cuTexRefSetMipmapFilterMode":{
+		"id": "cuTexRefSetMipmapFilterMode",
+		"value": "CUresult cuTexRefSetMipmapFilterMode ( , )"
+	},
+	"cuTexRefSetMipmapLevelBias":{
+		"id": "cuTexRefSetMipmapLevelBias",
+		"value": "CUresult cuTexRefSetMipmapLevelBias ( , )"
+	},
+	"cuTexRefSetMipmapLevelClamp":{
+		"id": "cuTexRefSetMipmapLevelClamp",
+		"value": "CUresult cuTexRefSetMipmapLevelClamp ( , , )"
+	},
+	"cuTexRefSetMipmappedArray":{
+		"id": "cuTexRefSetMipmappedArray",
+		"value": "CUresult cuTexRefSetMipmappedArray ( , , )"
+	},
+	"cuSurfRefGetArray":{
+		"id": "cuSurfRefGetArray",
+		"value": "CUresult cuSurfRefGetArray ( , )"
+	},
+	"cuSurfRefSetArray":{
+		"id": "cuSurfRefSetArray",
+		"value": "CUresult cuSurfRefSetArray ( , , )"
+	},
+	"cuTexObjectCreate":{
+		"id": "cuTexObjectCreate",
+		"value": "CUresult cuTexObjectCreate ( , , , )"
+	},
+	"cuTexObjectDestroy":{
+		"id": "cuTexObjectDestroy",
+		"value": "CUresult cuTexObjectDestroy ( )"
+	},
+	"cuTexObjectGetResourceDesc":{
+		"id": "cuTexObjectGetResourceDesc",
+		"value": "CUresult cuTexObjectGetResourceDesc ( , )"
+	},
+	"cuTexObjectGetResourceViewDesc":{
+		"id": "cuTexObjectGetResourceViewDesc",
+		"value": "CUresult cuTexObjectGetResourceViewDesc ( , )"
+	},
+	"cuTexObjectGetTextureDesc":{
+		"id": "cuTexObjectGetTextureDesc",
+		"value": "CUresult cuTexObjectGetTextureDesc ( , )"
+	},
+	"cuSurfObjectCreate":{
+		"id": "cuSurfObjectCreate",
+		"value": "CUresult cuSurfObjectCreate ( , )"
+	},
+	"cuSurfObjectDestroy":{
+		"id": "cuSurfObjectDestroy",
+		"value": "CUresult cuSurfObjectDestroy ( )"
+	},
+	"cuSurfObjectGetResourceDesc":{
+		"id": "cuSurfObjectGetResourceDesc",
+		"value": "CUresult cuSurfObjectGetResourceDesc ( , )"
+	},
+	"cuTensorMapEncodeIm2col":{
+		"id": "cuTensorMapEncodeIm2col",
+		"value": "CUresult cuTensorMapEncodeIm2col ( , , , , , , , , , , , , , , )"
+	},
+	"cuTensorMapEncodeTiled":{
+		"id": "cuTensorMapEncodeTiled",
+		"value": "CUresult cuTensorMapEncodeTiled ( , , , , , , , , , , , )"
+	},
+	"cuTensorMapReplaceAddress":{
+		"id": "cuTensorMapReplaceAddress",
+		"value": "CUresult cuTensorMapReplaceAddress ( , )"
+	},
+	"cuCtxDisablePeerAccess":{
+		"id": "cuCtxDisablePeerAccess",
+		"value": "CUresult cuCtxDisablePeerAccess ( )"
+	},
+	"cuCtxEnablePeerAccess":{
+		"id": "cuCtxEnablePeerAccess",
+		"value": "CUresult cuCtxEnablePeerAccess ( , )"
+	},
+	"cuDeviceCanAccessPeer":{
+		"id": "cuDeviceCanAccessPeer",
+		"value": "CUresult cuDeviceCanAccessPeer ( , , )"
+	},
+	"cuDeviceGetP2PAttribute":{
+		"id": "cuDeviceGetP2PAttribute",
+		"value": "CUresult cuDeviceGetP2PAttribute ( , , , )"
+	},
+	"cuGraphicsMapResources":{
+		"id": "cuGraphicsMapResources",
+		"value": "CUresult cuGraphicsMapResources ( , , )"
+	},
+	"cuGraphicsResourceGetMappedMipmappedArray":{
+		"id": "cuGraphicsResourceGetMappedMipmappedArray",
+		"value": "CUresult cuGraphicsResourceGetMappedMipmappedArray ( , )"
+	},
+	"cuGraphicsResourceGetMappedPointer":{
+		"id": "cuGraphicsResourceGetMappedPointer",
+		"value": "CUresult cuGraphicsResourceGetMappedPointer ( , , )"
+	},
+	"cuGraphicsResourceSetMapFlags":{
+		"id": "cuGraphicsResourceSetMapFlags",
+		"value": "CUresult cuGraphicsResourceSetMapFlags ( , )"
+	},
+	"cuGraphicsSubResourceGetMappedArray":{
+		"id": "cuGraphicsSubResourceGetMappedArray",
+		"value": "CUresult cuGraphicsSubResourceGetMappedArray ( , , , )"
+	},
+	"cuGraphicsUnmapResources":{
+		"id": "cuGraphicsUnmapResources",
+		"value": "CUresult cuGraphicsUnmapResources ( , , )"
+	},
+	"cuGraphicsUnregisterResource":{
+		"id": "cuGraphicsUnregisterResource",
+		"value": "CUresult cuGraphicsUnregisterResource ( )"
+	},
+	"cuGetProcAddress":{
+		"id": "cuGetProcAddress",
+		"value": "CUresult cuGetProcAddress ( , , , , )"
+	},
+	"cuProfilerInitialize":{
+		"id": "cuProfilerInitialize",
+		"value": "CUresult cuProfilerInitialize ( , , )"
+	},
+	"cuProfilerStart":{
+		"id": "cuProfilerStart",
+		"value": "CUresult cuProfilerStart ( )"
+	},
+	"cuProfilerStop":{
+		"id": "cuProfilerStop",
+		"value": "CUresult cuProfilerStop ( )"
+	},
+	"CUGLDeviceList":{
+		"id": "CUGLDeviceList",
+		"value": "enum CUGLDeviceList"
+	},
+	"cuGLGetDevices":{
+		"id": "cuGLGetDevices",
+		"value": "CUresult cuGLGetDevices ( , , , )"
+	},
+	"cuGraphicsGLRegisterBuffer":{
+		"id": "cuGraphicsGLRegisterBuffer",
+		"value": "CUresult cuGraphicsGLRegisterBuffer ( , , )"
+	},
+	"cuGraphicsGLRegisterImage":{
+		"id": "cuGraphicsGLRegisterImage",
+		"value": "CUresult cuGraphicsGLRegisterImage ( , , , )"
+	},
+	"cuWGLGetDevice":{
+		"id": "cuWGLGetDevice",
+		"value": "CUresult cuWGLGetDevice ( , )"
+	},
+	"CUGLmap_flags":{
+		"id": "CUGLmap_flags",
+		"value": "enum CUGLmap_flags"
+	},
+	"cuGLCtxCreate":{
+		"id": "cuGLCtxCreate",
+		"value": "CUresult cuGLCtxCreate ( , , )"
+	},
+	"cuGLInit":{
+		"id": "cuGLInit",
+		"value": "CUresult cuGLInit ( )"
+	},
+	"cuGLMapBufferObject":{
+		"id": "cuGLMapBufferObject",
+		"value": "CUresult cuGLMapBufferObject ( , , )"
+	},
+	"cuGLMapBufferObjectAsync":{
+		"id": "cuGLMapBufferObjectAsync",
+		"value": "CUresult cuGLMapBufferObjectAsync ( , , , )"
+	},
+	"cuGLRegisterBufferObject":{
+		"id": "cuGLRegisterBufferObject",
+		"value": "CUresult cuGLRegisterBufferObject ( )"
+	},
+	"cuGLSetBufferObjectMapFlags":{
+		"id": "cuGLSetBufferObjectMapFlags",
+		"value": "CUresult cuGLSetBufferObjectMapFlags ( , )"
+	},
+	"cuGLUnmapBufferObject":{
+		"id": "cuGLUnmapBufferObject",
+		"value": "CUresult cuGLUnmapBufferObject ( )"
+	},
+	"cuGLUnmapBufferObjectAsync":{
+		"id": "cuGLUnmapBufferObjectAsync",
+		"value": "CUresult cuGLUnmapBufferObjectAsync ( , )"
+	},
+	"cuGLUnregisterBufferObject":{
+		"id": "cuGLUnregisterBufferObject",
+		"value": "CUresult cuGLUnregisterBufferObject ( )"
+	},
+	"CUd3d9DeviceList":{
+		"id": "CUd3d9DeviceList",
+		"value": "enum CUd3d9DeviceList"
+	},
+	"cuD3D9CtxCreate":{
+		"id": "cuD3D9CtxCreate",
+		"value": "CUresult cuD3D9CtxCreate ( , , , )"
+	},
+	"cuD3D9CtxCreateOnDevice":{
+		"id": "cuD3D9CtxCreateOnDevice",
+		"value": "CUresult cuD3D9CtxCreateOnDevice ( , , , )"
+	},
+	"cuD3D9GetDevice":{
+		"id": "cuD3D9GetDevice",
+		"value": "CUresult cuD3D9GetDevice ( , )"
+	},
+	"cuD3D9GetDevices":{
+		"id": "cuD3D9GetDevices",
+		"value": "CUresult cuD3D9GetDevices ( , , , , )"
+	},
+	"cuD3D9GetDirect3DDevice":{
+		"id": "cuD3D9GetDirect3DDevice",
+		"value": "CUresult cuD3D9GetDirect3DDevice ( )"
+	},
+	"cuGraphicsD3D9RegisterResource":{
+		"id": "cuGraphicsD3D9RegisterResource",
+		"value": "CUresult cuGraphicsD3D9RegisterResource ( , , )"
+	},
+	"CUd3d9map_flags":{
+		"id": "CUd3d9map_flags",
+		"value": "enum CUd3d9map_flags"
+	},
+	"CUd3d9register_flags":{
+		"id": "CUd3d9register_flags",
+		"value": "enum CUd3d9register_flags"
+	},
+	"cuD3D9MapResources":{
+		"id": "cuD3D9MapResources",
+		"value": "CUresult cuD3D9MapResources ( , )"
+	},
+	"cuD3D9RegisterResource":{
+		"id": "cuD3D9RegisterResource",
+		"value": "CUresult cuD3D9RegisterResource ( , )"
+	},
+	"cuD3D9ResourceGetMappedArray":{
+		"id": "cuD3D9ResourceGetMappedArray",
+		"value": "CUresult cuD3D9ResourceGetMappedArray ( , , , )"
+	},
+	"cuD3D9ResourceGetMappedPitch":{
+		"id": "cuD3D9ResourceGetMappedPitch",
+		"value": "CUresult cuD3D9ResourceGetMappedPitch ( , , , , )"
+	},
+	"cuD3D9ResourceGetMappedPointer":{
+		"id": "cuD3D9ResourceGetMappedPointer",
+		"value": "CUresult cuD3D9ResourceGetMappedPointer ( , , , )"
+	},
+	"cuD3D9ResourceGetMappedSize":{
+		"id": "cuD3D9ResourceGetMappedSize",
+		"value": "CUresult cuD3D9ResourceGetMappedSize ( , , , )"
+	},
+	"cuD3D9ResourceGetSurfaceDimensions":{
+		"id": "cuD3D9ResourceGetSurfaceDimensions",
+		"value": "CUresult cuD3D9ResourceGetSurfaceDimensions ( , , , , , )"
+	},
+	"cuD3D9ResourceSetMapFlags":{
+		"id": "cuD3D9ResourceSetMapFlags",
+		"value": "CUresult cuD3D9ResourceSetMapFlags ( , )"
+	},
+	"cuD3D9UnmapResources":{
+		"id": "cuD3D9UnmapResources",
+		"value": "CUresult cuD3D9UnmapResources ( , )"
+	},
+	"cuD3D9UnregisterResource":{
+		"id": "cuD3D9UnregisterResource",
+		"value": "CUresult cuD3D9UnregisterResource ( )"
+	},
+	"CUd3d10DeviceList":{
+		"id": "CUd3d10DeviceList",
+		"value": "enum CUd3d10DeviceList"
+	},
+	"cuD3D10GetDevice":{
+		"id": "cuD3D10GetDevice",
+		"value": "CUresult cuD3D10GetDevice ( , )"
+	},
+	"cuD3D10GetDevices":{
+		"id": "cuD3D10GetDevices",
+		"value": "CUresult cuD3D10GetDevices ( , , , , )"
+	},
+	"cuGraphicsD3D10RegisterResource":{
+		"id": "cuGraphicsD3D10RegisterResource",
+		"value": "CUresult cuGraphicsD3D10RegisterResource ( , , )"
+	},
+	"CUD3D10map_flags":{
+		"id": "CUD3D10map_flags",
+		"value": "enum CUD3D10map_flags"
+	},
+	"CUD3D10register_flags":{
+		"id": "CUD3D10register_flags",
+		"value": "enum CUD3D10register_flags"
+	},
+	"cuD3D10CtxCreate":{
+		"id": "cuD3D10CtxCreate",
+		"value": "CUresult cuD3D10CtxCreate ( , , , )"
+	},
+	"cuD3D10CtxCreateOnDevice":{
+		"id": "cuD3D10CtxCreateOnDevice",
+		"value": "CUresult cuD3D10CtxCreateOnDevice ( , , , )"
+	},
+	"cuD3D10GetDirect3DDevice":{
+		"id": "cuD3D10GetDirect3DDevice",
+		"value": "CUresult cuD3D10GetDirect3DDevice ( )"
+	},
+	"cuD3D10MapResources":{
+		"id": "cuD3D10MapResources",
+		"value": "CUresult cuD3D10MapResources ( , )"
+	},
+	"cuD3D10RegisterResource":{
+		"id": "cuD3D10RegisterResource",
+		"value": "CUresult cuD3D10RegisterResource ( , )"
+	},
+	"cuD3D10ResourceGetMappedArray":{
+		"id": "cuD3D10ResourceGetMappedArray",
+		"value": "CUresult cuD3D10ResourceGetMappedArray ( , , )"
+	},
+	"cuD3D10ResourceGetMappedPitch":{
+		"id": "cuD3D10ResourceGetMappedPitch",
+		"value": "CUresult cuD3D10ResourceGetMappedPitch ( , , , )"
+	},
+	"cuD3D10ResourceGetMappedPointer":{
+		"id": "cuD3D10ResourceGetMappedPointer",
+		"value": "CUresult cuD3D10ResourceGetMappedPointer ( , , )"
+	},
+	"cuD3D10ResourceGetMappedSize":{
+		"id": "cuD3D10ResourceGetMappedSize",
+		"value": "CUresult cuD3D10ResourceGetMappedSize ( , , )"
+	},
+	"cuD3D10ResourceGetSurfaceDimensions":{
+		"id": "cuD3D10ResourceGetSurfaceDimensions",
+		"value": "CUresult cuD3D10ResourceGetSurfaceDimensions ( , , , , )"
+	},
+	"cuD3D10ResourceSetMapFlags":{
+		"id": "cuD3D10ResourceSetMapFlags",
+		"value": "CUresult cuD3D10ResourceSetMapFlags ( , )"
+	},
+	"cuD3D10UnmapResources":{
+		"id": "cuD3D10UnmapResources",
+		"value": "CUresult cuD3D10UnmapResources ( , )"
+	},
+	"cuD3D10UnregisterResource":{
+		"id": "cuD3D10UnregisterResource",
+		"value": "CUresult cuD3D10UnregisterResource ( )"
+	},
+	"CUd3d11DeviceList":{
+		"id": "CUd3d11DeviceList",
+		"value": "enum CUd3d11DeviceList"
+	},
+	"cuD3D11GetDevice":{
+		"id": "cuD3D11GetDevice",
+		"value": "CUresult cuD3D11GetDevice ( , )"
+	},
+	"cuD3D11GetDevices":{
+		"id": "cuD3D11GetDevices",
+		"value": "CUresult cuD3D11GetDevices ( , , , , )"
+	},
+	"cuGraphicsD3D11RegisterResource":{
+		"id": "cuGraphicsD3D11RegisterResource",
+		"value": "CUresult cuGraphicsD3D11RegisterResource ( , , )"
+	},
+	"cuD3D11CtxCreate":{
+		"id": "cuD3D11CtxCreate",
+		"value": "CUresult cuD3D11CtxCreate ( , , , )"
+	},
+	"cuD3D11CtxCreateOnDevice":{
+		"id": "cuD3D11CtxCreateOnDevice",
+		"value": "CUresult cuD3D11CtxCreateOnDevice ( , , , )"
+	},
+	"cuD3D11GetDirect3DDevice":{
+		"id": "cuD3D11GetDirect3DDevice",
+		"value": "CUresult cuD3D11GetDirect3DDevice ( )"
+	},
+	"cuGraphicsVDPAURegisterOutputSurface":{
+		"id": "cuGraphicsVDPAURegisterOutputSurface",
+		"value": "CUresult cuGraphicsVDPAURegisterOutputSurface ( , , )"
+	},
+	"cuGraphicsVDPAURegisterVideoSurface":{
+		"id": "cuGraphicsVDPAURegisterVideoSurface",
+		"value": "CUresult cuGraphicsVDPAURegisterVideoSurface ( , , )"
+	},
+	"cuVDPAUCtxCreate":{
+		"id": "cuVDPAUCtxCreate",
+		"value": "CUresult cuVDPAUCtxCreate ( , , , , )"
+	},
+	"cuVDPAUGetDevice":{
+		"id": "cuVDPAUGetDevice",
+		"value": "CUresult cuVDPAUGetDevice ( , , )"
+	},
+	"cuEGLStreamConsumerAcquireFrame":{
+		"id": "cuEGLStreamConsumerAcquireFrame",
+		"value": "CUresult cuEGLStreamConsumerAcquireFrame ( , , , )"
+	},
+	"cuEGLStreamConsumerConnect":{
+		"id": "cuEGLStreamConsumerConnect",
+		"value": "CUresult cuEGLStreamConsumerConnect ( , )"
+	},
+	"cuEGLStreamConsumerConnectWithFlags":{
+		"id": "cuEGLStreamConsumerConnectWithFlags",
+		"value": "CUresult cuEGLStreamConsumerConnectWithFlags ( , , )"
+	},
+	"cuEGLStreamConsumerDisconnect":{
+		"id": "cuEGLStreamConsumerDisconnect",
+		"value": "CUresult cuEGLStreamConsumerDisconnect ( )"
+	},
+	"cuEGLStreamConsumerReleaseFrame":{
+		"id": "cuEGLStreamConsumerReleaseFrame",
+		"value": "CUresult cuEGLStreamConsumerReleaseFrame ( , , )"
+	},
+	"cuEGLStreamProducerConnect":{
+		"id": "cuEGLStreamProducerConnect",
+		"value": "CUresult cuEGLStreamProducerConnect ( , , , )"
+	},
+	"cuEGLStreamProducerDisconnect":{
+		"id": "cuEGLStreamProducerDisconnect",
+		"value": "CUresult cuEGLStreamProducerDisconnect ( )"
+	},
+	"cuEGLStreamProducerPresentFrame":{
+		"id": "cuEGLStreamProducerPresentFrame",
+		"value": "CUresult cuEGLStreamProducerPresentFrame ( , , )"
+	},
+	"cuEGLStreamProducerReturnFrame":{
+		"id": "cuEGLStreamProducerReturnFrame",
+		"value": "CUresult cuEGLStreamProducerReturnFrame ( , , )"
+	},
+	"cuEventCreateFromEGLSync":{
+		"id": "cuEventCreateFromEGLSync",
+		"value": "CUresult cuEventCreateFromEGLSync ( , , )"
+	},
+	"cuGraphicsEGLRegisterImage":{
+		"id": "cuGraphicsEGLRegisterImage",
+		"value": "CUresult cuGraphicsEGLRegisterImage ( , , )"
+	},
+	"cuGraphicsResourceGetMappedEglFrame":{
+		"id": "cuGraphicsResourceGetMappedEglFrame",
+		"value": "CUresult cuGraphicsResourceGetMappedEglFrame ( , , , )"
 	}
 }
